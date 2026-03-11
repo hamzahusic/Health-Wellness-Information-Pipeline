@@ -15,12 +15,6 @@ A diabetes-focused data pipeline that collects health information across multipl
 ## Data Types
 PDF, text, audio, image
 
-## Data Collection Notes
-- **PDF** — Search endpoint returns IDs, then fetch full PDF via `https://www.ncbi.nlm.nih.gov/pmc/articles/PMC{id}/pdf/`
-- **Image** — Response returns `imgLarge` paths, prepend `https://openi.nlm.nih.gov` to get direct image URL
-- **Text** — NewsAPI returns articles directly, requires free API key
-- **Audio** — Download `.mp3` from RSS `<enclosure url="..."/>` tag, transcribe using Whisper locally via `whisper audio.mp3 --output_format srt`. Alternatively use YouTube video subtitles via `yt-dlp --write-sub --skip-download "URL"`
-
 ## Expected Challenges
 - OCR accuracy on low-quality or scanned medical PDFs
 - Audio transcription errors in medical terminology
