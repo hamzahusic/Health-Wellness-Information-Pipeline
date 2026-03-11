@@ -4,7 +4,12 @@
 Aggregate health articles from APIs, scrape wellness blogs, process medical pamphlets (PDF/OCR), extract clinical trial data from Excel, and transcribe health podcast episodes.
 
 ## Data sources
-https://www.ncbi.nlm.nih.gov/home/develop/api/
+[https://www.ncbi.nlm.nih.gov/home/develop/api/](https://www.ncbi.nlm.nih.gov/home/develop/api/ - PubMed/NCBI API for peer-reviewed medical articles
+https://clinicaltrials.gov/api/gui - ClinicalTrials.gov API for trial data
+Wellness blogs (e.g., Healthline, WebMD) - web scraping
+Medical pamphlets - PDF uploads processed via OCR
+Health podcast RSS feeds - audio transcription via OpenAI Whisper
+Clinical trial spreadsheets - Excel files
 
 ## Data types
 PDF, text, audio, image, structured tabular data (Excel/CSV)
