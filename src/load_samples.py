@@ -1,4 +1,4 @@
-from io_utils import read_json, setup_logging, read_text
+from utils.io_utils import read_json, setup_logging, read_text
 if __name__ == "__main__":
 
     # setup_logging("pipeline.log")

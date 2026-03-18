@@ -1,0 +1,9 @@
+2026-03-18 11:56:11,722 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=1
+2026-03-18 11:56:12,240 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=2
+2026-03-18 11:56:12,831 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=3
+2026-03-18 12:00:09,385 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=1
+2026-03-18 12:00:09,698 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=2
+2026-03-18 12:00:10,002 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=3
+2026-03-18 12:06:37,656 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=1
+2026-03-18 12:06:38,172 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=2
+2026-03-18 12:06:38,636 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=3
