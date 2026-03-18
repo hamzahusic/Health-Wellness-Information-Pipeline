@@ -1,0 +1,2 @@
+2026-03-18 13:47:57,905 - INFO - Started uploading articles_page_1.json to S3 bucket article-pipeline-bucket
+2026-03-18 13:47:57,933 - INFO - Successfully uploaded articles_page_1.json to article-pipeline-bucket
