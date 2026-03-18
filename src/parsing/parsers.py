@@ -30,7 +30,7 @@ def parse_csv_file(file_path):
 def parse_xml_file(file_path):
     tree = ET.parse(file_path)
     root = tree.getroot()
-    for item in root.findall("movie"):
+    for item in root.findall("article"):
         article = {
             "source_name": item.find("source/name").text,
             "title": item.find("title").text,
