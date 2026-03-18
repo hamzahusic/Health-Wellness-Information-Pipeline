@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<articles>
+    <article>
+        <source>
+            <id></id>
+            <name>NPR</name>
+        </source>
+        <author>Jon Hamilton</author>
+        <title>GLP-1s have transformed weight loss and diabetes. Is addiction next?</title>
+        <description>A large study found that people taking GLP-1 drugs like Ozempic for diabetes were less likely to be diagnosed with substance use disorder.</description>
+        <url>https://www.npr.org/2026/03/10/nx-s1-5739396/glp-1-ozempic-addiction-substance-use-disorders-weight-loss</url>
+        <urlToImage>https://npr.brightspotcdn.com/dims3/default/strip/false/crop/4800x2700+0+0/resize/1400/quality/85/format/gif/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2Fa2%2F842aae8b44e790aa621c2dbf8501%2Fnprgpl1-smallest.gif</urlToImage>
+        <publishedAt>2026-03-10T10:00:00Z</publishedAt>
+        <content>There&apos;s new evidence that GLP-1 drugs like Ozempic can reduce the risk of addiction. A study of more than 600,000 veterans found that those who started taking a GLP-1 drug for diabetes were about 15% less likely to be diagnosed with a substance use disorder. [+4452 chars]</content>
+    </article>
+    <article>
+        <source>
+            <id></id>
+            <name>WebMD</name>
+        </source>
+        <author>Sarah Klein</author>
+        <title>Mediterranean Diet Linked to Lower Risk of Heart Disease</title>
+        <description>New research confirms that adherence to the Mediterranean diet significantly reduces the risk of cardiovascular events in adults over 50.</description>
+        <url>https://www.webmd.com/heart-disease/news/20260308/mediterranean-diet-heart-disease</url>
+        <urlToImage>https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/mediterranean_diet_heart.jpg</urlToImage>
+        <publishedAt>2026-03-08T08:30:00Z</publishedAt>
+        <content>Researchers followed more than 25,000 participants over a decade and found those who closely followed the Mediterranean diet had a 28% lower risk of heart disease. The diet emphasizes fruits, vegetables, whole grains, and healthy fats. [+3100 chars]</content>
+    </article>
+    <article>
+        <source>
+            <id>healthline</id>
+            <name>Healthline</name>
+        </source>
+        <author>Rachael Ajmera</author>
+        <title>7 Science-Backed Benefits of Intermittent Fasting</title>
+        <description>From weight loss to improved brain function, intermittent fasting has a growing body of evidence supporting its health benefits.</description>
+        <url>https://www.healthline.com/nutrition/10-health-benefits-of-intermittent-fasting</url>
+        <urlToImage>https://media.post.rvohealth.io/wp-content/uploads/2020/11/intermittent-fasting-benefits-1200x628-facebook.jpg</urlToImage>
+        <publishedAt>2026-03-05T12:00:00Z</publishedAt>
+        <content>Intermittent fasting involves cycling between periods of eating and fasting. Studies show it can help reduce inflammation, lower blood sugar, and even extend lifespan in animal models. [+2800 chars]</content>
+    </article>
+    <article>
+        <source>
+            <id></id>
+            <name>Mayo Clinic</name>
+        </source>
+        <author>Mayo Clinic Staff</author>
+        <title>Mental Health and Exercise: What&apos;s the Connection?</title>
+        <description>Regular physical activity can ease symptoms of depression and anxiety, and experts now say it should be a standard part of mental health treatment.</description>
+        <url>https://www.mayoclinic.org/diseases-conditions/depression/in-depth/depression-and-exercise/art-20046495</url>
+        <urlToImage>https://www.mayoclinic.org/-/media/kcms/gbs/patient-consumer/images/2017/06/14/exercise-depression.jpg</urlToImage>
+        <publishedAt>2026-03-01T09:00:00Z</publishedAt>
+        <content>Exercise releases endorphins, which naturally improve mood. A review of 49 clinical trials found that physical activity reduced depressive symptoms as effectively as antidepressants in mild to moderate cases. [+3500 chars]</content>
+    </article>
+    <article>
+        <source>
+            <id></id>
+            <name>BBC Health</name>
+        </source>
+        <author>James Gallagher</author>
+        <title>Ultra-processed foods linked to early death, major study finds</title>
+        <description>People who eat large amounts of ultra-processed foods face a significantly higher risk of premature death, according to research spanning 20 countries.</description>
+        <url>https://www.bbc.com/news/health-ultra-processed-foods-early-death</url>
+        <urlToImage>https://ichef.bbci.co.uk/news/1024/branded_news/assets/img/2026/02/ultra-processed-food.jpg</urlToImage>
+        <publishedAt>2026-02-25T14:00:00Z</publishedAt>
+        <content>The study, published in The Lancet, tracked dietary habits and mortality rates across 20 countries. Those in the highest quartile of ultra-processed food consumption had a 19% higher risk of all-cause mortality. [+4100 chars]</content>
+    </article>
+</articles>
