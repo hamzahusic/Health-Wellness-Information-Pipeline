@@ -1,0 +1,4 @@
+2026-03-18 13:53:07,604 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=1
+2026-03-18 13:53:07,941 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=2
+2026-03-18 13:53:08,275 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=3
+2026-03-18 13:53:08,325 - INFO - Pipeline finished successfully

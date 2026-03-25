@@ -1,0 +1,13 @@
+{
+    "source": {
+        "id": "new-scientist",
+        "name": "New Scientist"
+    },
+    "author": "Frank Swain",
+    "title": "Sharing genetic risk scores can unwittingly reveal secrets",
+    "description": "Statistics that quantify a person\u2019s predisposition to diseases such as diabetes and cancer can be reverse-engineered to reveal the underlying genetic data, prompting privacy concerns",
+    "url": "https://www.newscientist.com/article/2518761-sharing-genetic-risk-scores-can-unwittingly-reveal-secrets/",
+    "urlToImage": "https://images.newscientist.com/wp-content/uploads/2026/03/10132214/SEI_288753513.jpg",
+    "publishedAt": "2026-03-10T17:00:37Z",
+    "content": "Genetic data can be analysed to estimate your risk of certain conditions\r\nScience Photo Library / Alamy\r\nGenetic risk scores that summarise a persons likelihood of getting certain health conditions c\u2026 [+3163 chars]"
+}
