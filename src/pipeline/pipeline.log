@@ -2,3 +2,11 @@
 2026-03-18 13:53:07,941 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=2
 2026-03-18 13:53:08,275 - INFO - Successfully fetched data from https://newsapi.org/v2/everything?q=diabetes&apiKey=9adb19d5f146414286e7b6bdfe19d933&page=3
 2026-03-18 13:53:08,325 - INFO - Pipeline finished successfully
+2026-03-25 14:11:16,716 - INFO - PDF data processed
+2026-03-25 14:11:16,725 - INFO - Word data processed
+2026-03-25 14:11:45,084 - INFO - PDF data processed
+2026-03-25 14:11:45,092 - INFO - Word data processed
+2026-03-25 14:18:43,404 - INFO - PDF data processed
+2026-03-25 14:18:43,413 - INFO - Word data processed
+2026-03-25 14:18:43,470 - INFO - Excel data processed
+2026-03-25 14:18:43,470 - INFO - Pipeline finished successfully
