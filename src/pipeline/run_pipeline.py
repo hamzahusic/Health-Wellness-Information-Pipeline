@@ -4,10 +4,8 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 
 from utils.logger import logging  
 from storage.mongo import save_to_mongo 
-from api.client import fetch_news
 
 from parsing.parsers import (
-    extract_articles_fields,
     extract_text_from_pdf,
     extract_text_from_two_column_pdf,
     extract_text_from_word,
@@ -16,15 +14,6 @@ from parsing.parsers import (
 )
 
 def run_pipeline():
-
-    # articles = fetch_news(3)
-
-    # for article in articles:
-    #     parsed = extract_articles_fields(article)
-
-    #     save_to_mongo(parsed, "news_api")
-
-    # logging.info("Pipeline finished successfully")
 
     pdf_standard = "../../data/raw/research/health_digest_normal.pdf"
     pdf_two_column = "../../data/raw/research/health_digest_two_column.pdf"
