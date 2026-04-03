@@ -18,3 +18,21 @@ def save_to_mongo(data, source_url, extra_metadata=None):
         document.update(extra_metadata)
 
     collection.insert_one(document)
+
+def build_scraped_record(data, source_url, page_number=None):
+    return {
+        "data": data,
+        "source": source_url,
+        "page_number": page_number,
+        "extracted_at": datetime.utcnow(),
+        "type": "web_scraping"
+    }
+
+def build_ocr_record(text, source_file, page_number=None):
+    return {
+        "data": {"text": text},
+        "source": source_file,
+        "page_number": page_number,
+        "extracted_at": datetime.utcnow(),
+        "type": "ocr"
+    }
