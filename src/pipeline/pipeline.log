@@ -10,3 +10,13 @@
 2026-03-25 14:18:43,413 - INFO - Word data processed
 2026-03-25 14:18:43,470 - INFO - Excel data processed
 2026-03-25 14:18:43,470 - INFO - Pipeline finished successfully
+2026-04-04 01:08:28,673 - INFO - PDF data processed
+2026-04-04 01:08:28,682 - INFO - Word data processed
+2026-04-04 01:08:28,727 - INFO - Excel data processed
+2026-04-04 01:08:28,727 - INFO - Starting OCR...
+2026-04-04 01:08:28,906 - INFO - OCR from image finished.
+2026-04-04 01:08:28,906 - INFO - Starting OCR of scanned PDF...
+2026-04-04 01:08:33,022 - INFO - OCR finished. Processed 5 pages.
+2026-04-04 01:08:33,022 - INFO - Starting multi-page scraping of teams...
+2026-04-04 01:08:38,544 - INFO - Multi-page scraping finished. Scraped 48 teams.
+2026-04-04 01:08:38,544 - INFO - Pipeline finished successfully
