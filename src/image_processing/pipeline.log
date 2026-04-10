@@ -1,0 +1,210 @@
+2026-04-10 10:57:56,549 [INFO] Batch processing 36 images from ../../data/raw/images
+2026-04-10 10:57:56,582 [INFO] Resized proportionally: 1200x675 -> 500x281
+2026-04-10 10:57:56,586 [INFO] Thumbnail saved: ../../data/processed/thumbnails/green-tea-cup-steaming_thumb.jpg (128, 72)
+2026-04-10 10:57:57,822 [INFO] WebP: 48KB -> 32KB (32.4% saving)
+2026-04-10 10:57:57,823 [WARNING] No EXIF data found in ../../data/raw/images/green-tea-cup-steaming.jpg
+2026-04-10 10:57:57,843 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:57,854 [INFO] Thumbnail saved: ../../data/processed/thumbnails/tooth-decay-broken-teeth-cavities_thumb.jpg (128, 72)
+2026-04-10 10:57:57,940 [INFO] WebP: 83KB -> 87KB (-5.1% saving)
+2026-04-10 10:57:57,941 [WARNING] No EXIF data found in ../../data/raw/images/tooth-decay-broken-teeth-cavities.webp
+2026-04-10 10:57:57,948 [INFO] Resized proportionally: 1200x675 -> 500x281
+2026-04-10 10:57:57,952 [INFO] Thumbnail saved: ../../data/processed/thumbnails/marathon-running-1-1200x675_thumb.jpg (128, 72)
+2026-04-10 10:57:57,991 [INFO] WebP: 80KB -> 53KB (33.2% saving)
+2026-04-10 10:57:57,992 [WARNING] No EXIF data found in ../../data/raw/images/marathon-running-1-1200x675.jpg
+2026-04-10 10:57:58,008 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:58,016 [INFO] Thumbnail saved: ../../data/processed/thumbnails/diabetic-retinopathy-macular-degeneration-eye-disease_thumb.jpg (128, 72)
+2026-04-10 10:57:58,086 [INFO] WebP: 68KB -> 69KB (-1.2% saving)
+2026-04-10 10:57:58,087 [WARNING] No EXIF data found in ../../data/raw/images/diabetic-retinopathy-macular-degeneration-eye-disease.webp
+2026-04-10 10:57:58,094 [INFO] Resized proportionally: 572x685 -> 500x598
+2026-04-10 10:57:58,097 [INFO] Thumbnail saved: ../../data/processed/thumbnails/41586_2026_10179_Fig1_HTML_thumb.jpg (107, 128)
+2026-04-10 10:57:58,116 [INFO] WebP: 145KB -> 42KB (70.4% saving)
+2026-04-10 10:57:58,118 [WARNING] No EXIF data found in ../../data/raw/images/41586_2026_10179_Fig1_HTML.png
+2026-04-10 10:57:58,126 [INFO] Resized proportionally: 1200x630 -> 500x262
+2026-04-10 10:57:58,128 [INFO] Thumbnail saved: ../../data/processed/thumbnails/ChatGPT-Image-27-mar-2026-19_14_30-og_thumb.jpg (128, 67)
+2026-04-10 10:57:58,166 [INFO] WebP: 107KB -> 67KB (37.3% saving)
+2026-04-10 10:57:58,166 [WARNING] No EXIF data found in ../../data/raw/images/ChatGPT-Image-27-mar-2026-19_14_30-og.jpg
+2026-04-10 10:57:58,174 [INFO] Resized proportionally: 1280x720 -> 500x281
+2026-04-10 10:57:58,176 [INFO] Thumbnail saved: ../../data/processed/thumbnails/maxresdefault_thumb.jpg (128, 72)
+2026-04-10 10:57:58,225 [INFO] WebP: 197KB -> 111KB (43.4% saving)
+2026-04-10 10:57:58,225 [WARNING] No EXIF data found in ../../data/raw/images/maxresdefault.jpg
+2026-04-10 10:57:58,236 [INFO] Resized proportionally: 1600x915 -> 500x285
+2026-04-10 10:57:58,241 [INFO] Thumbnail saved: ../../data/processed/thumbnails/glp-1-medications-addiction-1600_thumb.jpg (128, 73)
+2026-04-10 10:57:58,299 [INFO] WebP: 96KB -> 62KB (34.7% saving)
+2026-04-10 10:57:58,299 [WARNING] No EXIF data found in ../../data/raw/images/glp-1-medications-addiction-1600.jpg
+2026-04-10 10:57:58,305 [INFO] Resized proportionally: 1200x675 -> 500x281
+2026-04-10 10:57:58,308 [INFO] Thumbnail saved: ../../data/processed/thumbnails/Ozempic-boxes-1200x675_thumb.jpg (128, 72)
+2026-04-10 10:57:58,340 [INFO] WebP: 61KB -> 39KB (35.6% saving)
+2026-04-10 10:57:58,341 [WARNING] No EXIF data found in ../../data/raw/images/Ozempic-boxes-1200x675.jpg
+2026-04-10 10:57:58,358 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:58,367 [INFO] Thumbnail saved: ../../data/processed/thumbnails/happy-senior-couple-jogging_thumb.jpg (128, 72)
+2026-04-10 10:57:58,455 [INFO] WebP: 85KB -> 91KB (-6.7% saving)
+2026-04-10 10:57:58,456 [WARNING] No EXIF data found in ../../data/raw/images/happy-senior-couple-jogging.webp
+2026-04-10 10:57:58,474 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:58,483 [INFO] Thumbnail saved: ../../data/processed/thumbnails/woman-holding-stomach-digestive-gut-health_thumb.jpg (128, 72)
+2026-04-10 10:57:58,568 [INFO] WebP: 90KB -> 93KB (-3.9% saving)
+2026-04-10 10:57:58,569 [WARNING] No EXIF data found in ../../data/raw/images/woman-holding-stomach-digestive-gut-health.webp
+2026-04-10 10:57:58,576 [INFO] Resized proportionally: 1200x675 -> 500x281
+2026-04-10 10:57:58,580 [INFO] Thumbnail saved: ../../data/processed/thumbnails/Protein-bar-trade-show-Cologne-1200x675_thumb.jpg (128, 72)
+2026-04-10 10:57:58,620 [INFO] WebP: 83KB -> 56KB (32.3% saving)
+2026-04-10 10:57:58,620 [WARNING] No EXIF data found in ../../data/raw/images/Protein-bar-trade-show-Cologne-1200x675.jpeg
+2026-04-10 10:57:58,630 [INFO] Resized proportionally: 1600x900 -> 500x281
+2026-04-10 10:57:58,635 [INFO] Thumbnail saved: ../../data/processed/thumbnails/intermittent-fasing-ai-generated_1600_thumb.jpg (128, 72)
+2026-04-10 10:57:58,702 [INFO] WebP: 108KB -> 85KB (20.9% saving)
+2026-04-10 10:57:58,702 [WARNING] No EXIF data found in ../../data/raw/images/intermittent-fasing-ai-generated_1600.jpg
+2026-04-10 10:57:58,706 [ERROR] Failed: webimage-saw0426Inno08_horizontal.png - cannot write mode P as JPEG
+2026-04-10 10:57:58,723 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:58,733 [INFO] Thumbnail saved: ../../data/processed/thumbnails/tobacco-cigarette-smoking-father-family-paper-dolls_thumb.jpg (128, 72)
+2026-04-10 10:57:58,820 [INFO] WebP: 101KB -> 106KB (-4.4% saving)
+2026-04-10 10:57:58,820 [WARNING] No EXIF data found in ../../data/raw/images/tobacco-cigarette-smoking-father-family-paper-dolls.webp
+2026-04-10 10:57:58,836 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:58,844 [INFO] Thumbnail saved: ../../data/processed/thumbnails/skinny-woman-pinching-abdominal-fat_thumb.jpg (128, 72)
+2026-04-10 10:57:58,913 [INFO] WebP: 68KB -> 68KB (-0.5% saving)
+2026-04-10 10:57:58,913 [WARNING] No EXIF data found in ../../data/raw/images/skinny-woman-pinching-abdominal-fat.webp
+2026-04-10 10:57:58,915 [INFO] Resized proportionally: 512x244 -> 500x238
+2026-04-10 10:57:58,916 [INFO] Thumbnail saved: ../../data/processed/thumbnails/PMC3931379_830fig1_thumb.jpg (128, 61)
+2026-04-10 10:57:58,921 [INFO] WebP: 51KB -> 9KB (80.6% saving)
+2026-04-10 10:57:58,922 [WARNING] No EXIF data found in ../../data/raw/images/PMC3931379_830fig1.png
+2026-04-10 10:57:58,933 [ERROR] Failed: 840_560.png - cannot write mode RGBA as JPEG
+2026-04-10 10:57:58,940 [INFO] Resized proportionally: 1250x655 -> 500x262
+2026-04-10 10:57:58,943 [INFO] Thumbnail saved: ../../data/processed/thumbnails/zYgDbzH_G_thumb.jpg (128, 67)
+2026-04-10 10:57:58,988 [INFO] WebP: 143KB -> 128KB (10.5% saving)
+2026-04-10 10:57:58,989 [WARNING] No EXIF data found in ../../data/raw/images/zYgDbzH_G.jpg
+2026-04-10 10:57:58,995 [INFO] Resized proportionally: 840x560 -> 500x333
+2026-04-10 10:57:58,998 [INFO] Thumbnail saved: ../../data/processed/thumbnails/840_560_thumb.jpg (128, 85)
+2026-04-10 10:57:59,025 [INFO] WebP: 92KB -> 51KB (44.2% saving)
+2026-04-10 10:57:59,025 [WARNING] No EXIF data found in ../../data/raw/images/840_560.jpeg
+2026-04-10 10:57:59,031 [INFO] Resized proportionally: 1280x720 -> 500x281
+2026-04-10 10:57:59,033 [INFO] Thumbnail saved: ../../data/processed/thumbnails/frau-bett-110_thumb.jpg (128, 72)
+2026-04-10 10:57:59,072 [INFO] WebP: 59KB -> 43KB (27.0% saving)
+2026-04-10 10:57:59,072 [WARNING] No EXIF data found in ../../data/raw/images/frau-bett-110.jpg
+2026-04-10 10:57:59,076 [INFO] Resized proportionally: 512x276 -> 500x269
+2026-04-10 10:57:59,077 [INFO] Thumbnail saved: ../../data/processed/thumbnails/PMC4512224_db141963f1_thumb.jpg (128, 69)
+2026-04-10 10:57:59,087 [INFO] WebP: 192KB -> 29KB (84.5% saving)
+2026-04-10 10:57:59,088 [WARNING] No EXIF data found in ../../data/raw/images/PMC4512224_db141963f1.png
+2026-04-10 10:57:59,107 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:59,117 [INFO] Thumbnail saved: ../../data/processed/thumbnails/brain-fire-inflammation-dementia-alzheimers_thumb.jpg (128, 72)
+2026-04-10 10:57:59,193 [INFO] WebP: 134KB -> 138KB (-2.8% saving)
+2026-04-10 10:57:59,193 [WARNING] No EXIF data found in ../../data/raw/images/brain-fire-inflammation-dementia-alzheimers.webp
+2026-04-10 10:57:59,202 [INFO] Resized proportionally: 1351x900 -> 500x333
+2026-04-10 10:57:59,206 [INFO] Thumbnail saved: ../../data/processed/thumbnails/SEI_288753513_thumb.jpg (128, 85)
+2026-04-10 10:57:59,277 [INFO] WebP: 174KB -> 206KB (-18.7% saving)
+2026-04-10 10:57:59,277 [WARNING] No EXIF data found in ../../data/raw/images/SEI_288753513.jpg
+2026-04-10 10:57:59,294 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:59,303 [INFO] Thumbnail saved: ../../data/processed/thumbnails/woman-eating-cake-refrigerator_thumb.jpg (128, 72)
+2026-04-10 10:57:59,378 [INFO] WebP: 84KB -> 86KB (-2.2% saving)
+2026-04-10 10:57:59,378 [WARNING] No EXIF data found in ../../data/raw/images/woman-eating-cake-refrigerator.webp
+2026-04-10 10:57:59,387 [INFO] Resized proportionally: 1528x800 -> 500x261
+2026-04-10 10:57:59,390 [INFO] Thumbnail saved: ../../data/processed/thumbnails/seniors_-_anna_shvets_-_pexels_thumb.jpg (128, 67)
+2026-04-10 10:57:59,455 [INFO] WebP: 165KB -> 128KB (22.2% saving)
+2026-04-10 10:57:59,455 [WARNING] No EXIF data found in ../../data/raw/images/seniors_-_anna_shvets_-_pexels.jpg
+2026-04-10 10:57:59,462 [INFO] Resized proportionally: 1200x747 -> 500x311
+2026-04-10 10:57:59,464 [INFO] Thumbnail saved: ../../data/processed/thumbnails/reta-clinical-trial_thumb.jpg (128, 80)
+2026-04-10 10:57:59,497 [INFO] WebP: 65KB -> 36KB (44.4% saving)
+2026-04-10 10:57:59,497 [WARNING] No EXIF data found in ../../data/raw/images/reta-clinical-trial.jpg
+2026-04-10 10:57:59,500 [INFO] Resized proportionally: 512x248 -> 500x242
+2026-04-10 10:57:59,502 [INFO] Thumbnail saved: ../../data/processed/thumbnails/PMC5209562_wjmh-34-209-g005_thumb.jpg (128, 62)
+2026-04-10 10:57:59,513 [INFO] WebP: 151KB -> 47KB (68.6% saving)
+2026-04-10 10:57:59,514 [WARNING] No EXIF data found in ../../data/raw/images/PMC5209562_wjmh-34-209-g005.png
+2026-04-10 10:57:59,525 [INFO] Resized proportionally: 1536x1024 -> 500x333
+2026-04-10 10:57:59,528 [INFO] Thumbnail saved: ../../data/processed/thumbnails/6a77e303-14eb-4d8c-917a-fa045a548a6c_thumb.jpg (128, 85)
+2026-04-10 10:57:59,600 [INFO] WebP: 128KB -> 108KB (15.6% saving)
+2026-04-10 10:57:59,600 [WARNING] No EXIF data found in ../../data/raw/images/6a77e303-14eb-4d8c-917a-fa045a548a6c.jpg
+2026-04-10 10:57:59,610 [INFO] Resized proportionally: 1200x628 -> 500x261
+2026-04-10 10:57:59,615 [INFO] Thumbnail saved: ../../data/processed/thumbnails/gettyimages-815710_thumb.jpg (128, 67)
+2026-04-10 10:57:59,655 [INFO] WebP: 135KB -> 71KB (47.1% saving)
+2026-04-10 10:57:59,656 [WARNING] No EXIF data found in ../../data/raw/images/gettyimages-815710.jpg
+2026-04-10 10:57:59,659 [INFO] Resized proportionally: 512x396 -> 500x386
+2026-04-10 10:57:59,661 [INFO] Thumbnail saved: ../../data/processed/thumbnails/PMC4058025_oncotarget-05-2542-g004_thumb.jpg (128, 99)
+2026-04-10 10:57:59,672 [INFO] WebP: 239KB -> 29KB (87.6% saving)
+2026-04-10 10:57:59,673 [WARNING] No EXIF data found in ../../data/raw/images/PMC4058025_oncotarget-05-2542-g004.png
+2026-04-10 10:57:59,681 [INFO] Resized proportionally: 800x450 -> 500x281
+2026-04-10 10:57:59,689 [INFO] Thumbnail saved: ../../data/processed/thumbnails/pancreas-cells-unsplash-main_thumb.jpg (128, 72)
+2026-04-10 10:57:59,725 [INFO] WebP: 93KB -> 115KB (-22.5% saving)
+2026-04-10 10:57:59,725 [WARNING] No EXIF data found in ../../data/raw/images/pancreas-cells-unsplash-main.jpg
+2026-04-10 10:57:59,729 [INFO] Resized proportionally: 512x432 -> 500x421
+2026-04-10 10:57:59,731 [INFO] Thumbnail saved: ../../data/processed/thumbnails/PMC2828670_zdb0021060280004_thumb.jpg (128, 108)
+2026-04-10 10:57:59,745 [INFO] WebP: 284KB -> 43KB (84.7% saving)
+2026-04-10 10:57:59,746 [WARNING] No EXIF data found in ../../data/raw/images/PMC2828670_zdb0021060280004.png
+2026-04-10 10:57:59,767 [INFO] Resized proportionally: 1920x1080 -> 500x281
+2026-04-10 10:57:59,779 [INFO] Thumbnail saved: ../../data/processed/thumbnails/atherosclerosis-artery-plaque-narrowing-blood-vessel_thumb.jpg (128, 72)
+2026-04-10 10:57:59,875 [INFO] WebP: 164KB -> 172KB (-4.8% saving)
+2026-04-10 10:57:59,876 [WARNING] No EXIF data found in ../../data/raw/images/atherosclerosis-artery-plaque-narrowing-blood-vessel.webp
+2026-04-10 10:57:59,882 [INFO] Resized proportionally: 1200x675 -> 500x281
+2026-04-10 10:57:59,884 [INFO] Thumbnail saved: ../../data/processed/thumbnails/HOBIT-1200x675_thumb.jpg (128, 72)
+2026-04-10 10:57:59,917 [INFO] WebP: 48KB -> 28KB (41.1% saving)
+2026-04-10 10:57:59,917 [WARNING] No EXIF data found in ../../data/raw/images/HOBIT-1200x675.jpg
+2026-04-10 10:57:59,927 [INFO] Resized proportionally: 1200x720 -> 500x300
+2026-04-10 10:57:59,933 [INFO] Thumbnail saved: ../../data/processed/thumbnails/Currie_HERO_e5e1a4_thumb.jpg (128, 77)
+2026-04-10 10:57:59,966 [INFO] WebP: 210KB -> 50KB (76.0% saving)
+2026-04-10 10:57:59,971 [WARNING] No EXIF data found in ../../data/raw/images/Currie_HERO_e5e1a4.png
+2026-04-10 10:58:00,105 [INFO] Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=874824473207-fg869vgh8tf9158chpmu4di87of74d2r.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A53487%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive.file&state=yvEO9lAkXNGODjod3n8Y4tSNqZHHuU&code_challenge=hEb3-7wxHug4oF6Q5PABiAnPnMYggPy6eDw51_W-ds8&code_challenge_method=S256&access_type=offline
+2026-04-10 10:58:11,468 [INFO] "GET /?state=yvEO9lAkXNGODjod3n8Y4tSNqZHHuU&iss=https://accounts.google.com&code=4/0Aci98E_LSoKic7nr_D25k1bChRXQQx-78TjVVNyNfhRhDDLi4Vv276_oGh1TNdHPvu4i3A&scope=https://www.googleapis.com/auth/drive.file HTTP/1.1" 200 65
+2026-04-10 10:58:11,726 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:13,349 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:15,288 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:16,855 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:18,829 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:20,397 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:22,149 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:23,690 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:25,581 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:26,925 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:28,499 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:29,929 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:31,615 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:33,105 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:35,296 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:36,893 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:38,842 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:40,374 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:42,196 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:43,697 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:45,598 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:47,132 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:49,224 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:50,603 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:52,322 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:53,894 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:55,684 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:57,272 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:58:59,665 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:01,265 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:03,209 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:04,613 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:06,284 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:07,832 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:09,496 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:11,130 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:13,104 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:14,738 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:16,472 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:18,162 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:19,610 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:21,131 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:23,046 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:24,612 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:26,457 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:27,987 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:30,044 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:31,427 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:33,347 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:35,057 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:36,904 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:38,335 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:39,919 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:41,404 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:43,252 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:44,799 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:46,713 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:48,324 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:49,907 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:51,540 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:53,181 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:54,572 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:56,150 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:57,584 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 10:59:59,387 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 11:00:00,762 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 11:00:02,602 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 11:00:04,348 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-04-10 11:00:06,527 [INFO] Batch complete. Success: 34, Errors: 2
