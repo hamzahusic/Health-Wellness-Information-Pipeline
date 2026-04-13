@@ -1,2 +1,4 @@
 .env
 .venv/
+google_drive/
+token.json

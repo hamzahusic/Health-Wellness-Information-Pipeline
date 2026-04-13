@@ -115,8 +115,6 @@ pdf2image==1.17.0
 playwright==1.58.0
 pytesseract==0.3.13
 selenium==4.36.0
-pillow==11.3.0
-# System dependencies (not pip packages):
-#   brew install tesseract   (required by pytesseract)
-#   brew install poppler     (required by pdf2image for scanned PDF OCR)
-#   playwright install       (downloads browser binaries after pip install)
+Pillow>=10.0.0
+tqdm>=4.65.0 
+minio>=7.1.0 

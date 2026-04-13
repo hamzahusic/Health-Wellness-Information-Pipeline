@@ -31,3 +31,7 @@ PDF, text, audio, image
 - End-to-end pipeline runs in under 30 minutes for a daily batch
 - Unified schema applied consistently across all data types
 - Searchable, queryable output available via a simple API or dashboard
+
+## Google Drive Folder Link
+
+- https://drive.google.com/drive/folders/14EhG3fdu-BvD0yUiebrFEBAuM_qDYAUD?usp=sharing
