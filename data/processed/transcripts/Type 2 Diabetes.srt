@@ -1,0 +1,140 @@
+1
+00:00:06,419 --> 00:00:11,740
+Type 2 Diabetes is a condition in which your blood sugar level is too high.
+
+2
+00:00:12,800 --> 00:00:16,480
+Carbohydrates are substances your body uses to make energy.
+
+3
+00:00:17,039 --> 00:00:22,379
+After you eat food that contains carbohydrates, it eventually goes to your small intestine.
+
+4
+00:00:23,260 --> 00:00:29,280
+In your small intestine, the food is broken down into single sugar molecules called glucose.
+
+5
+00:00:30,359 --> 00:00:35,960
+The cells in your small intestine soak up the sugars, which pass into your bloodstream.
+
+6
+00:00:36,619 --> 00:00:41,539
+When the blood reaches your pancreas, it detects the high amount of sugar in your blood.
+
+7
+00:00:42,039 --> 00:00:47,579
+Normally, this causes your pancreas to put a chemical called insulin into your bloodstream.
+
+8
+00:00:48,219 --> 00:00:52,659
+The insulin reduces the amount of sugar in your blood to a healthy level.
+
+9
+00:00:53,979 --> 00:00:55,439
+How does insulin do this?
+
+10
+00:00:56,799 --> 00:01:02,960
+As the blood moves through your body, the insulin and sugar exit the bloodstream into your tissues
+
+11
+00:01:02,960 --> 00:01:09,879
+to reach your cells. Most cells have structures on their surfaces called insulin receptors.
+
+12
+00:01:10,560 --> 00:01:13,920
+When insulin flows by, it attaches to the receptors.
+
+13
+00:01:14,879 --> 00:01:18,739
+The insulin acts like a key in a lock to open up the cell.
+
+14
+00:01:21,280 --> 00:01:23,480
+So the sugar can get inside.
+
+15
+00:01:24,640 --> 00:01:29,200
+Now your cell can use the sugar to make the energy it needs to work properly.
+
+16
+00:01:30,060 --> 00:01:33,459
+And your blood sugar level drops back to its normal range.
+
+17
+00:01:35,519 --> 00:01:40,939
+If you have type 2 diabetes, your cells don't respond to insulin as they should.
+
+18
+00:01:40,939 --> 00:01:43,299
+This is called insulin resistance.
+
+19
+00:01:44,439 --> 00:01:49,859
+When this happens, your insulin cannot unlock the cells to let sugar in,
+
+20
+00:01:49,959 --> 00:01:54,500
+because the locks or insulin receptors are missing or aren't working.
+
+21
+00:01:57,640 --> 00:02:01,700
+As a result, sugar is locked out of your cells.
+
+22
+00:02:05,659 --> 00:02:10,319
+When sugar can't get into your cells, it builds up in your bloodstream.
+
+23
+00:02:10,939 --> 00:02:14,039
+This is a condition called hyperglycemia.
+
+24
+00:02:16,219 --> 00:02:21,740
+In response to the high blood sugar levels, your pancreas makes more and more insulin.
+
+25
+00:02:22,419 --> 00:02:25,659
+The overworked cells in your pancreas try to keep up.
+
+26
+00:02:27,099 --> 00:02:30,340
+But they slowly lose their ability to make enough insulin.
+
+27
+00:02:30,939 --> 00:02:34,560
+These problems may lead to the symptoms of type 2 diabetes.
+
+28
+00:02:36,979 --> 00:02:42,740
+If you have questions about type 2 diabetes or any medications you have been prescribed,
+
+29
+00:02:43,080 --> 00:02:44,139
+speak with your doctor.
+
+30
+00:02:44,580 --> 00:02:48,400
+It is important to take your medications as directed by your doctor,
+
+31
+00:02:48,840 --> 00:02:52,120
+tell him or her about any side effects you have.
+
+32
+00:02:54,300 --> 00:02:58,020
+This animation is brought to you by the Nucleus Medical Art Library,
+
+33
+00:02:58,340 --> 00:03:03,319
+or Enmal, where you can download this animation and thousands of medical images and videos
+
+34
+00:03:03,319 --> 00:03:08,060
+created by Nucleus Medical Media. To apply for a free 30-day trial,
+
+35
+00:03:08,419 --> 00:03:09,780
+click on the link in the description.
+

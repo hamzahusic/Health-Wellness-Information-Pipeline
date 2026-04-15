@@ -1,0 +1,4564 @@
+{
+  "source_file": "Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp3",
+  "language": "yo",
+  "language_probability": 0.7175,
+  "duration_s": 280.66,
+  "model": "base",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.5,
+      "text": "Hai everyone, welcome to this powerful presentation on diabetes, my name is Bury and Songo.",
+      "avg_log_prob": -0.3611,
+      "words": [
+        {
+          "word": " Hai",
+          "start": 0.0,
+          "end": 0.56,
+          "probability": 0.0521
+        },
+        {
+          "word": " everyone,",
+          "start": 0.56,
+          "end": 1.02,
+          "probability": 0.4416
+        },
+        {
+          "word": " welcome",
+          "start": 1.58,
+          "end": 2.08,
+          "probability": 0.7295
+        },
+        {
+          "word": " to",
+          "start": 2.08,
+          "end": 2.34,
+          "probability": 0.9883
+        },
+        {
+          "word": " this",
+          "start": 2.34,
+          "end": 2.56,
+          "probability": 0.9251
+        },
+        {
+          "word": " powerful",
+          "start": 2.56,
+          "end": 2.84,
+          "probability": 0.5648
+        },
+        {
+          "word": " presentation",
+          "start": 2.84,
+          "end": 3.36,
+          "probability": 0.9922
+        },
+        {
+          "word": " on",
+          "start": 3.36,
+          "end": 3.98,
+          "probability": 0.9206
+        },
+        {
+          "word": " diabetes,",
+          "start": 3.98,
+          "end": 4.26,
+          "probability": 0.855
+        },
+        {
+          "word": " my",
+          "start": 4.98,
+          "end": 5.08,
+          "probability": 0.9639
+        },
+        {
+          "word": " name",
+          "start": 5.08,
+          "end": 5.28,
+          "probability": 0.9989
+        },
+        {
+          "word": " is",
+          "start": 5.28,
+          "end": 5.56,
+          "probability": 0.9924
+        },
+        {
+          "word": " Bury",
+          "start": 5.56,
+          "end": 5.84,
+          "probability": 0.2626
+        },
+        {
+          "word": " and",
+          "start": 5.84,
+          "end": 6.1,
+          "probability": 0.3471
+        },
+        {
+          "word": " Songo.",
+          "start": 6.1,
+          "end": 6.5,
+          "probability": 0.4098
+        }
+      ]
+    },
+    {
+      "start": 8.06,
+      "end": 14.68,
+      "text": "Ladies and gentlemen of excellence, today's agenda is very simple. Help ask your questions about diabetes,",
+      "avg_log_prob": -0.3611,
+      "words": [
+        {
+          "word": " Ladies",
+          "start": 8.06,
+          "end": 8.44,
+          "probability": 0.7023
+        },
+        {
+          "word": " and",
+          "start": 8.44,
+          "end": 8.64,
+          "probability": 0.9941
+        },
+        {
+          "word": " gentlemen",
+          "start": 8.64,
+          "end": 8.86,
+          "probability": 0.8497
+        },
+        {
+          "word": " of",
+          "start": 8.86,
+          "end": 9.26,
+          "probability": 0.8838
+        },
+        {
+          "word": " excellence,",
+          "start": 9.26,
+          "end": 9.66,
+          "probability": 0.1117
+        },
+        {
+          "word": " today's",
+          "start": 10.3,
+          "end": 10.68,
+          "probability": 0.9358
+        },
+        {
+          "word": " agenda",
+          "start": 10.68,
+          "end": 10.96,
+          "probability": 0.9952
+        },
+        {
+          "word": " is",
+          "start": 10.96,
+          "end": 11.14,
+          "probability": 0.995
+        },
+        {
+          "word": " very",
+          "start": 11.14,
+          "end": 11.4,
+          "probability": 0.9431
+        },
+        {
+          "word": " simple.",
+          "start": 11.4,
+          "end": 11.88,
+          "probability": 0.9965
+        },
+        {
+          "word": " Help",
+          "start": 12.66,
+          "end": 12.86,
+          "probability": 0.9522
+        },
+        {
+          "word": " ask",
+          "start": 12.86,
+          "end": 13.16,
+          "probability": 0.392
+        },
+        {
+          "word": " your",
+          "start": 13.16,
+          "end": 13.3,
+          "probability": 0.9537
+        },
+        {
+          "word": " questions",
+          "start": 13.3,
+          "end": 13.64,
+          "probability": 0.9834
+        },
+        {
+          "word": " about",
+          "start": 13.64,
+          "end": 14.08,
+          "probability": 0.9963
+        },
+        {
+          "word": " diabetes,",
+          "start": 14.08,
+          "end": 14.68,
+          "probability": 0.9941
+        }
+      ]
+    },
+    {
+      "start": 15.42,
+      "end": 22.88,
+      "text": "explain different types of diabetes, explain high blood sugar levels, and also help outline how you can manage your diabetes.",
+      "avg_log_prob": -0.3611,
+      "words": [
+        {
+          "word": " explain",
+          "start": 15.42,
+          "end": 15.88,
+          "probability": 0.9869
+        },
+        {
+          "word": " different",
+          "start": 15.88,
+          "end": 16.16,
+          "probability": 0.988
+        },
+        {
+          "word": " types",
+          "start": 16.16,
+          "end": 16.42,
+          "probability": 0.9942
+        },
+        {
+          "word": " of",
+          "start": 16.42,
+          "end": 16.64,
+          "probability": 0.9992
+        },
+        {
+          "word": " diabetes,",
+          "start": 16.64,
+          "end": 17.04,
+          "probability": 0.9974
+        },
+        {
+          "word": " explain",
+          "start": 17.84,
+          "end": 18.24,
+          "probability": 0.9939
+        },
+        {
+          "word": " high",
+          "start": 18.24,
+          "end": 18.56,
+          "probability": 0.9512
+        },
+        {
+          "word": " blood",
+          "start": 18.56,
+          "end": 18.76,
+          "probability": 0.8339
+        },
+        {
+          "word": " sugar",
+          "start": 18.76,
+          "end": 19.02,
+          "probability": 0.9731
+        },
+        {
+          "word": " levels,",
+          "start": 19.02,
+          "end": 19.48,
+          "probability": 0.9938
+        },
+        {
+          "word": " and",
+          "start": 19.76,
+          "end": 19.82,
+          "probability": 0.9891
+        },
+        {
+          "word": " also",
+          "start": 19.82,
+          "end": 20.14,
+          "probability": 0.9634
+        },
+        {
+          "word": " help",
+          "start": 20.14,
+          "end": 20.44,
+          "probability": 0.9964
+        },
+        {
+          "word": " outline",
+          "start": 20.44,
+          "end": 21.02,
+          "probability": 0.4594
+        },
+        {
+          "word": " how",
+          "start": 21.02,
+          "end": 21.34,
+          "probability": 0.9932
+        },
+        {
+          "word": " you",
+          "start": 21.34,
+          "end": 21.46,
+          "probability": 0.9952
+        },
+        {
+          "word": " can",
+          "start": 21.46,
+          "end": 21.6,
+          "probability": 0.9981
+        },
+        {
+          "word": " manage",
+          "start": 21.6,
+          "end": 21.92,
+          "probability": 0.9891
+        },
+        {
+          "word": " your",
+          "start": 21.92,
+          "end": 22.44,
+          "probability": 0.9691
+        },
+        {
+          "word": " diabetes.",
+          "start": 22.44,
+          "end": 22.88,
+          "probability": 0.9947
+        }
+      ]
+    },
+    {
+      "start": 23.8,
+      "end": 26.02,
+      "text": "To begin with, what is diabetes?",
+      "avg_log_prob": -0.2081,
+      "words": [
+        {
+          "word": " To",
+          "start": 23.8,
+          "end": 24.36,
+          "probability": 0.0516
+        },
+        {
+          "word": " begin",
+          "start": 24.36,
+          "end": 24.62,
+          "probability": 0.9715
+        },
+        {
+          "word": " with,",
+          "start": 24.62,
+          "end": 24.98,
+          "probability": 0.9972
+        },
+        {
+          "word": " what",
+          "start": 25.46,
+          "end": 25.6,
+          "probability": 0.8549
+        },
+        {
+          "word": " is",
+          "start": 25.6,
+          "end": 25.74,
+          "probability": 0.9436
+        },
+        {
+          "word": " diabetes?",
+          "start": 25.74,
+          "end": 26.02,
+          "probability": 0.9082
+        }
+      ]
+    },
+    {
+      "start": 26.76,
+      "end": 32.32,
+      "text": "Diabetes is a chronic condition where the body either doesn't produce enough insulin or can't use it effectively.",
+      "avg_log_prob": -0.2081,
+      "words": [
+        {
+          "word": " Diabetes",
+          "start": 26.76,
+          "end": 27.08,
+          "probability": 0.5964
+        },
+        {
+          "word": " is",
+          "start": 27.08,
+          "end": 27.36,
+          "probability": 0.9442
+        },
+        {
+          "word": " a",
+          "start": 27.36,
+          "end": 27.46,
+          "probability": 0.9747
+        },
+        {
+          "word": " chronic",
+          "start": 27.46,
+          "end": 27.66,
+          "probability": 0.908
+        },
+        {
+          "word": " condition",
+          "start": 27.66,
+          "end": 28.18,
+          "probability": 0.9839
+        },
+        {
+          "word": " where",
+          "start": 28.18,
+          "end": 28.62,
+          "probability": 0.3502
+        },
+        {
+          "word": " the",
+          "start": 28.62,
+          "end": 28.82,
+          "probability": 0.8387
+        },
+        {
+          "word": " body",
+          "start": 28.82,
+          "end": 29.08,
+          "probability": 0.9904
+        },
+        {
+          "word": " either",
+          "start": 29.08,
+          "end": 29.32,
+          "probability": 0.1525
+        },
+        {
+          "word": " doesn't",
+          "start": 29.32,
+          "end": 29.68,
+          "probability": 0.986
+        },
+        {
+          "word": " produce",
+          "start": 29.68,
+          "end": 30.06,
+          "probability": 0.9974
+        },
+        {
+          "word": " enough",
+          "start": 30.06,
+          "end": 30.4,
+          "probability": 0.9984
+        },
+        {
+          "word": " insulin",
+          "start": 30.4,
+          "end": 30.82,
+          "probability": 0.2202
+        },
+        {
+          "word": " or",
+          "start": 30.82,
+          "end": 31.1,
+          "probability": 0.9579
+        },
+        {
+          "word": " can't",
+          "start": 31.1,
+          "end": 31.44,
+          "probability": 0.4282
+        },
+        {
+          "word": " use",
+          "start": 31.44,
+          "end": 31.58,
+          "probability": 0.9768
+        },
+        {
+          "word": " it",
+          "start": 31.58,
+          "end": 31.74,
+          "probability": 0.9866
+        },
+        {
+          "word": " effectively.",
+          "start": 31.74,
+          "end": 32.32,
+          "probability": 0.9946
+        }
+      ]
+    },
+    {
+      "start": 32.82,
+      "end": 38.92,
+      "text": "These leads to high blood sugar levels that are two main types of diabetes, type 1 and type 2 diabetes.",
+      "avg_log_prob": -0.2081,
+      "words": [
+        {
+          "word": " These",
+          "start": 32.82,
+          "end": 33.02,
+          "probability": 0.536
+        },
+        {
+          "word": " leads",
+          "start": 33.02,
+          "end": 33.16,
+          "probability": 0.8786
+        },
+        {
+          "word": " to",
+          "start": 33.16,
+          "end": 33.42,
+          "probability": 0.9983
+        },
+        {
+          "word": " high",
+          "start": 33.42,
+          "end": 33.62,
+          "probability": 0.9687
+        },
+        {
+          "word": " blood",
+          "start": 33.62,
+          "end": 33.86,
+          "probability": 0.9743
+        },
+        {
+          "word": " sugar",
+          "start": 33.86,
+          "end": 34.14,
+          "probability": 0.9963
+        },
+        {
+          "word": " levels",
+          "start": 34.14,
+          "end": 34.7,
+          "probability": 0.9985
+        },
+        {
+          "word": " that",
+          "start": 34.7,
+          "end": 35.26,
+          "probability": 0.3018
+        },
+        {
+          "word": " are",
+          "start": 35.26,
+          "end": 35.36,
+          "probability": 0.5946
+        },
+        {
+          "word": " two",
+          "start": 35.36,
+          "end": 35.58,
+          "probability": 0.9335
+        },
+        {
+          "word": " main",
+          "start": 35.58,
+          "end": 35.82,
+          "probability": 0.9965
+        },
+        {
+          "word": " types",
+          "start": 35.82,
+          "end": 36.06,
+          "probability": 0.9799
+        },
+        {
+          "word": " of",
+          "start": 36.06,
+          "end": 36.34,
+          "probability": 0.9959
+        },
+        {
+          "word": " diabetes,",
+          "start": 36.34,
+          "end": 36.7,
+          "probability": 0.9794
+        },
+        {
+          "word": " type",
+          "start": 37.24,
+          "end": 37.36,
+          "probability": 0.8172
+        },
+        {
+          "word": " 1",
+          "start": 37.36,
+          "end": 37.64,
+          "probability": 0.5964
+        },
+        {
+          "word": " and",
+          "start": 37.64,
+          "end": 38.14,
+          "probability": 0.7745
+        },
+        {
+          "word": " type",
+          "start": 38.14,
+          "end": 38.3,
+          "probability": 0.9803
+        },
+        {
+          "word": " 2",
+          "start": 38.3,
+          "end": 38.5,
+          "probability": 0.9385
+        },
+        {
+          "word": " diabetes.",
+          "start": 38.5,
+          "end": 38.92,
+          "probability": 0.9852
+        }
+      ]
+    },
+    {
+      "start": 40.24,
+      "end": 44.6,
+      "text": "You may be wondering, what are the signs and symptoms of diabetes?",
+      "avg_log_prob": -0.2081,
+      "words": [
+        {
+          "word": " You",
+          "start": 40.24,
+          "end": 40.8,
+          "probability": 0.9737
+        },
+        {
+          "word": " may",
+          "start": 40.8,
+          "end": 40.96,
+          "probability": 0.9969
+        },
+        {
+          "word": " be",
+          "start": 40.96,
+          "end": 41.1,
+          "probability": 0.9919
+        },
+        {
+          "word": " wondering,",
+          "start": 41.1,
+          "end": 41.44,
+          "probability": 0.9943
+        },
+        {
+          "word": " what",
+          "start": 42.02,
+          "end": 42.32,
+          "probability": 0.9715
+        },
+        {
+          "word": " are",
+          "start": 42.32,
+          "end": 42.5,
+          "probability": 0.9952
+        },
+        {
+          "word": " the",
+          "start": 42.5,
+          "end": 42.68,
+          "probability": 0.9853
+        },
+        {
+          "word": " signs",
+          "start": 42.68,
+          "end": 43.02,
+          "probability": 0.9953
+        },
+        {
+          "word": " and",
+          "start": 43.02,
+          "end": 43.32,
+          "probability": 0.9961
+        },
+        {
+          "word": " symptoms",
+          "start": 43.32,
+          "end": 43.74,
+          "probability": 0.9894
+        },
+        {
+          "word": " of",
+          "start": 43.74,
+          "end": 44.16,
+          "probability": 0.996
+        },
+        {
+          "word": " diabetes?",
+          "start": 44.16,
+          "end": 44.6,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 45.6,
+      "end": 66.48,
+      "text": "You may be diagnosed with diabetes after you go to your doctor because, increased the test, frequent urination, extreme hunger, and explained weight loss, fatigue, blood division, slow healing source, frequent infections, tingling or numbness, enhanced stroke feed, and of course dry skin.",
+      "avg_log_prob": -0.1902,
+      "words": [
+        {
+          "word": " You",
+          "start": 45.6,
+          "end": 46.02,
+          "probability": 0.0324
+        },
+        {
+          "word": " may",
+          "start": 46.02,
+          "end": 46.2,
+          "probability": 0.9732
+        },
+        {
+          "word": " be",
+          "start": 46.2,
+          "end": 46.4,
+          "probability": 0.9683
+        },
+        {
+          "word": " diagnosed",
+          "start": 46.4,
+          "end": 46.72,
+          "probability": 0.956
+        },
+        {
+          "word": " with",
+          "start": 46.72,
+          "end": 47.18,
+          "probability": 0.9948
+        },
+        {
+          "word": " diabetes",
+          "start": 47.18,
+          "end": 47.66,
+          "probability": 0.9898
+        },
+        {
+          "word": " after",
+          "start": 47.66,
+          "end": 48.16,
+          "probability": 0.9632
+        },
+        {
+          "word": " you",
+          "start": 48.16,
+          "end": 48.34,
+          "probability": 0.9844
+        },
+        {
+          "word": " go",
+          "start": 48.34,
+          "end": 48.48,
+          "probability": 0.9823
+        },
+        {
+          "word": " to",
+          "start": 48.48,
+          "end": 48.68,
+          "probability": 0.9888
+        },
+        {
+          "word": " your",
+          "start": 48.68,
+          "end": 48.8,
+          "probability": 0.9074
+        },
+        {
+          "word": " doctor",
+          "start": 48.8,
+          "end": 49.12,
+          "probability": 0.9971
+        },
+        {
+          "word": " because,",
+          "start": 49.12,
+          "end": 49.66,
+          "probability": 0.851
+        },
+        {
+          "word": " increased",
+          "start": 50.24,
+          "end": 50.76,
+          "probability": 0.2886
+        },
+        {
+          "word": " the",
+          "start": 50.76,
+          "end": 51.0,
+          "probability": 0.4536
+        },
+        {
+          "word": " test,",
+          "start": 51.0,
+          "end": 51.36,
+          "probability": 0.7221
+        },
+        {
+          "word": " frequent",
+          "start": 51.92,
+          "end": 52.12,
+          "probability": 0.896
+        },
+        {
+          "word": " urination,",
+          "start": 52.12,
+          "end": 52.7,
+          "probability": 0.894
+        },
+        {
+          "word": " extreme",
+          "start": 53.22,
+          "end": 53.56,
+          "probability": 0.9169
+        },
+        {
+          "word": " hunger,",
+          "start": 53.56,
+          "end": 54.02,
+          "probability": 0.9701
+        },
+        {
+          "word": " and",
+          "start": 54.38,
+          "end": 54.5,
+          "probability": 0.7954
+        },
+        {
+          "word": " explained",
+          "start": 54.5,
+          "end": 54.94,
+          "probability": 0.7621
+        },
+        {
+          "word": " weight",
+          "start": 54.94,
+          "end": 55.32,
+          "probability": 0.9822
+        },
+        {
+          "word": " loss,",
+          "start": 55.32,
+          "end": 55.62,
+          "probability": 0.927
+        },
+        {
+          "word": " fatigue,",
+          "start": 56.08,
+          "end": 56.56,
+          "probability": 0.9932
+        },
+        {
+          "word": " blood",
+          "start": 57.18,
+          "end": 57.46,
+          "probability": 0.6251
+        },
+        {
+          "word": " division,",
+          "start": 57.46,
+          "end": 58.06,
+          "probability": 0.5137
+        },
+        {
+          "word": " slow",
+          "start": 58.64,
+          "end": 58.78,
+          "probability": 0.9851
+        },
+        {
+          "word": " healing",
+          "start": 58.78,
+          "end": 59.06,
+          "probability": 0.9777
+        },
+        {
+          "word": " source,",
+          "start": 59.06,
+          "end": 59.46,
+          "probability": 0.41
+        },
+        {
+          "word": " frequent",
+          "start": 60.1,
+          "end": 60.3,
+          "probability": 0.9937
+        },
+        {
+          "word": " infections,",
+          "start": 60.3,
+          "end": 60.96,
+          "probability": 0.9758
+        },
+        {
+          "word": " tingling",
+          "start": 61.76,
+          "end": 62.08,
+          "probability": 0.9839
+        },
+        {
+          "word": " or",
+          "start": 62.08,
+          "end": 62.44,
+          "probability": 0.5941
+        },
+        {
+          "word": " numbness,",
+          "start": 62.44,
+          "end": 63.08,
+          "probability": 0.9831
+        },
+        {
+          "word": " enhanced",
+          "start": 63.28,
+          "end": 63.66,
+          "probability": 0.9314
+        },
+        {
+          "word": " stroke",
+          "start": 63.66,
+          "end": 64.14,
+          "probability": 0.9564
+        },
+        {
+          "word": " feed,",
+          "start": 64.14,
+          "end": 64.42,
+          "probability": 0.4457
+        },
+        {
+          "word": " and",
+          "start": 64.76,
+          "end": 64.96,
+          "probability": 0.9937
+        },
+        {
+          "word": " of",
+          "start": 64.96,
+          "end": 65.08,
+          "probability": 0.8212
+        },
+        {
+          "word": " course",
+          "start": 65.08,
+          "end": 65.28,
+          "probability": 0.9909
+        },
+        {
+          "word": " dry",
+          "start": 65.28,
+          "end": 65.92,
+          "probability": 0.4598
+        },
+        {
+          "word": " skin.",
+          "start": 65.92,
+          "end": 66.48,
+          "probability": 0.9953
+        }
+      ]
+    },
+    {
+      "start": 67.38,
+      "end": 69.68,
+      "text": "What are the different types of diabetes?",
+      "avg_log_prob": -0.1967,
+      "words": [
+        {
+          "word": " What",
+          "start": 67.38,
+          "end": 67.94,
+          "probability": 0.0846
+        },
+        {
+          "word": " are",
+          "start": 67.94,
+          "end": 68.36,
+          "probability": 0.9792
+        },
+        {
+          "word": " the",
+          "start": 68.36,
+          "end": 68.52,
+          "probability": 0.9691
+        },
+        {
+          "word": " different",
+          "start": 68.52,
+          "end": 68.78,
+          "probability": 0.9227
+        },
+        {
+          "word": " types",
+          "start": 68.78,
+          "end": 69.06,
+          "probability": 0.9916
+        },
+        {
+          "word": " of",
+          "start": 69.06,
+          "end": 69.46,
+          "probability": 0.9913
+        },
+        {
+          "word": " diabetes?",
+          "start": 69.46,
+          "end": 69.68,
+          "probability": 0.9686
+        }
+      ]
+    },
+    {
+      "start": 70.58,
+      "end": 79.98,
+      "text": "We have type 1 diabetes, which is autoimmune, orphan diagnosis in youth, we have type 2 diabetes, which is linked to lifestyle and genetics, more common in adults,",
+      "avg_log_prob": -0.1967,
+      "words": [
+        {
+          "word": " We",
+          "start": 70.58,
+          "end": 70.74,
+          "probability": 0.9387
+        },
+        {
+          "word": " have",
+          "start": 70.74,
+          "end": 70.92,
+          "probability": 0.9654
+        },
+        {
+          "word": " type",
+          "start": 70.92,
+          "end": 71.18,
+          "probability": 0.5638
+        },
+        {
+          "word": " 1",
+          "start": 71.18,
+          "end": 71.38,
+          "probability": 0.4458
+        },
+        {
+          "word": " diabetes,",
+          "start": 71.38,
+          "end": 71.74,
+          "probability": 0.9813
+        },
+        {
+          "word": " which",
+          "start": 72.36,
+          "end": 72.44,
+          "probability": 0.9911
+        },
+        {
+          "word": " is",
+          "start": 72.44,
+          "end": 72.58,
+          "probability": 0.9906
+        },
+        {
+          "word": " autoimmune,",
+          "start": 72.58,
+          "end": 73.0,
+          "probability": 0.947
+        },
+        {
+          "word": " orphan",
+          "start": 73.46,
+          "end": 73.66,
+          "probability": 0.6961
+        },
+        {
+          "word": " diagnosis",
+          "start": 73.66,
+          "end": 74.1,
+          "probability": 0.39
+        },
+        {
+          "word": " in",
+          "start": 74.1,
+          "end": 74.44,
+          "probability": 0.8046
+        },
+        {
+          "word": " youth,",
+          "start": 74.44,
+          "end": 74.66,
+          "probability": 0.43
+        },
+        {
+          "word": " we",
+          "start": 75.26,
+          "end": 75.4,
+          "probability": 0.8821
+        },
+        {
+          "word": " have",
+          "start": 75.4,
+          "end": 75.54,
+          "probability": 0.995
+        },
+        {
+          "word": " type",
+          "start": 75.54,
+          "end": 75.74,
+          "probability": 0.9795
+        },
+        {
+          "word": " 2",
+          "start": 75.74,
+          "end": 76.06,
+          "probability": 0.9958
+        },
+        {
+          "word": " diabetes,",
+          "start": 76.06,
+          "end": 76.6,
+          "probability": 0.9938
+        },
+        {
+          "word": " which",
+          "start": 76.92,
+          "end": 77.0,
+          "probability": 0.9939
+        },
+        {
+          "word": " is",
+          "start": 77.0,
+          "end": 77.12,
+          "probability": 0.9761
+        },
+        {
+          "word": " linked",
+          "start": 77.12,
+          "end": 77.32,
+          "probability": 0.3294
+        },
+        {
+          "word": " to",
+          "start": 77.32,
+          "end": 77.64,
+          "probability": 0.9803
+        },
+        {
+          "word": " lifestyle",
+          "start": 77.64,
+          "end": 77.86,
+          "probability": 0.9882
+        },
+        {
+          "word": " and",
+          "start": 77.86,
+          "end": 78.32,
+          "probability": 0.9701
+        },
+        {
+          "word": " genetics,",
+          "start": 78.32,
+          "end": 78.72,
+          "probability": 0.8819
+        },
+        {
+          "word": " more",
+          "start": 79.0,
+          "end": 79.08,
+          "probability": 0.3139
+        },
+        {
+          "word": " common",
+          "start": 79.08,
+          "end": 79.36,
+          "probability": 0.8239
+        },
+        {
+          "word": " in",
+          "start": 79.36,
+          "end": 79.58,
+          "probability": 0.884
+        },
+        {
+          "word": " adults,",
+          "start": 79.58,
+          "end": 79.98,
+          "probability": 0.9941
+        }
+      ]
+    },
+    {
+      "start": 79.98,
+      "end": 92.52,
+      "text": "We also have got the gestation of diabetes, which develops during pregnancy, usually in the second or third trimester, positive hormonal changes, and of course affecting insulin use, causing high blood sugar levels.",
+      "avg_log_prob": -0.2698,
+      "words": [
+        {
+          "word": " We",
+          "start": 79.98,
+          "end": 80.82,
+          "probability": 0.0093
+        },
+        {
+          "word": " also",
+          "start": 80.82,
+          "end": 80.98,
+          "probability": 0.5008
+        },
+        {
+          "word": " have",
+          "start": 80.98,
+          "end": 81.12,
+          "probability": 0.3407
+        },
+        {
+          "word": " got",
+          "start": 81.12,
+          "end": 81.26,
+          "probability": 0.8683
+        },
+        {
+          "word": " the",
+          "start": 81.26,
+          "end": 81.4,
+          "probability": 0.556
+        },
+        {
+          "word": " gestation",
+          "start": 81.4,
+          "end": 81.88,
+          "probability": 0.6876
+        },
+        {
+          "word": " of",
+          "start": 81.88,
+          "end": 82.06,
+          "probability": 0.8748
+        },
+        {
+          "word": " diabetes,",
+          "start": 82.06,
+          "end": 82.46,
+          "probability": 0.3763
+        },
+        {
+          "word": " which",
+          "start": 82.86,
+          "end": 82.98,
+          "probability": 0.9702
+        },
+        {
+          "word": " develops",
+          "start": 82.98,
+          "end": 83.28,
+          "probability": 0.4765
+        },
+        {
+          "word": " during",
+          "start": 83.28,
+          "end": 83.9,
+          "probability": 0.9589
+        },
+        {
+          "word": " pregnancy,",
+          "start": 83.9,
+          "end": 84.28,
+          "probability": 0.5811
+        },
+        {
+          "word": " usually",
+          "start": 84.62,
+          "end": 84.86,
+          "probability": 0.9553
+        },
+        {
+          "word": " in",
+          "start": 84.86,
+          "end": 85.02,
+          "probability": 0.9069
+        },
+        {
+          "word": " the",
+          "start": 85.02,
+          "end": 85.12,
+          "probability": 0.9002
+        },
+        {
+          "word": " second",
+          "start": 85.12,
+          "end": 85.48,
+          "probability": 0.7792
+        },
+        {
+          "word": " or",
+          "start": 85.48,
+          "end": 85.76,
+          "probability": 0.9531
+        },
+        {
+          "word": " third",
+          "start": 85.76,
+          "end": 86.0,
+          "probability": 0.9718
+        },
+        {
+          "word": " trimester,",
+          "start": 86.0,
+          "end": 86.56,
+          "probability": 0.6283
+        },
+        {
+          "word": " positive",
+          "start": 86.96,
+          "end": 87.18,
+          "probability": 0.0452
+        },
+        {
+          "word": " hormonal",
+          "start": 87.18,
+          "end": 87.6,
+          "probability": 0.8362
+        },
+        {
+          "word": " changes,",
+          "start": 87.6,
+          "end": 88.02,
+          "probability": 0.9871
+        },
+        {
+          "word": " and",
+          "start": 88.4,
+          "end": 88.48,
+          "probability": 0.9837
+        },
+        {
+          "word": " of",
+          "start": 88.48,
+          "end": 88.58,
+          "probability": 0.4279
+        },
+        {
+          "word": " course",
+          "start": 88.58,
+          "end": 88.72,
+          "probability": 0.9867
+        },
+        {
+          "word": " affecting",
+          "start": 88.72,
+          "end": 89.34,
+          "probability": 0.7351
+        },
+        {
+          "word": " insulin",
+          "start": 89.34,
+          "end": 89.72,
+          "probability": 0.8429
+        },
+        {
+          "word": " use,",
+          "start": 89.72,
+          "end": 90.18,
+          "probability": 0.8389
+        },
+        {
+          "word": " causing",
+          "start": 90.74,
+          "end": 91.02,
+          "probability": 0.9764
+        },
+        {
+          "word": " high",
+          "start": 91.02,
+          "end": 91.38,
+          "probability": 0.9897
+        },
+        {
+          "word": " blood",
+          "start": 91.38,
+          "end": 91.66,
+          "probability": 0.9945
+        },
+        {
+          "word": " sugar",
+          "start": 91.66,
+          "end": 92.06,
+          "probability": 0.9889
+        },
+        {
+          "word": " levels.",
+          "start": 92.06,
+          "end": 92.52,
+          "probability": 0.9954
+        }
+      ]
+    },
+    {
+      "start": 93.94,
+      "end": 98.6,
+      "text": "Yoga will perhaps be asking yourself, what are these high blood sugar levels?",
+      "avg_log_prob": -0.2698,
+      "words": [
+        {
+          "word": " Yoga",
+          "start": 93.94,
+          "end": 94.26,
+          "probability": 0.473
+        },
+        {
+          "word": " will",
+          "start": 94.26,
+          "end": 94.46,
+          "probability": 0.337
+        },
+        {
+          "word": " perhaps",
+          "start": 94.46,
+          "end": 94.82,
+          "probability": 0.8231
+        },
+        {
+          "word": " be",
+          "start": 94.82,
+          "end": 95.22,
+          "probability": 0.9939
+        },
+        {
+          "word": " asking",
+          "start": 95.22,
+          "end": 95.5,
+          "probability": 0.9975
+        },
+        {
+          "word": " yourself,",
+          "start": 95.5,
+          "end": 95.94,
+          "probability": 0.9384
+        },
+        {
+          "word": " what",
+          "start": 96.64,
+          "end": 96.92,
+          "probability": 0.7845
+        },
+        {
+          "word": " are",
+          "start": 96.92,
+          "end": 97.14,
+          "probability": 0.9186
+        },
+        {
+          "word": " these",
+          "start": 97.14,
+          "end": 97.42,
+          "probability": 0.9761
+        },
+        {
+          "word": " high",
+          "start": 97.42,
+          "end": 97.76,
+          "probability": 0.9886
+        },
+        {
+          "word": " blood",
+          "start": 97.76,
+          "end": 97.98,
+          "probability": 0.9942
+        },
+        {
+          "word": " sugar",
+          "start": 97.98,
+          "end": 98.22,
+          "probability": 0.9945
+        },
+        {
+          "word": " levels?",
+          "start": 98.22,
+          "end": 98.6,
+          "probability": 0.9951
+        }
+      ]
+    },
+    {
+      "start": 98.9,
+      "end": 107.46,
+      "text": "Well, high blood sugar levels, or hypogrecemia, occur when there's too much glucose in the blood due to insufficient insulin or insulin resistance.",
+      "avg_log_prob": -0.2698,
+      "words": [
+        {
+          "word": " Well,",
+          "start": 98.9,
+          "end": 98.98,
+          "probability": 0.8891
+        },
+        {
+          "word": " high",
+          "start": 99.7,
+          "end": 100.0,
+          "probability": 0.9707
+        },
+        {
+          "word": " blood",
+          "start": 100.0,
+          "end": 100.18,
+          "probability": 0.9954
+        },
+        {
+          "word": " sugar",
+          "start": 100.18,
+          "end": 100.42,
+          "probability": 0.9968
+        },
+        {
+          "word": " levels,",
+          "start": 100.42,
+          "end": 100.82,
+          "probability": 0.9964
+        },
+        {
+          "word": " or",
+          "start": 101.08,
+          "end": 101.18,
+          "probability": 0.9447
+        },
+        {
+          "word": " hypogrecemia,",
+          "start": 101.18,
+          "end": 102.0,
+          "probability": 0.567
+        },
+        {
+          "word": " occur",
+          "start": 102.48,
+          "end": 102.7,
+          "probability": 0.9812
+        },
+        {
+          "word": " when",
+          "start": 102.7,
+          "end": 102.94,
+          "probability": 0.7755
+        },
+        {
+          "word": " there's",
+          "start": 102.94,
+          "end": 103.16,
+          "probability": 0.8341
+        },
+        {
+          "word": " too",
+          "start": 103.16,
+          "end": 103.3,
+          "probability": 0.9722
+        },
+        {
+          "word": " much",
+          "start": 103.3,
+          "end": 103.62,
+          "probability": 0.9634
+        },
+        {
+          "word": " glucose",
+          "start": 103.62,
+          "end": 103.88,
+          "probability": 0.9842
+        },
+        {
+          "word": " in",
+          "start": 103.88,
+          "end": 104.16,
+          "probability": 0.9816
+        },
+        {
+          "word": " the",
+          "start": 104.16,
+          "end": 104.3,
+          "probability": 0.9621
+        },
+        {
+          "word": " blood",
+          "start": 104.3,
+          "end": 104.54,
+          "probability": 0.9969
+        },
+        {
+          "word": " due",
+          "start": 104.54,
+          "end": 104.92,
+          "probability": 0.8317
+        },
+        {
+          "word": " to",
+          "start": 104.92,
+          "end": 105.14,
+          "probability": 0.9975
+        },
+        {
+          "word": " insufficient",
+          "start": 105.14,
+          "end": 105.62,
+          "probability": 0.9605
+        },
+        {
+          "word": " insulin",
+          "start": 105.62,
+          "end": 106.14,
+          "probability": 0.993
+        },
+        {
+          "word": " or",
+          "start": 106.14,
+          "end": 106.5,
+          "probability": 0.8423
+        },
+        {
+          "word": " insulin",
+          "start": 106.5,
+          "end": 106.96,
+          "probability": 0.9962
+        },
+        {
+          "word": " resistance.",
+          "start": 106.96,
+          "end": 107.46,
+          "probability": 0.9631
+        }
+      ]
+    },
+    {
+      "start": 108.34,
+      "end": 112.52,
+      "text": "Another critical question is, what causes high blood sugar levels?",
+      "avg_log_prob": -0.1362,
+      "words": [
+        {
+          "word": " Another",
+          "start": 108.34,
+          "end": 108.98,
+          "probability": 0.0668
+        },
+        {
+          "word": " critical",
+          "start": 108.98,
+          "end": 109.54,
+          "probability": 0.985
+        },
+        {
+          "word": " question",
+          "start": 109.54,
+          "end": 109.94,
+          "probability": 0.9946
+        },
+        {
+          "word": " is,",
+          "start": 109.94,
+          "end": 110.4,
+          "probability": 0.9658
+        },
+        {
+          "word": " what",
+          "start": 110.88,
+          "end": 110.88,
+          "probability": 0.8023
+        },
+        {
+          "word": " causes",
+          "start": 110.88,
+          "end": 111.32,
+          "probability": 0.9853
+        },
+        {
+          "word": " high",
+          "start": 111.32,
+          "end": 111.66,
+          "probability": 0.9693
+        },
+        {
+          "word": " blood",
+          "start": 111.66,
+          "end": 111.9,
+          "probability": 0.9888
+        },
+        {
+          "word": " sugar",
+          "start": 111.9,
+          "end": 112.14,
+          "probability": 0.9931
+        },
+        {
+          "word": " levels?",
+          "start": 112.14,
+          "end": 112.52,
+          "probability": 0.9968
+        }
+      ]
+    },
+    {
+      "start": 113.58,
+      "end": 119.16,
+      "text": "High blood sugar levels are caused when the body doesn't produce enough insulin or can't use it effectively.",
+      "avg_log_prob": -0.1362,
+      "words": [
+        {
+          "word": " High",
+          "start": 113.58,
+          "end": 113.88,
+          "probability": 0.9394
+        },
+        {
+          "word": " blood",
+          "start": 113.88,
+          "end": 114.06,
+          "probability": 0.9992
+        },
+        {
+          "word": " sugar",
+          "start": 114.06,
+          "end": 114.28,
+          "probability": 0.9986
+        },
+        {
+          "word": " levels",
+          "start": 114.28,
+          "end": 114.72,
+          "probability": 0.9981
+        },
+        {
+          "word": " are",
+          "start": 114.72,
+          "end": 114.96,
+          "probability": 0.5494
+        },
+        {
+          "word": " caused",
+          "start": 114.96,
+          "end": 115.22,
+          "probability": 0.9466
+        },
+        {
+          "word": " when",
+          "start": 115.22,
+          "end": 115.66,
+          "probability": 0.959
+        },
+        {
+          "word": " the",
+          "start": 115.66,
+          "end": 115.84,
+          "probability": 0.6437
+        },
+        {
+          "word": " body",
+          "start": 115.84,
+          "end": 116.0,
+          "probability": 0.8308
+        },
+        {
+          "word": " doesn't",
+          "start": 116.0,
+          "end": 116.38,
+          "probability": 0.8318
+        },
+        {
+          "word": " produce",
+          "start": 116.38,
+          "end": 116.74,
+          "probability": 0.9967
+        },
+        {
+          "word": " enough",
+          "start": 116.74,
+          "end": 117.08,
+          "probability": 0.998
+        },
+        {
+          "word": " insulin",
+          "start": 117.08,
+          "end": 117.42,
+          "probability": 0.9364
+        },
+        {
+          "word": " or",
+          "start": 117.42,
+          "end": 117.9,
+          "probability": 0.7817
+        },
+        {
+          "word": " can't",
+          "start": 117.9,
+          "end": 118.26,
+          "probability": 0.9612
+        },
+        {
+          "word": " use",
+          "start": 118.26,
+          "end": 118.42,
+          "probability": 0.9948
+        },
+        {
+          "word": " it",
+          "start": 118.42,
+          "end": 118.56,
+          "probability": 0.9806
+        },
+        {
+          "word": " effectively.",
+          "start": 118.56,
+          "end": 119.16,
+          "probability": 0.9971
+        }
+      ]
+    },
+    {
+      "start": 119.96,
+      "end": 123.84,
+      "text": "Insulin is the hormone that helps remove glucose from the blood into cells for energy.",
+      "avg_log_prob": -0.1362,
+      "words": [
+        {
+          "word": " Insulin",
+          "start": 119.96,
+          "end": 120.14,
+          "probability": 0.9474
+        },
+        {
+          "word": " is",
+          "start": 120.14,
+          "end": 120.36,
+          "probability": 0.979
+        },
+        {
+          "word": " the",
+          "start": 120.36,
+          "end": 120.5,
+          "probability": 0.9726
+        },
+        {
+          "word": " hormone",
+          "start": 120.5,
+          "end": 120.78,
+          "probability": 0.9891
+        },
+        {
+          "word": " that",
+          "start": 120.78,
+          "end": 121.08,
+          "probability": 0.9962
+        },
+        {
+          "word": " helps",
+          "start": 121.08,
+          "end": 121.4,
+          "probability": 0.99
+        },
+        {
+          "word": " remove",
+          "start": 121.4,
+          "end": 121.68,
+          "probability": 0.3241
+        },
+        {
+          "word": " glucose",
+          "start": 121.68,
+          "end": 122.04,
+          "probability": 0.9865
+        },
+        {
+          "word": " from",
+          "start": 122.04,
+          "end": 122.36,
+          "probability": 0.9968
+        },
+        {
+          "word": " the",
+          "start": 122.36,
+          "end": 122.52,
+          "probability": 0.9555
+        },
+        {
+          "word": " blood",
+          "start": 122.52,
+          "end": 122.72,
+          "probability": 0.9929
+        },
+        {
+          "word": " into",
+          "start": 122.72,
+          "end": 123.0,
+          "probability": 0.9524
+        },
+        {
+          "word": " cells",
+          "start": 123.0,
+          "end": 123.24,
+          "probability": 0.977
+        },
+        {
+          "word": " for",
+          "start": 123.24,
+          "end": 123.44,
+          "probability": 0.9879
+        },
+        {
+          "word": " energy.",
+          "start": 123.44,
+          "end": 123.84,
+          "probability": 0.9975
+        }
+      ]
+    },
+    {
+      "start": 124.48,
+      "end": 127.44,
+      "text": "Without enough insulin, glucose builds up in the bloodstream.",
+      "avg_log_prob": -0.1362,
+      "words": [
+        {
+          "word": " Without",
+          "start": 124.48,
+          "end": 124.74,
+          "probability": 0.989
+        },
+        {
+          "word": " enough",
+          "start": 124.74,
+          "end": 125.12,
+          "probability": 0.9769
+        },
+        {
+          "word": " insulin,",
+          "start": 125.12,
+          "end": 125.54,
+          "probability": 0.9984
+        },
+        {
+          "word": " glucose",
+          "start": 125.9,
+          "end": 126.02,
+          "probability": 0.9995
+        },
+        {
+          "word": " builds",
+          "start": 126.02,
+          "end": 126.36,
+          "probability": 0.2436
+        },
+        {
+          "word": " up",
+          "start": 126.36,
+          "end": 126.6,
+          "probability": 0.9912
+        },
+        {
+          "word": " in",
+          "start": 126.6,
+          "end": 126.76,
+          "probability": 0.9845
+        },
+        {
+          "word": " the",
+          "start": 126.76,
+          "end": 126.86,
+          "probability": 0.9818
+        },
+        {
+          "word": " bloodstream.",
+          "start": 126.86,
+          "end": 127.44,
+          "probability": 0.8601
+        }
+      ]
+    },
+    {
+      "start": 128.14,
+      "end": 131.34,
+      "text": "Now, what should be ideal blood sugar level?",
+      "avg_log_prob": -0.1336,
+      "words": [
+        {
+          "word": " Now,",
+          "start": 128.14,
+          "end": 128.74,
+          "probability": 0.0258
+        },
+        {
+          "word": " what",
+          "start": 129.44,
+          "end": 129.54,
+          "probability": 0.9011
+        },
+        {
+          "word": " should",
+          "start": 129.54,
+          "end": 129.74,
+          "probability": 0.9837
+        },
+        {
+          "word": " be",
+          "start": 129.74,
+          "end": 129.94,
+          "probability": 0.9548
+        },
+        {
+          "word": " ideal",
+          "start": 129.94,
+          "end": 130.36,
+          "probability": 0.7694
+        },
+        {
+          "word": " blood",
+          "start": 130.36,
+          "end": 130.74,
+          "probability": 0.4204
+        },
+        {
+          "word": " sugar",
+          "start": 130.74,
+          "end": 130.98,
+          "probability": 0.9841
+        },
+        {
+          "word": " level?",
+          "start": 130.98,
+          "end": 131.34,
+          "probability": 0.9333
+        }
+      ]
+    },
+    {
+      "start": 131.94,
+      "end": 137.24,
+      "text": "A fasting blood sugar level should be between 3.9 to 5.5 minimal per litre.",
+      "avg_log_prob": -0.1336,
+      "words": [
+        {
+          "word": " A",
+          "start": 131.94,
+          "end": 132.16,
+          "probability": 0.8455
+        },
+        {
+          "word": " fasting",
+          "start": 132.16,
+          "end": 132.48,
+          "probability": 0.5303
+        },
+        {
+          "word": " blood",
+          "start": 132.48,
+          "end": 132.88,
+          "probability": 0.9871
+        },
+        {
+          "word": " sugar",
+          "start": 132.88,
+          "end": 133.08,
+          "probability": 0.9977
+        },
+        {
+          "word": " level",
+          "start": 133.08,
+          "end": 133.44,
+          "probability": 0.9941
+        },
+        {
+          "word": " should",
+          "start": 133.44,
+          "end": 133.74,
+          "probability": 0.9838
+        },
+        {
+          "word": " be",
+          "start": 133.74,
+          "end": 133.88,
+          "probability": 0.8298
+        },
+        {
+          "word": " between",
+          "start": 133.88,
+          "end": 134.2,
+          "probability": 0.9793
+        },
+        {
+          "word": " 3",
+          "start": 134.2,
+          "end": 134.52,
+          "probability": 0.9343
+        },
+        {
+          "word": ".9",
+          "start": 134.52,
+          "end": 134.98,
+          "probability": 0.9909
+        },
+        {
+          "word": " to",
+          "start": 134.98,
+          "end": 135.24,
+          "probability": 0.4552
+        },
+        {
+          "word": " 5",
+          "start": 135.24,
+          "end": 135.68,
+          "probability": 0.9945
+        },
+        {
+          "word": ".5",
+          "start": 135.68,
+          "end": 136.2,
+          "probability": 0.9968
+        },
+        {
+          "word": " minimal",
+          "start": 136.2,
+          "end": 136.68,
+          "probability": 0.1969
+        },
+        {
+          "word": " per",
+          "start": 136.68,
+          "end": 136.92,
+          "probability": 0.7008
+        },
+        {
+          "word": " litre.",
+          "start": 136.92,
+          "end": 137.24,
+          "probability": 0.8328
+        }
+      ]
+    },
+    {
+      "start": 137.96,
+      "end": 142.56,
+      "text": "One to two hours after eating, it should be less than 7.8 minimal per litre.",
+      "avg_log_prob": -0.1336,
+      "words": [
+        {
+          "word": " One",
+          "start": 137.96,
+          "end": 138.2,
+          "probability": 0.4639
+        },
+        {
+          "word": " to",
+          "start": 138.2,
+          "end": 138.5,
+          "probability": 0.8114
+        },
+        {
+          "word": " two",
+          "start": 138.5,
+          "end": 138.72,
+          "probability": 0.8396
+        },
+        {
+          "word": " hours",
+          "start": 138.72,
+          "end": 138.94,
+          "probability": 0.9973
+        },
+        {
+          "word": " after",
+          "start": 138.94,
+          "end": 139.32,
+          "probability": 0.9938
+        },
+        {
+          "word": " eating,",
+          "start": 139.32,
+          "end": 139.64,
+          "probability": 0.9769
+        },
+        {
+          "word": " it",
+          "start": 139.82,
+          "end": 139.9,
+          "probability": 0.9903
+        },
+        {
+          "word": " should",
+          "start": 139.9,
+          "end": 140.1,
+          "probability": 0.9985
+        },
+        {
+          "word": " be",
+          "start": 140.1,
+          "end": 140.3,
+          "probability": 0.9772
+        },
+        {
+          "word": " less",
+          "start": 140.3,
+          "end": 140.46,
+          "probability": 0.6456
+        },
+        {
+          "word": " than",
+          "start": 140.46,
+          "end": 140.64,
+          "probability": 0.9979
+        },
+        {
+          "word": " 7",
+          "start": 140.64,
+          "end": 140.92,
+          "probability": 0.8215
+        },
+        {
+          "word": ".8",
+          "start": 140.92,
+          "end": 141.48,
+          "probability": 0.9971
+        },
+        {
+          "word": " minimal",
+          "start": 141.48,
+          "end": 141.98,
+          "probability": 0.8933
+        },
+        {
+          "word": " per",
+          "start": 141.98,
+          "end": 142.24,
+          "probability": 0.991
+        },
+        {
+          "word": " litre.",
+          "start": 142.24,
+          "end": 142.56,
+          "probability": 0.9859
+        }
+      ]
+    },
+    {
+      "start": 143.44,
+      "end": 146.64,
+      "text": "HBA1C should be less than 5.7%.",
+      "avg_log_prob": -0.1336,
+      "words": [
+        {
+          "word": " HBA1C",
+          "start": 143.44,
+          "end": 144.04,
+          "probability": 0.5783
+        },
+        {
+          "word": " should",
+          "start": 144.04,
+          "end": 144.44,
+          "probability": 0.9839
+        },
+        {
+          "word": " be",
+          "start": 144.44,
+          "end": 144.66,
+          "probability": 0.9964
+        },
+        {
+          "word": " less",
+          "start": 144.66,
+          "end": 144.86,
+          "probability": 0.9762
+        },
+        {
+          "word": " than",
+          "start": 144.86,
+          "end": 145.06,
+          "probability": 0.9994
+        },
+        {
+          "word": " 5",
+          "start": 145.06,
+          "end": 145.34,
+          "probability": 0.9951
+        },
+        {
+          "word": ".7%.",
+          "start": 145.34,
+          "end": 146.64,
+          "probability": 0.8303
+        }
+      ]
+    },
+    {
+      "start": 146.64,
+      "end": 153.56,
+      "text": "For people with diabetes, fasting blood sugar level should be between 4.4 to 7.2 minimal per litre.",
+      "avg_log_prob": -0.1336,
+      "words": [
+        {
+          "word": " For",
+          "start": 146.64,
+          "end": 147.06,
+          "probability": 0.8463
+        },
+        {
+          "word": " people",
+          "start": 147.06,
+          "end": 147.3,
+          "probability": 0.992
+        },
+        {
+          "word": " with",
+          "start": 147.3,
+          "end": 147.48,
+          "probability": 0.9823
+        },
+        {
+          "word": " diabetes,",
+          "start": 147.48,
+          "end": 147.86,
+          "probability": 0.9422
+        },
+        {
+          "word": " fasting",
+          "start": 148.54,
+          "end": 148.8,
+          "probability": 0.9949
+        },
+        {
+          "word": " blood",
+          "start": 148.8,
+          "end": 149.08,
+          "probability": 0.9896
+        },
+        {
+          "word": " sugar",
+          "start": 149.08,
+          "end": 149.32,
+          "probability": 0.9984
+        },
+        {
+          "word": " level",
+          "start": 149.32,
+          "end": 149.74,
+          "probability": 0.91
+        },
+        {
+          "word": " should",
+          "start": 149.74,
+          "end": 150.04,
+          "probability": 0.9941
+        },
+        {
+          "word": " be",
+          "start": 150.04,
+          "end": 150.18,
+          "probability": 0.9728
+        },
+        {
+          "word": " between",
+          "start": 150.18,
+          "end": 150.44,
+          "probability": 0.9183
+        },
+        {
+          "word": " 4",
+          "start": 150.44,
+          "end": 150.94,
+          "probability": 0.9632
+        },
+        {
+          "word": ".4",
+          "start": 150.94,
+          "end": 151.62,
+          "probability": 0.9779
+        },
+        {
+          "word": " to",
+          "start": 151.62,
+          "end": 151.8,
+          "probability": 0.9617
+        },
+        {
+          "word": " 7",
+          "start": 151.8,
+          "end": 152.04,
+          "probability": 0.8728
+        },
+        {
+          "word": ".2",
+          "start": 152.04,
+          "end": 152.6,
+          "probability": 0.9977
+        },
+        {
+          "word": " minimal",
+          "start": 152.6,
+          "end": 152.94,
+          "probability": 0.9594
+        },
+        {
+          "word": " per",
+          "start": 152.94,
+          "end": 153.24,
+          "probability": 0.998
+        },
+        {
+          "word": " litre.",
+          "start": 153.24,
+          "end": 153.56,
+          "probability": 0.9951
+        }
+      ]
+    },
+    {
+      "start": 153.56,
+      "end": 158.7,
+      "text": "One to two hours after eating, it should be less than 10.0 minimal per litre.",
+      "avg_log_prob": -0.0867,
+      "words": [
+        {
+          "word": " One",
+          "start": 153.56,
+          "end": 154.26,
+          "probability": 0.0049
+        },
+        {
+          "word": " to",
+          "start": 154.26,
+          "end": 154.66,
+          "probability": 0.5708
+        },
+        {
+          "word": " two",
+          "start": 154.66,
+          "end": 154.9,
+          "probability": 0.9573
+        },
+        {
+          "word": " hours",
+          "start": 154.9,
+          "end": 155.1,
+          "probability": 0.9836
+        },
+        {
+          "word": " after",
+          "start": 155.1,
+          "end": 155.46,
+          "probability": 0.984
+        },
+        {
+          "word": " eating,",
+          "start": 155.46,
+          "end": 155.76,
+          "probability": 0.9669
+        },
+        {
+          "word": " it",
+          "start": 156.0,
+          "end": 156.1,
+          "probability": 0.9557
+        },
+        {
+          "word": " should",
+          "start": 156.1,
+          "end": 156.26,
+          "probability": 0.9878
+        },
+        {
+          "word": " be",
+          "start": 156.26,
+          "end": 156.48,
+          "probability": 0.8899
+        },
+        {
+          "word": " less",
+          "start": 156.48,
+          "end": 156.62,
+          "probability": 0.9431
+        },
+        {
+          "word": " than",
+          "start": 156.62,
+          "end": 156.82,
+          "probability": 0.9969
+        },
+        {
+          "word": " 10",
+          "start": 156.82,
+          "end": 157.08,
+          "probability": 0.9725
+        },
+        {
+          "word": ".0",
+          "start": 157.08,
+          "end": 157.62,
+          "probability": 0.9905
+        },
+        {
+          "word": " minimal",
+          "start": 157.62,
+          "end": 158.12,
+          "probability": 0.0461
+        },
+        {
+          "word": " per",
+          "start": 158.12,
+          "end": 158.36,
+          "probability": 0.7324
+        },
+        {
+          "word": " litre.",
+          "start": 158.36,
+          "end": 158.7,
+          "probability": 0.7531
+        }
+      ]
+    },
+    {
+      "start": 159.16,
+      "end": 162.12,
+      "text": "For HBA1C, it should be less than 7%.",
+      "avg_log_prob": -0.0867,
+      "words": [
+        {
+          "word": " For",
+          "start": 159.16,
+          "end": 159.26,
+          "probability": 0.9564
+        },
+        {
+          "word": " HBA1C,",
+          "start": 159.26,
+          "end": 160.26,
+          "probability": 0.7478
+        },
+        {
+          "word": " it",
+          "start": 160.42,
+          "end": 160.5,
+          "probability": 0.9875
+        },
+        {
+          "word": " should",
+          "start": 160.5,
+          "end": 160.66,
+          "probability": 0.9957
+        },
+        {
+          "word": " be",
+          "start": 160.66,
+          "end": 160.84,
+          "probability": 0.9956
+        },
+        {
+          "word": " less",
+          "start": 160.84,
+          "end": 161.02,
+          "probability": 0.9895
+        },
+        {
+          "word": " than",
+          "start": 161.02,
+          "end": 161.2,
+          "probability": 0.9991
+        },
+        {
+          "word": " 7%.",
+          "start": 161.2,
+          "end": 162.12,
+          "probability": 0.8186
+        }
+      ]
+    },
+    {
+      "start": 163.0,
+      "end": 165.22,
+      "text": "When should you do your blood tests?",
+      "avg_log_prob": -0.0867,
+      "words": [
+        {
+          "word": " When",
+          "start": 163.0,
+          "end": 163.56,
+          "probability": 0.8544
+        },
+        {
+          "word": " should",
+          "start": 163.56,
+          "end": 163.84,
+          "probability": 0.996
+        },
+        {
+          "word": " you",
+          "start": 163.84,
+          "end": 164.08,
+          "probability": 0.989
+        },
+        {
+          "word": " do",
+          "start": 164.08,
+          "end": 164.32,
+          "probability": 0.9977
+        },
+        {
+          "word": " your",
+          "start": 164.32,
+          "end": 164.64,
+          "probability": 0.9719
+        },
+        {
+          "word": " blood",
+          "start": 164.64,
+          "end": 164.84,
+          "probability": 0.8938
+        },
+        {
+          "word": " tests?",
+          "start": 164.84,
+          "end": 165.22,
+          "probability": 0.9456
+        }
+      ]
+    },
+    {
+      "start": 165.94,
+      "end": 169.26,
+      "text": "For fasting, it's done after 8 hours without eating.",
+      "avg_log_prob": -0.0867,
+      "words": [
+        {
+          "word": " For",
+          "start": 165.94,
+          "end": 166.08,
+          "probability": 0.7012
+        },
+        {
+          "word": " fasting,",
+          "start": 166.08,
+          "end": 166.44,
+          "probability": 0.8428
+        },
+        {
+          "word": " it's",
+          "start": 166.88,
+          "end": 167.2,
+          "probability": 0.9441
+        },
+        {
+          "word": " done",
+          "start": 167.2,
+          "end": 167.4,
+          "probability": 0.9777
+        },
+        {
+          "word": " after",
+          "start": 167.4,
+          "end": 167.84,
+          "probability": 0.993
+        },
+        {
+          "word": " 8",
+          "start": 167.84,
+          "end": 168.14,
+          "probability": 0.5031
+        },
+        {
+          "word": " hours",
+          "start": 168.14,
+          "end": 168.44,
+          "probability": 0.9945
+        },
+        {
+          "word": " without",
+          "start": 168.44,
+          "end": 168.76,
+          "probability": 0.9959
+        },
+        {
+          "word": " eating.",
+          "start": 168.76,
+          "end": 169.26,
+          "probability": 0.9913
+        }
+      ]
+    },
+    {
+      "start": 169.8,
+      "end": 171.86,
+      "text": "For random, anytime, regardless of meals.",
+      "avg_log_prob": -0.0867,
+      "words": [
+        {
+          "word": " For",
+          "start": 169.8,
+          "end": 169.92,
+          "probability": 0.9818
+        },
+        {
+          "word": " random,",
+          "start": 169.92,
+          "end": 170.16,
+          "probability": 0.9559
+        },
+        {
+          "word": " anytime,",
+          "start": 170.46,
+          "end": 170.86,
+          "probability": 0.5394
+        },
+        {
+          "word": " regardless",
+          "start": 171.04,
+          "end": 171.32,
+          "probability": 0.9962
+        },
+        {
+          "word": " of",
+          "start": 171.32,
+          "end": 171.62,
+          "probability": 0.9978
+        },
+        {
+          "word": " meals.",
+          "start": 171.62,
+          "end": 171.86,
+          "probability": 0.9772
+        }
+      ]
+    },
+    {
+      "start": 172.62,
+      "end": 178.34,
+      "text": "For OTT, that is oral glucose tolerance test, it's done before and after breaking a sugar solution.",
+      "avg_log_prob": -0.0867,
+      "words": [
+        {
+          "word": " For",
+          "start": 172.62,
+          "end": 172.8,
+          "probability": 0.9947
+        },
+        {
+          "word": " OTT,",
+          "start": 172.8,
+          "end": 173.16,
+          "probability": 0.5078
+        },
+        {
+          "word": " that",
+          "start": 173.6,
+          "end": 173.8,
+          "probability": 0.9826
+        },
+        {
+          "word": " is",
+          "start": 173.8,
+          "end": 174.0,
+          "probability": 0.9674
+        },
+        {
+          "word": " oral",
+          "start": 174.0,
+          "end": 174.28,
+          "probability": 0.6827
+        },
+        {
+          "word": " glucose",
+          "start": 174.28,
+          "end": 174.64,
+          "probability": 0.955
+        },
+        {
+          "word": " tolerance",
+          "start": 174.64,
+          "end": 175.14,
+          "probability": 0.8128
+        },
+        {
+          "word": " test,",
+          "start": 175.14,
+          "end": 175.58,
+          "probability": 0.9684
+        },
+        {
+          "word": " it's",
+          "start": 175.74,
+          "end": 175.84,
+          "probability": 0.8913
+        },
+        {
+          "word": " done",
+          "start": 175.84,
+          "end": 176.02,
+          "probability": 0.9978
+        },
+        {
+          "word": " before",
+          "start": 176.02,
+          "end": 176.44,
+          "probability": 0.9974
+        },
+        {
+          "word": " and",
+          "start": 176.44,
+          "end": 176.68,
+          "probability": 0.9801
+        },
+        {
+          "word": " after",
+          "start": 176.68,
+          "end": 177.02,
+          "probability": 0.9996
+        },
+        {
+          "word": " breaking",
+          "start": 177.02,
+          "end": 177.32,
+          "probability": 0.7775
+        },
+        {
+          "word": " a",
+          "start": 177.32,
+          "end": 177.54,
+          "probability": 0.9459
+        },
+        {
+          "word": " sugar",
+          "start": 177.54,
+          "end": 177.72,
+          "probability": 0.5014
+        },
+        {
+          "word": " solution.",
+          "start": 177.72,
+          "end": 178.34,
+          "probability": 0.9882
+        }
+      ]
+    },
+    {
+      "start": 178.34,
+      "end": 184.68,
+      "text": "For HBA1C test, it is done able 2 to 3 months to check average blood sugar levels of a time.",
+      "avg_log_prob": -0.2321,
+      "words": [
+        {
+          "word": " For",
+          "start": 178.34,
+          "end": 179.04,
+          "probability": 0.0154
+        },
+        {
+          "word": " HBA1C",
+          "start": 179.04,
+          "end": 180.16,
+          "probability": 0.4493
+        },
+        {
+          "word": " test,",
+          "start": 180.16,
+          "end": 180.52,
+          "probability": 0.1943
+        },
+        {
+          "word": " it",
+          "start": 180.64,
+          "end": 180.72,
+          "probability": 0.8647
+        },
+        {
+          "word": " is",
+          "start": 180.72,
+          "end": 180.8,
+          "probability": 0.8736
+        },
+        {
+          "word": " done",
+          "start": 180.8,
+          "end": 181.04,
+          "probability": 0.3844
+        },
+        {
+          "word": " able",
+          "start": 181.04,
+          "end": 181.46,
+          "probability": 0.7813
+        },
+        {
+          "word": " 2",
+          "start": 181.46,
+          "end": 181.74,
+          "probability": 0.2821
+        },
+        {
+          "word": " to",
+          "start": 181.74,
+          "end": 181.96,
+          "probability": 0.2831
+        },
+        {
+          "word": " 3",
+          "start": 181.96,
+          "end": 182.18,
+          "probability": 0.9945
+        },
+        {
+          "word": " months",
+          "start": 182.18,
+          "end": 182.36,
+          "probability": 0.9915
+        },
+        {
+          "word": " to",
+          "start": 182.36,
+          "end": 182.6,
+          "probability": 0.9627
+        },
+        {
+          "word": " check",
+          "start": 182.6,
+          "end": 182.82,
+          "probability": 0.9877
+        },
+        {
+          "word": " average",
+          "start": 182.82,
+          "end": 183.2,
+          "probability": 0.851
+        },
+        {
+          "word": " blood",
+          "start": 183.2,
+          "end": 183.4,
+          "probability": 0.9878
+        },
+        {
+          "word": " sugar",
+          "start": 183.4,
+          "end": 183.68,
+          "probability": 0.9967
+        },
+        {
+          "word": " levels",
+          "start": 183.68,
+          "end": 184.04,
+          "probability": 0.9898
+        },
+        {
+          "word": " of",
+          "start": 184.04,
+          "end": 184.38,
+          "probability": 0.3016
+        },
+        {
+          "word": " a",
+          "start": 184.38,
+          "end": 184.44,
+          "probability": 0.7397
+        },
+        {
+          "word": " time.",
+          "start": 184.44,
+          "end": 184.68,
+          "probability": 0.9535
+        }
+      ]
+    },
+    {
+      "start": 185.98,
+      "end": 190.44,
+      "text": "If, for instance, you are diagnosed with diabetes, what type of diet should you eat?",
+      "avg_log_prob": -0.2321,
+      "words": [
+        {
+          "word": " If,",
+          "start": 185.98,
+          "end": 186.18,
+          "probability": 0.8239
+        },
+        {
+          "word": " for",
+          "start": 186.26,
+          "end": 186.36,
+          "probability": 0.9814
+        },
+        {
+          "word": " instance,",
+          "start": 186.36,
+          "end": 186.68,
+          "probability": 0.9929
+        },
+        {
+          "word": " you",
+          "start": 186.98,
+          "end": 187.06,
+          "probability": 0.5934
+        },
+        {
+          "word": " are",
+          "start": 187.06,
+          "end": 187.22,
+          "probability": 0.7925
+        },
+        {
+          "word": " diagnosed",
+          "start": 187.22,
+          "end": 187.62,
+          "probability": 0.9933
+        },
+        {
+          "word": " with",
+          "start": 187.62,
+          "end": 187.98,
+          "probability": 0.9128
+        },
+        {
+          "word": " diabetes,",
+          "start": 187.98,
+          "end": 188.48,
+          "probability": 0.995
+        },
+        {
+          "word": " what",
+          "start": 188.98,
+          "end": 189.22,
+          "probability": 0.933
+        },
+        {
+          "word": " type",
+          "start": 189.22,
+          "end": 189.4,
+          "probability": 0.9868
+        },
+        {
+          "word": " of",
+          "start": 189.4,
+          "end": 189.62,
+          "probability": 0.9983
+        },
+        {
+          "word": " diet",
+          "start": 189.62,
+          "end": 189.78,
+          "probability": 0.9456
+        },
+        {
+          "word": " should",
+          "start": 189.78,
+          "end": 190.04,
+          "probability": 0.9935
+        },
+        {
+          "word": " you",
+          "start": 190.04,
+          "end": 190.2,
+          "probability": 0.9917
+        },
+        {
+          "word": " eat?",
+          "start": 190.2,
+          "end": 190.44,
+          "probability": 0.997
+        }
+      ]
+    },
+    {
+      "start": 190.86,
+      "end": 196.0,
+      "text": "Well, fast and foremost, we should consider eating a balanced diet, which is rich in all grains, vegetables,",
+      "avg_log_prob": -0.2321,
+      "words": [
+        {
+          "word": " Well,",
+          "start": 190.86,
+          "end": 191.04,
+          "probability": 0.9583
+        },
+        {
+          "word": " fast",
+          "start": 191.52,
+          "end": 191.7,
+          "probability": 0.3652
+        },
+        {
+          "word": " and",
+          "start": 191.7,
+          "end": 191.82,
+          "probability": 0.982
+        },
+        {
+          "word": " foremost,",
+          "start": 191.82,
+          "end": 192.08,
+          "probability": 0.9898
+        },
+        {
+          "word": " we",
+          "start": 192.24,
+          "end": 192.3,
+          "probability": 0.676
+        },
+        {
+          "word": " should",
+          "start": 192.3,
+          "end": 192.46,
+          "probability": 0.9969
+        },
+        {
+          "word": " consider",
+          "start": 192.46,
+          "end": 192.7,
+          "probability": 0.6845
+        },
+        {
+          "word": " eating",
+          "start": 192.7,
+          "end": 193.14,
+          "probability": 0.9938
+        },
+        {
+          "word": " a",
+          "start": 193.14,
+          "end": 193.34,
+          "probability": 0.9951
+        },
+        {
+          "word": " balanced",
+          "start": 193.34,
+          "end": 193.56,
+          "probability": 0.9283
+        },
+        {
+          "word": " diet,",
+          "start": 193.56,
+          "end": 193.96,
+          "probability": 0.9997
+        },
+        {
+          "word": " which",
+          "start": 194.1,
+          "end": 194.22,
+          "probability": 0.9929
+        },
+        {
+          "word": " is",
+          "start": 194.22,
+          "end": 194.36,
+          "probability": 0.9939
+        },
+        {
+          "word": " rich",
+          "start": 194.36,
+          "end": 194.6,
+          "probability": 0.6079
+        },
+        {
+          "word": " in",
+          "start": 194.6,
+          "end": 194.78,
+          "probability": 0.9971
+        },
+        {
+          "word": " all",
+          "start": 194.78,
+          "end": 194.94,
+          "probability": 0.57
+        },
+        {
+          "word": " grains,",
+          "start": 194.94,
+          "end": 195.28,
+          "probability": 0.8867
+        },
+        {
+          "word": " vegetables,",
+          "start": 195.92,
+          "end": 196.0,
+          "probability": 0.9227
+        }
+      ]
+    },
+    {
+      "start": 196.92,
+      "end": 202.28,
+      "text": "leany proteins, leany proteins include poll tree, red meat, numb them, and also health fats.",
+      "avg_log_prob": -0.2321,
+      "words": [
+        {
+          "word": " leany",
+          "start": 196.92,
+          "end": 197.1,
+          "probability": 0.33
+        },
+        {
+          "word": " proteins,",
+          "start": 197.1,
+          "end": 197.44,
+          "probability": 0.9643
+        },
+        {
+          "word": " leany",
+          "start": 197.96,
+          "end": 198.16,
+          "probability": 0.9539
+        },
+        {
+          "word": " proteins",
+          "start": 198.16,
+          "end": 198.38,
+          "probability": 0.9823
+        },
+        {
+          "word": " include",
+          "start": 198.38,
+          "end": 198.8,
+          "probability": 0.9513
+        },
+        {
+          "word": " poll",
+          "start": 198.8,
+          "end": 199.14,
+          "probability": 0.0555
+        },
+        {
+          "word": " tree,",
+          "start": 199.14,
+          "end": 199.46,
+          "probability": 0.5106
+        },
+        {
+          "word": " red",
+          "start": 199.66,
+          "end": 199.74,
+          "probability": 0.5794
+        },
+        {
+          "word": " meat,",
+          "start": 199.74,
+          "end": 200.02,
+          "probability": 0.5281
+        },
+        {
+          "word": " numb",
+          "start": 200.56,
+          "end": 200.6,
+          "probability": 0.3057
+        },
+        {
+          "word": " them,",
+          "start": 200.6,
+          "end": 200.94,
+          "probability": 0.9139
+        },
+        {
+          "word": " and",
+          "start": 201.18,
+          "end": 201.3,
+          "probability": 0.9925
+        },
+        {
+          "word": " also",
+          "start": 201.3,
+          "end": 201.58,
+          "probability": 0.991
+        },
+        {
+          "word": " health",
+          "start": 201.58,
+          "end": 201.84,
+          "probability": 0.8625
+        },
+        {
+          "word": " fats.",
+          "start": 201.84,
+          "end": 202.28,
+          "probability": 0.9728
+        }
+      ]
+    },
+    {
+      "start": 202.94,
+      "end": 209.06,
+      "text": "Limit sugar foods, refined carbs, and processed items, and also control portion sizes",
+      "avg_log_prob": -0.1585,
+      "words": [
+        {
+          "word": " Limit",
+          "start": 202.94,
+          "end": 203.58,
+          "probability": 0.4876
+        },
+        {
+          "word": " sugar",
+          "start": 203.58,
+          "end": 203.94,
+          "probability": 0.7324
+        },
+        {
+          "word": " foods,",
+          "start": 203.94,
+          "end": 204.6,
+          "probability": 0.9432
+        },
+        {
+          "word": " refined",
+          "start": 204.92,
+          "end": 205.18,
+          "probability": 0.8121
+        },
+        {
+          "word": " carbs,",
+          "start": 205.18,
+          "end": 205.56,
+          "probability": 0.6368
+        },
+        {
+          "word": " and",
+          "start": 205.86,
+          "end": 205.94,
+          "probability": 0.4565
+        },
+        {
+          "word": " processed",
+          "start": 205.94,
+          "end": 206.3,
+          "probability": 0.9973
+        },
+        {
+          "word": " items,",
+          "start": 206.3,
+          "end": 206.92,
+          "probability": 0.9688
+        },
+        {
+          "word": " and",
+          "start": 206.92,
+          "end": 207.16,
+          "probability": 0.9719
+        },
+        {
+          "word": " also",
+          "start": 207.16,
+          "end": 207.32,
+          "probability": 0.9175
+        },
+        {
+          "word": " control",
+          "start": 207.32,
+          "end": 207.86,
+          "probability": 0.792
+        },
+        {
+          "word": " portion",
+          "start": 207.86,
+          "end": 208.6,
+          "probability": 0.2308
+        },
+        {
+          "word": " sizes",
+          "start": 208.6,
+          "end": 209.06,
+          "probability": 0.9945
+        }
+      ]
+    },
+    {
+      "start": 209.06,
+      "end": 211.2,
+      "text": "to help keep your blood sugar stable.",
+      "avg_log_prob": -0.1585,
+      "words": [
+        {
+          "word": " to",
+          "start": 209.06,
+          "end": 209.32,
+          "probability": 0.9558
+        },
+        {
+          "word": " help",
+          "start": 209.32,
+          "end": 209.5,
+          "probability": 0.9885
+        },
+        {
+          "word": " keep",
+          "start": 209.5,
+          "end": 209.78,
+          "probability": 0.9182
+        },
+        {
+          "word": " your",
+          "start": 209.78,
+          "end": 210.02,
+          "probability": 0.9764
+        },
+        {
+          "word": " blood",
+          "start": 210.02,
+          "end": 210.18,
+          "probability": 0.9876
+        },
+        {
+          "word": " sugar",
+          "start": 210.18,
+          "end": 210.56,
+          "probability": 0.9978
+        },
+        {
+          "word": " stable.",
+          "start": 210.56,
+          "end": 211.2,
+          "probability": 0.9925
+        }
+      ]
+    },
+    {
+      "start": 212.4,
+      "end": 215.52,
+      "text": "Do people normally consider doing some sports and exercise?",
+      "avg_log_prob": -0.1585,
+      "words": [
+        {
+          "word": " Do",
+          "start": 212.4,
+          "end": 212.42,
+          "probability": 0.4188
+        },
+        {
+          "word": " people",
+          "start": 212.42,
+          "end": 212.72,
+          "probability": 0.7776
+        },
+        {
+          "word": " normally",
+          "start": 212.72,
+          "end": 213.16,
+          "probability": 0.9918
+        },
+        {
+          "word": " consider",
+          "start": 213.16,
+          "end": 213.58,
+          "probability": 0.9881
+        },
+        {
+          "word": " doing",
+          "start": 213.58,
+          "end": 213.96,
+          "probability": 0.9984
+        },
+        {
+          "word": " some",
+          "start": 213.96,
+          "end": 214.26,
+          "probability": 0.9791
+        },
+        {
+          "word": " sports",
+          "start": 214.26,
+          "end": 214.76,
+          "probability": 0.9066
+        },
+        {
+          "word": " and",
+          "start": 214.76,
+          "end": 215.18,
+          "probability": 0.9106
+        },
+        {
+          "word": " exercise?",
+          "start": 215.18,
+          "end": 215.52,
+          "probability": 0.6372
+        }
+      ]
+    },
+    {
+      "start": 216.34,
+      "end": 221.78,
+      "text": "If not, then be aware that sports and exercise help manage diabetes by lowering blood sugar levels.",
+      "avg_log_prob": -0.1585,
+      "words": [
+        {
+          "word": " If",
+          "start": 216.34,
+          "end": 216.56,
+          "probability": 0.9937
+        },
+        {
+          "word": " not,",
+          "start": 216.56,
+          "end": 216.76,
+          "probability": 0.9988
+        },
+        {
+          "word": " then",
+          "start": 217.32,
+          "end": 217.58,
+          "probability": 0.9333
+        },
+        {
+          "word": " be",
+          "start": 217.58,
+          "end": 217.78,
+          "probability": 0.9829
+        },
+        {
+          "word": " aware",
+          "start": 217.78,
+          "end": 218.0,
+          "probability": 0.9975
+        },
+        {
+          "word": " that",
+          "start": 218.0,
+          "end": 218.24,
+          "probability": 0.9933
+        },
+        {
+          "word": " sports",
+          "start": 218.24,
+          "end": 218.5,
+          "probability": 0.9974
+        },
+        {
+          "word": " and",
+          "start": 218.5,
+          "end": 218.76,
+          "probability": 0.9911
+        },
+        {
+          "word": " exercise",
+          "start": 218.76,
+          "end": 219.06,
+          "probability": 0.4698
+        },
+        {
+          "word": " help",
+          "start": 219.06,
+          "end": 219.42,
+          "probability": 0.679
+        },
+        {
+          "word": " manage",
+          "start": 219.42,
+          "end": 219.66,
+          "probability": 0.2845
+        },
+        {
+          "word": " diabetes",
+          "start": 219.66,
+          "end": 220.16,
+          "probability": 0.3987
+        },
+        {
+          "word": " by",
+          "start": 220.16,
+          "end": 220.5,
+          "probability": 0.985
+        },
+        {
+          "word": " lowering",
+          "start": 220.5,
+          "end": 220.72,
+          "probability": 0.8451
+        },
+        {
+          "word": " blood",
+          "start": 220.72,
+          "end": 221.04,
+          "probability": 0.9951
+        },
+        {
+          "word": " sugar",
+          "start": 221.04,
+          "end": 221.3,
+          "probability": 0.9982
+        },
+        {
+          "word": " levels.",
+          "start": 221.3,
+          "end": 221.78,
+          "probability": 0.9989
+        }
+      ]
+    },
+    {
+      "start": 222.28,
+      "end": 225.9,
+      "text": "They improve insulin sensitivity and also aid weight control.",
+      "avg_log_prob": -0.1585,
+      "words": [
+        {
+          "word": " They",
+          "start": 222.28,
+          "end": 222.46,
+          "probability": 0.9886
+        },
+        {
+          "word": " improve",
+          "start": 222.46,
+          "end": 222.92,
+          "probability": 0.9932
+        },
+        {
+          "word": " insulin",
+          "start": 222.92,
+          "end": 223.28,
+          "probability": 0.985
+        },
+        {
+          "word": " sensitivity",
+          "start": 223.28,
+          "end": 223.72,
+          "probability": 0.2344
+        },
+        {
+          "word": " and",
+          "start": 223.72,
+          "end": 224.22,
+          "probability": 0.7745
+        },
+        {
+          "word": " also",
+          "start": 224.22,
+          "end": 224.5,
+          "probability": 0.9972
+        },
+        {
+          "word": " aid",
+          "start": 224.5,
+          "end": 224.8,
+          "probability": 0.9091
+        },
+        {
+          "word": " weight",
+          "start": 224.8,
+          "end": 225.34,
+          "probability": 0.9738
+        },
+        {
+          "word": " control.",
+          "start": 225.34,
+          "end": 225.9,
+          "probability": 0.9932
+        }
+      ]
+    },
+    {
+      "start": 226.7,
+      "end": 231.1,
+      "text": "Regular physical activity also boosts overall health and also reduces the risk of complications.",
+      "avg_log_prob": -0.1585,
+      "words": [
+        {
+          "word": " Regular",
+          "start": 226.7,
+          "end": 226.9,
+          "probability": 0.9608
+        },
+        {
+          "word": " physical",
+          "start": 226.9,
+          "end": 227.22,
+          "probability": 0.9605
+        },
+        {
+          "word": " activity",
+          "start": 227.22,
+          "end": 227.6,
+          "probability": 0.8345
+        },
+        {
+          "word": " also",
+          "start": 227.6,
+          "end": 228.02,
+          "probability": 0.9789
+        },
+        {
+          "word": " boosts",
+          "start": 228.02,
+          "end": 228.46,
+          "probability": 0.8322
+        },
+        {
+          "word": " overall",
+          "start": 228.46,
+          "end": 228.68,
+          "probability": 0.5886
+        },
+        {
+          "word": " health",
+          "start": 228.68,
+          "end": 228.98,
+          "probability": 0.9956
+        },
+        {
+          "word": " and",
+          "start": 228.98,
+          "end": 229.2,
+          "probability": 0.7788
+        },
+        {
+          "word": " also",
+          "start": 229.2,
+          "end": 229.48,
+          "probability": 0.9972
+        },
+        {
+          "word": " reduces",
+          "start": 229.48,
+          "end": 229.78,
+          "probability": 0.8721
+        },
+        {
+          "word": " the",
+          "start": 229.78,
+          "end": 230.08,
+          "probability": 0.9692
+        },
+        {
+          "word": " risk",
+          "start": 230.08,
+          "end": 230.3,
+          "probability": 0.985
+        },
+        {
+          "word": " of",
+          "start": 230.3,
+          "end": 230.54,
+          "probability": 0.9963
+        },
+        {
+          "word": " complications.",
+          "start": 230.54,
+          "end": 231.1,
+          "probability": 0.9957
+        }
+      ]
+    },
+    {
+      "start": 232.08,
+      "end": 235.72,
+      "text": "If you happen to be diabetic, what type of medication will you need?",
+      "avg_log_prob": -0.2668,
+      "words": [
+        {
+          "word": " If",
+          "start": 232.08,
+          "end": 232.6,
+          "probability": 0.0571
+        },
+        {
+          "word": " you",
+          "start": 232.6,
+          "end": 232.8,
+          "probability": 0.8923
+        },
+        {
+          "word": " happen",
+          "start": 232.8,
+          "end": 233.08,
+          "probability": 0.6578
+        },
+        {
+          "word": " to",
+          "start": 233.08,
+          "end": 233.3,
+          "probability": 0.985
+        },
+        {
+          "word": " be",
+          "start": 233.3,
+          "end": 233.42,
+          "probability": 0.9791
+        },
+        {
+          "word": " diabetic,",
+          "start": 233.42,
+          "end": 233.74,
+          "probability": 0.9791
+        },
+        {
+          "word": " what",
+          "start": 234.24,
+          "end": 234.32,
+          "probability": 0.6083
+        },
+        {
+          "word": " type",
+          "start": 234.32,
+          "end": 234.48,
+          "probability": 0.9533
+        },
+        {
+          "word": " of",
+          "start": 234.48,
+          "end": 234.58,
+          "probability": 0.9936
+        },
+        {
+          "word": " medication",
+          "start": 234.58,
+          "end": 234.96,
+          "probability": 0.9738
+        },
+        {
+          "word": " will",
+          "start": 234.96,
+          "end": 235.26,
+          "probability": 0.9081
+        },
+        {
+          "word": " you",
+          "start": 235.26,
+          "end": 235.36,
+          "probability": 0.9914
+        },
+        {
+          "word": " need?",
+          "start": 235.36,
+          "end": 235.72,
+          "probability": 0.9866
+        }
+      ]
+    },
+    {
+      "start": 236.24,
+      "end": 242.16,
+      "text": "Good, the medication for diabetes may include oral drugs like BP-P4 inhibitor, such as ologlyptin,",
+      "avg_log_prob": -0.2668,
+      "words": [
+        {
+          "word": " Good,",
+          "start": 236.24,
+          "end": 236.44,
+          "probability": 0.9418
+        },
+        {
+          "word": " the",
+          "start": 236.92,
+          "end": 237.16,
+          "probability": 0.725
+        },
+        {
+          "word": " medication",
+          "start": 237.16,
+          "end": 237.48,
+          "probability": 0.8405
+        },
+        {
+          "word": " for",
+          "start": 237.48,
+          "end": 237.82,
+          "probability": 0.9912
+        },
+        {
+          "word": " diabetes",
+          "start": 237.82,
+          "end": 238.22,
+          "probability": 0.9379
+        },
+        {
+          "word": " may",
+          "start": 238.22,
+          "end": 238.58,
+          "probability": 0.9856
+        },
+        {
+          "word": " include",
+          "start": 238.58,
+          "end": 238.88,
+          "probability": 0.9966
+        },
+        {
+          "word": " oral",
+          "start": 238.88,
+          "end": 239.22,
+          "probability": 0.6722
+        },
+        {
+          "word": " drugs",
+          "start": 239.22,
+          "end": 239.5,
+          "probability": 0.9767
+        },
+        {
+          "word": " like",
+          "start": 239.5,
+          "end": 239.88,
+          "probability": 0.9471
+        },
+        {
+          "word": " BP",
+          "start": 239.88,
+          "end": 240.1,
+          "probability": 0.1246
+        },
+        {
+          "word": "-P4",
+          "start": 240.1,
+          "end": 240.5,
+          "probability": 0.5755
+        },
+        {
+          "word": " inhibitor,",
+          "start": 240.5,
+          "end": 241.0,
+          "probability": 0.612
+        },
+        {
+          "word": " such",
+          "start": 241.14,
+          "end": 241.26,
+          "probability": 0.9896
+        },
+        {
+          "word": " as",
+          "start": 241.26,
+          "end": 241.44,
+          "probability": 0.9983
+        },
+        {
+          "word": " ologlyptin,",
+          "start": 241.44,
+          "end": 242.16,
+          "probability": 0.6407
+        }
+      ]
+    },
+    {
+      "start": 242.82,
+      "end": 248.82,
+      "text": "alpha-gloxides in inhibitors like acabose, and does include the metformin, which in most cases is the first line of treatment.",
+      "avg_log_prob": -0.2668,
+      "words": [
+        {
+          "word": " alpha",
+          "start": 242.82,
+          "end": 243.02,
+          "probability": 0.7757
+        },
+        {
+          "word": "-gloxides",
+          "start": 243.02,
+          "end": 243.54,
+          "probability": 0.6909
+        },
+        {
+          "word": " in",
+          "start": 243.54,
+          "end": 243.76,
+          "probability": 0.267
+        },
+        {
+          "word": " inhibitors",
+          "start": 243.76,
+          "end": 244.22,
+          "probability": 0.6341
+        },
+        {
+          "word": " like",
+          "start": 244.22,
+          "end": 244.56,
+          "probability": 0.7808
+        },
+        {
+          "word": " acabose,",
+          "start": 244.56,
+          "end": 245.06,
+          "probability": 0.6048
+        },
+        {
+          "word": " and",
+          "start": 245.44,
+          "end": 245.56,
+          "probability": 0.8651
+        },
+        {
+          "word": " does",
+          "start": 245.56,
+          "end": 245.7,
+          "probability": 0.4208
+        },
+        {
+          "word": " include",
+          "start": 245.7,
+          "end": 245.98,
+          "probability": 0.8658
+        },
+        {
+          "word": " the",
+          "start": 245.98,
+          "end": 246.16,
+          "probability": 0.804
+        },
+        {
+          "word": " metformin,",
+          "start": 246.16,
+          "end": 246.66,
+          "probability": 0.8341
+        },
+        {
+          "word": " which",
+          "start": 246.78,
+          "end": 246.92,
+          "probability": 0.7555
+        },
+        {
+          "word": " in",
+          "start": 246.92,
+          "end": 247.04,
+          "probability": 0.8452
+        },
+        {
+          "word": " most",
+          "start": 247.04,
+          "end": 247.24,
+          "probability": 0.8877
+        },
+        {
+          "word": " cases",
+          "start": 247.24,
+          "end": 247.5,
+          "probability": 0.9988
+        },
+        {
+          "word": " is",
+          "start": 247.5,
+          "end": 247.78,
+          "probability": 0.905
+        },
+        {
+          "word": " the",
+          "start": 247.78,
+          "end": 247.82,
+          "probability": 0.9548
+        },
+        {
+          "word": " first",
+          "start": 247.82,
+          "end": 248.04,
+          "probability": 0.7766
+        },
+        {
+          "word": " line",
+          "start": 248.04,
+          "end": 248.22,
+          "probability": 0.9683
+        },
+        {
+          "word": " of",
+          "start": 248.22,
+          "end": 248.44,
+          "probability": 0.9982
+        },
+        {
+          "word": " treatment.",
+          "start": 248.44,
+          "end": 248.82,
+          "probability": 0.9807
+        }
+      ]
+    },
+    {
+      "start": 249.28,
+      "end": 252.32,
+      "text": "We also have insulin injection, if the body doesn't produce enough insulin.",
+      "avg_log_prob": -0.2668,
+      "words": [
+        {
+          "word": " We",
+          "start": 249.28,
+          "end": 249.38,
+          "probability": 0.473
+        },
+        {
+          "word": " also",
+          "start": 249.38,
+          "end": 249.56,
+          "probability": 0.6641
+        },
+        {
+          "word": " have",
+          "start": 249.56,
+          "end": 249.8,
+          "probability": 0.9795
+        },
+        {
+          "word": " insulin",
+          "start": 249.8,
+          "end": 250.12,
+          "probability": 0.9172
+        },
+        {
+          "word": " injection,",
+          "start": 250.12,
+          "end": 250.52,
+          "probability": 0.9704
+        },
+        {
+          "word": " if",
+          "start": 250.64,
+          "end": 250.78,
+          "probability": 0.9753
+        },
+        {
+          "word": " the",
+          "start": 250.78,
+          "end": 250.92,
+          "probability": 0.824
+        },
+        {
+          "word": " body",
+          "start": 250.92,
+          "end": 251.04,
+          "probability": 0.6214
+        },
+        {
+          "word": " doesn't",
+          "start": 251.04,
+          "end": 251.3,
+          "probability": 0.9413
+        },
+        {
+          "word": " produce",
+          "start": 251.3,
+          "end": 251.62,
+          "probability": 0.9864
+        },
+        {
+          "word": " enough",
+          "start": 251.62,
+          "end": 251.88,
+          "probability": 0.9983
+        },
+        {
+          "word": " insulin.",
+          "start": 251.88,
+          "end": 252.32,
+          "probability": 0.6233
+        }
+      ]
+    },
+    {
+      "start": 253.04,
+      "end": 256.44,
+      "text": "The choice, however, depends on the diabetes type and individual needs.",
+      "avg_log_prob": -0.2668,
+      "words": [
+        {
+          "word": " The",
+          "start": 253.04,
+          "end": 253.26,
+          "probability": 0.9835
+        },
+        {
+          "word": " choice,",
+          "start": 253.26,
+          "end": 253.44,
+          "probability": 0.9958
+        },
+        {
+          "word": " however,",
+          "start": 253.62,
+          "end": 253.88,
+          "probability": 0.9986
+        },
+        {
+          "word": " depends",
+          "start": 254.04,
+          "end": 254.28,
+          "probability": 0.9936
+        },
+        {
+          "word": " on",
+          "start": 254.28,
+          "end": 254.52,
+          "probability": 0.9975
+        },
+        {
+          "word": " the",
+          "start": 254.52,
+          "end": 254.64,
+          "probability": 0.9343
+        },
+        {
+          "word": " diabetes",
+          "start": 254.64,
+          "end": 255.04,
+          "probability": 0.9243
+        },
+        {
+          "word": " type",
+          "start": 255.04,
+          "end": 255.4,
+          "probability": 0.9736
+        },
+        {
+          "word": " and",
+          "start": 255.4,
+          "end": 255.64,
+          "probability": 0.9354
+        },
+        {
+          "word": " individual",
+          "start": 255.64,
+          "end": 256.04,
+          "probability": 0.9498
+        },
+        {
+          "word": " needs.",
+          "start": 256.04,
+          "end": 256.44,
+          "probability": 0.9953
+        }
+      ]
+    },
+    {
+      "start": 258.18,
+      "end": 261.06,
+      "text": "Now, that marked the end of my presentation.",
+      "avg_log_prob": -0.1728,
+      "words": [
+        {
+          "word": " Now,",
+          "start": 258.18,
+          "end": 258.66,
+          "probability": 0.0569
+        },
+        {
+          "word": " that",
+          "start": 259.34,
+          "end": 259.5,
+          "probability": 0.867
+        },
+        {
+          "word": " marked",
+          "start": 259.5,
+          "end": 259.74,
+          "probability": 0.8869
+        },
+        {
+          "word": " the",
+          "start": 259.74,
+          "end": 260.0,
+          "probability": 0.97
+        },
+        {
+          "word": " end",
+          "start": 260.0,
+          "end": 260.2,
+          "probability": 0.9826
+        },
+        {
+          "word": " of",
+          "start": 260.2,
+          "end": 260.38,
+          "probability": 0.9949
+        },
+        {
+          "word": " my",
+          "start": 260.38,
+          "end": 260.5,
+          "probability": 0.9093
+        },
+        {
+          "word": " presentation.",
+          "start": 260.5,
+          "end": 261.06,
+          "probability": 0.9952
+        }
+      ]
+    },
+    {
+      "start": 261.56,
+      "end": 265.14,
+      "text": "And I just want to take this opportunity to thank you Ladies and Gentlemen of Excellence",
+      "avg_log_prob": -0.1728,
+      "words": [
+        {
+          "word": " And",
+          "start": 261.56,
+          "end": 261.68,
+          "probability": 0.821
+        },
+        {
+          "word": " I",
+          "start": 261.68,
+          "end": 261.8,
+          "probability": 0.6216
+        },
+        {
+          "word": " just",
+          "start": 261.8,
+          "end": 261.96,
+          "probability": 0.9504
+        },
+        {
+          "word": " want",
+          "start": 261.96,
+          "end": 262.18,
+          "probability": 0.8584
+        },
+        {
+          "word": " to",
+          "start": 262.18,
+          "end": 262.28,
+          "probability": 0.7378
+        },
+        {
+          "word": " take",
+          "start": 262.28,
+          "end": 262.38,
+          "probability": 0.7749
+        },
+        {
+          "word": " this",
+          "start": 262.38,
+          "end": 262.48,
+          "probability": 0.8356
+        },
+        {
+          "word": " opportunity",
+          "start": 262.48,
+          "end": 263.0,
+          "probability": 0.9992
+        },
+        {
+          "word": " to",
+          "start": 263.0,
+          "end": 263.36,
+          "probability": 0.958
+        },
+        {
+          "word": " thank",
+          "start": 263.36,
+          "end": 263.56,
+          "probability": 0.9922
+        },
+        {
+          "word": " you",
+          "start": 263.56,
+          "end": 263.74,
+          "probability": 0.9797
+        },
+        {
+          "word": " Ladies",
+          "start": 263.74,
+          "end": 264.0,
+          "probability": 0.4825
+        },
+        {
+          "word": " and",
+          "start": 264.0,
+          "end": 264.2,
+          "probability": 0.8981
+        },
+        {
+          "word": " Gentlemen",
+          "start": 264.2,
+          "end": 264.58,
+          "probability": 0.6086
+        },
+        {
+          "word": " of",
+          "start": 264.58,
+          "end": 264.86,
+          "probability": 0.9113
+        },
+        {
+          "word": " Excellence",
+          "start": 264.86,
+          "end": 265.14,
+          "probability": 0.5151
+        }
+      ]
+    },
+    {
+      "start": 265.14,
+      "end": 267.96,
+      "text": "for paying attention and watching my presentation.",
+      "avg_log_prob": -0.1728,
+      "words": [
+        {
+          "word": " for",
+          "start": 265.14,
+          "end": 265.78,
+          "probability": 0.9156
+        },
+        {
+          "word": " paying",
+          "start": 265.78,
+          "end": 266.0,
+          "probability": 0.9907
+        },
+        {
+          "word": " attention",
+          "start": 266.0,
+          "end": 266.54,
+          "probability": 0.8075
+        },
+        {
+          "word": " and",
+          "start": 266.54,
+          "end": 266.9,
+          "probability": 0.9515
+        },
+        {
+          "word": " watching",
+          "start": 266.9,
+          "end": 267.2,
+          "probability": 0.2787
+        },
+        {
+          "word": " my",
+          "start": 267.2,
+          "end": 267.34,
+          "probability": 0.9782
+        },
+        {
+          "word": " presentation.",
+          "start": 267.34,
+          "end": 267.96,
+          "probability": 0.9876
+        }
+      ]
+    },
+    {
+      "start": 268.7,
+      "end": 272.16,
+      "text": "I highly welcome you for any questions, comments, or suggestions.",
+      "avg_log_prob": -0.1728,
+      "words": [
+        {
+          "word": " I",
+          "start": 268.7,
+          "end": 268.98,
+          "probability": 0.9941
+        },
+        {
+          "word": " highly",
+          "start": 268.98,
+          "end": 269.2,
+          "probability": 0.6418
+        },
+        {
+          "word": " welcome",
+          "start": 269.2,
+          "end": 269.48,
+          "probability": 0.9963
+        },
+        {
+          "word": " you",
+          "start": 269.48,
+          "end": 269.88,
+          "probability": 0.9974
+        },
+        {
+          "word": " for",
+          "start": 269.88,
+          "end": 270.12,
+          "probability": 0.9155
+        },
+        {
+          "word": " any",
+          "start": 270.12,
+          "end": 270.3,
+          "probability": 0.9854
+        },
+        {
+          "word": " questions,",
+          "start": 270.3,
+          "end": 270.74,
+          "probability": 0.997
+        },
+        {
+          "word": " comments,",
+          "start": 271.24,
+          "end": 271.44,
+          "probability": 0.834
+        },
+        {
+          "word": " or",
+          "start": 271.68,
+          "end": 271.76,
+          "probability": 0.9652
+        },
+        {
+          "word": " suggestions.",
+          "start": 271.76,
+          "end": 272.16,
+          "probability": 0.998
+        }
+      ]
+    },
+    {
+      "start": 272.56,
+      "end": 274.46,
+      "text": "Thank you and I'm very grateful for you people.",
+      "avg_log_prob": -0.1728,
+      "words": [
+        {
+          "word": " Thank",
+          "start": 272.56,
+          "end": 272.62,
+          "probability": 0.9929
+        },
+        {
+          "word": " you",
+          "start": 272.62,
+          "end": 272.86,
+          "probability": 0.9914
+        },
+        {
+          "word": " and",
+          "start": 272.86,
+          "end": 273.06,
+          "probability": 0.4968
+        },
+        {
+          "word": " I'm",
+          "start": 273.06,
+          "end": 273.22,
+          "probability": 0.9068
+        },
+        {
+          "word": " very",
+          "start": 273.22,
+          "end": 273.4,
+          "probability": 0.9892
+        },
+        {
+          "word": " grateful",
+          "start": 273.4,
+          "end": 273.74,
+          "probability": 0.9966
+        },
+        {
+          "word": " for",
+          "start": 273.74,
+          "end": 274.06,
+          "probability": 0.9599
+        },
+        {
+          "word": " you",
+          "start": 274.06,
+          "end": 274.18,
+          "probability": 0.8708
+        },
+        {
+          "word": " people.",
+          "start": 274.18,
+          "end": 274.46,
+          "probability": 0.6254
+        }
+      ]
+    }
+  ],
+  "full_text": "Hai everyone, welcome to this powerful presentation on diabetes, my name is Bury and Songo. Ladies and gentlemen of excellence, today's agenda is very simple. Help ask your questions about diabetes, explain different types of diabetes, explain high blood sugar levels, and also help outline how you can manage your diabetes. To begin with, what is diabetes? Diabetes is a chronic condition where the body either doesn't produce enough insulin or can't use it effectively. These leads to high blood sugar levels that are two main types of diabetes, type 1 and type 2 diabetes. You may be wondering, what are the signs and symptoms of diabetes? You may be diagnosed with diabetes after you go to your doctor because, increased the test, frequent urination, extreme hunger, and explained weight loss, fatigue, blood division, slow healing source, frequent infections, tingling or numbness, enhanced stroke feed, and of course dry skin. What are the different types of diabetes? We have type 1 diabetes, which is autoimmune, orphan diagnosis in youth, we have type 2 diabetes, which is linked to lifestyle and genetics, more common in adults, We also have got the gestation of diabetes, which develops during pregnancy, usually in the second or third trimester, positive hormonal changes, and of course affecting insulin use, causing high blood sugar levels. Yoga will perhaps be asking yourself, what are these high blood sugar levels? Well, high blood sugar levels, or hypogrecemia, occur when there's too much glucose in the blood due to insufficient insulin or insulin resistance. Another critical question is, what causes high blood sugar levels? High blood sugar levels are caused when the body doesn't produce enough insulin or can't use it effectively. Insulin is the hormone that helps remove glucose from the blood into cells for energy. Without enough insulin, glucose builds up in the bloodstream. Now, what should be ideal blood sugar level? A fasting blood sugar level should be between 3.9 to 5.5 minimal per litre. One to two hours after eating, it should be less than 7.8 minimal per litre. HBA1C should be less than 5.7%. For people with diabetes, fasting blood sugar level should be between 4.4 to 7.2 minimal per litre. One to two hours after eating, it should be less than 10.0 minimal per litre. For HBA1C, it should be less than 7%. When should you do your blood tests? For fasting, it's done after 8 hours without eating. For random, anytime, regardless of meals. For OTT, that is oral glucose tolerance test, it's done before and after breaking a sugar solution. For HBA1C test, it is done able 2 to 3 months to check average blood sugar levels of a time. If, for instance, you are diagnosed with diabetes, what type of diet should you eat? Well, fast and foremost, we should consider eating a balanced diet, which is rich in all grains, vegetables, leany proteins, leany proteins include poll tree, red meat, numb them, and also health fats. Limit sugar foods, refined carbs, and processed items, and also control portion sizes to help keep your blood sugar stable. Do people normally consider doing some sports and exercise? If not, then be aware that sports and exercise help manage diabetes by lowering blood sugar levels. They improve insulin sensitivity and also aid weight control. Regular physical activity also boosts overall health and also reduces the risk of complications. If you happen to be diabetic, what type of medication will you need? Good, the medication for diabetes may include oral drugs like BP-P4 inhibitor, such as ologlyptin, alpha-gloxides in inhibitors like acabose, and does include the metformin, which in most cases is the first line of treatment. We also have insulin injection, if the body doesn't produce enough insulin. The choice, however, depends on the diabetes type and individual needs. Now, that marked the end of my presentation. And I just want to take this opportunity to thank you Ladies and Gentlemen of Excellence for paying attention and watching my presentation. I highly welcome you for any questions, comments, or suggestions. Thank you and I'm very grateful for you people."
+}
