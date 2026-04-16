@@ -117,4 +117,7 @@ pytesseract==0.3.13
 selenium==4.36.0
 Pillow>=10.0.0
 tqdm>=4.65.0 
-minio>=7.1.0 
+minio>=7.1.0
+pydub>=0.25.1
+moviepy>=2.0.0
+faster-whisper>=1.0.0

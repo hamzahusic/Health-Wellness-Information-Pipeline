@@ -1,0 +1,2756 @@
+{
+  "source_file": "Type 2 Diabetes.mp3",
+  "language": "en",
+  "language_probability": 0.995,
+  "duration_s": 206.17,
+  "model": "base",
+  "segments": [
+    {
+      "start": 6.42,
+      "end": 11.74,
+      "text": "Type 2 Diabetes is a condition in which your blood sugar level is too high.",
+      "avg_log_prob": -0.1719,
+      "words": [
+        {
+          "word": " Type",
+          "start": 6.42,
+          "end": 7.1,
+          "probability": 0.9536
+        },
+        {
+          "word": " 2",
+          "start": 7.1,
+          "end": 7.36,
+          "probability": 0.5796
+        },
+        {
+          "word": " Diabetes",
+          "start": 7.36,
+          "end": 7.88,
+          "probability": 0.6227
+        },
+        {
+          "word": " is",
+          "start": 7.88,
+          "end": 8.24,
+          "probability": 0.9822
+        },
+        {
+          "word": " a",
+          "start": 8.24,
+          "end": 8.36,
+          "probability": 0.998
+        },
+        {
+          "word": " condition",
+          "start": 8.36,
+          "end": 8.64,
+          "probability": 0.9974
+        },
+        {
+          "word": " in",
+          "start": 8.64,
+          "end": 9.22,
+          "probability": 0.9865
+        },
+        {
+          "word": " which",
+          "start": 9.22,
+          "end": 9.42,
+          "probability": 0.9985
+        },
+        {
+          "word": " your",
+          "start": 9.42,
+          "end": 9.66,
+          "probability": 0.99
+        },
+        {
+          "word": " blood",
+          "start": 9.66,
+          "end": 9.88,
+          "probability": 0.99
+        },
+        {
+          "word": " sugar",
+          "start": 9.88,
+          "end": 10.2,
+          "probability": 0.9984
+        },
+        {
+          "word": " level",
+          "start": 10.2,
+          "end": 10.58,
+          "probability": 0.9919
+        },
+        {
+          "word": " is",
+          "start": 10.58,
+          "end": 10.96,
+          "probability": 0.9985
+        },
+        {
+          "word": " too",
+          "start": 10.96,
+          "end": 11.2,
+          "probability": 0.9881
+        },
+        {
+          "word": " high.",
+          "start": 11.2,
+          "end": 11.74,
+          "probability": 0.9992
+        }
+      ]
+    },
+    {
+      "start": 12.8,
+      "end": 16.48,
+      "text": "Carbohydrates are substances your body uses to make energy.",
+      "avg_log_prob": -0.1719,
+      "words": [
+        {
+          "word": " Carbohydrates",
+          "start": 12.8,
+          "end": 13.48,
+          "probability": 0.8452
+        },
+        {
+          "word": " are",
+          "start": 13.48,
+          "end": 13.8,
+          "probability": 0.9917
+        },
+        {
+          "word": " substances",
+          "start": 13.8,
+          "end": 14.24,
+          "probability": 0.984
+        },
+        {
+          "word": " your",
+          "start": 14.24,
+          "end": 14.64,
+          "probability": 0.9925
+        },
+        {
+          "word": " body",
+          "start": 14.64,
+          "end": 14.92,
+          "probability": 0.999
+        },
+        {
+          "word": " uses",
+          "start": 14.92,
+          "end": 15.34,
+          "probability": 0.9967
+        },
+        {
+          "word": " to",
+          "start": 15.34,
+          "end": 15.7,
+          "probability": 0.996
+        },
+        {
+          "word": " make",
+          "start": 15.7,
+          "end": 15.9,
+          "probability": 0.9985
+        },
+        {
+          "word": " energy.",
+          "start": 15.9,
+          "end": 16.48,
+          "probability": 0.9979
+        }
+      ]
+    },
+    {
+      "start": 17.04,
+      "end": 22.38,
+      "text": "After you eat food that contains carbohydrates, it eventually goes to your small intestine.",
+      "avg_log_prob": -0.1719,
+      "words": [
+        {
+          "word": " After",
+          "start": 17.04,
+          "end": 17.28,
+          "probability": 0.9894
+        },
+        {
+          "word": " you",
+          "start": 17.28,
+          "end": 17.44,
+          "probability": 0.9889
+        },
+        {
+          "word": " eat",
+          "start": 17.44,
+          "end": 17.56,
+          "probability": 0.9899
+        },
+        {
+          "word": " food",
+          "start": 17.56,
+          "end": 17.82,
+          "probability": 0.983
+        },
+        {
+          "word": " that",
+          "start": 17.82,
+          "end": 18.0,
+          "probability": 0.9989
+        },
+        {
+          "word": " contains",
+          "start": 18.0,
+          "end": 18.4,
+          "probability": 0.9966
+        },
+        {
+          "word": " carbohydrates,",
+          "start": 18.4,
+          "end": 19.2,
+          "probability": 0.9125
+        },
+        {
+          "word": " it",
+          "start": 20.18,
+          "end": 20.24,
+          "probability": 0.9931
+        },
+        {
+          "word": " eventually",
+          "start": 20.24,
+          "end": 20.78,
+          "probability": 0.9973
+        },
+        {
+          "word": " goes",
+          "start": 20.78,
+          "end": 21.1,
+          "probability": 0.9979
+        },
+        {
+          "word": " to",
+          "start": 21.1,
+          "end": 21.4,
+          "probability": 0.9979
+        },
+        {
+          "word": " your",
+          "start": 21.4,
+          "end": 21.52,
+          "probability": 0.9965
+        },
+        {
+          "word": " small",
+          "start": 21.52,
+          "end": 21.8,
+          "probability": 0.9742
+        },
+        {
+          "word": " intestine.",
+          "start": 21.8,
+          "end": 22.38,
+          "probability": 0.9984
+        }
+      ]
+    },
+    {
+      "start": 23.26,
+      "end": 29.28,
+      "text": "In your small intestine, the food is broken down into single sugar molecules called glucose.",
+      "avg_log_prob": -0.0996,
+      "words": [
+        {
+          "word": " In",
+          "start": 23.17,
+          "end": 23.5,
+          "probability": 0.0851
+        },
+        {
+          "word": " your",
+          "start": 23.5,
+          "end": 23.64,
+          "probability": 0.8646
+        },
+        {
+          "word": " small",
+          "start": 23.64,
+          "end": 23.94,
+          "probability": 0.7144
+        },
+        {
+          "word": " intestine,",
+          "start": 23.94,
+          "end": 24.58,
+          "probability": 0.9988
+        },
+        {
+          "word": " the",
+          "start": 25.04,
+          "end": 25.12,
+          "probability": 0.9881
+        },
+        {
+          "word": " food",
+          "start": 25.12,
+          "end": 25.36,
+          "probability": 0.9713
+        },
+        {
+          "word": " is",
+          "start": 25.36,
+          "end": 25.52,
+          "probability": 0.9713
+        },
+        {
+          "word": " broken",
+          "start": 25.52,
+          "end": 25.8,
+          "probability": 0.9956
+        },
+        {
+          "word": " down",
+          "start": 25.8,
+          "end": 26.2,
+          "probability": 0.9932
+        },
+        {
+          "word": " into",
+          "start": 26.2,
+          "end": 26.62,
+          "probability": 0.9945
+        },
+        {
+          "word": " single",
+          "start": 26.62,
+          "end": 27.08,
+          "probability": 0.9493
+        },
+        {
+          "word": " sugar",
+          "start": 27.08,
+          "end": 27.54,
+          "probability": 0.9483
+        },
+        {
+          "word": " molecules",
+          "start": 27.54,
+          "end": 28.06,
+          "probability": 0.9862
+        },
+        {
+          "word": " called",
+          "start": 28.06,
+          "end": 28.82,
+          "probability": 0.7307
+        },
+        {
+          "word": " glucose.",
+          "start": 28.82,
+          "end": 29.28,
+          "probability": 0.9843
+        }
+      ]
+    },
+    {
+      "start": 30.36,
+      "end": 35.96,
+      "text": "The cells in your small intestine soak up the sugars, which pass into your bloodstream.",
+      "avg_log_prob": -0.0996,
+      "words": [
+        {
+          "word": " The",
+          "start": 30.36,
+          "end": 30.48,
+          "probability": 0.9173
+        },
+        {
+          "word": " cells",
+          "start": 30.48,
+          "end": 30.82,
+          "probability": 0.993
+        },
+        {
+          "word": " in",
+          "start": 30.82,
+          "end": 31.0,
+          "probability": 0.9963
+        },
+        {
+          "word": " your",
+          "start": 31.0,
+          "end": 31.14,
+          "probability": 0.9954
+        },
+        {
+          "word": " small",
+          "start": 31.14,
+          "end": 31.4,
+          "probability": 0.9819
+        },
+        {
+          "word": " intestine",
+          "start": 31.4,
+          "end": 32.08,
+          "probability": 0.9983
+        },
+        {
+          "word": " soak",
+          "start": 32.08,
+          "end": 32.58,
+          "probability": 0.969
+        },
+        {
+          "word": " up",
+          "start": 32.58,
+          "end": 32.84,
+          "probability": 0.998
+        },
+        {
+          "word": " the",
+          "start": 32.84,
+          "end": 33.0,
+          "probability": 0.9958
+        },
+        {
+          "word": " sugars,",
+          "start": 33.0,
+          "end": 33.36,
+          "probability": 0.9969
+        },
+        {
+          "word": " which",
+          "start": 34.18,
+          "end": 34.52,
+          "probability": 0.9969
+        },
+        {
+          "word": " pass",
+          "start": 34.52,
+          "end": 34.76,
+          "probability": 0.9981
+        },
+        {
+          "word": " into",
+          "start": 34.76,
+          "end": 35.14,
+          "probability": 0.9578
+        },
+        {
+          "word": " your",
+          "start": 35.14,
+          "end": 35.36,
+          "probability": 0.9754
+        },
+        {
+          "word": " bloodstream.",
+          "start": 35.36,
+          "end": 35.96,
+          "probability": 0.8885
+        }
+      ]
+    },
+    {
+      "start": 36.62,
+      "end": 41.54,
+      "text": "When the blood reaches your pancreas, it detects the high amount of sugar in your blood.",
+      "avg_log_prob": -0.0996,
+      "words": [
+        {
+          "word": " When",
+          "start": 36.62,
+          "end": 36.9,
+          "probability": 0.9946
+        },
+        {
+          "word": " the",
+          "start": 36.9,
+          "end": 37.0,
+          "probability": 0.9951
+        },
+        {
+          "word": " blood",
+          "start": 37.0,
+          "end": 37.22,
+          "probability": 0.9985
+        },
+        {
+          "word": " reaches",
+          "start": 37.22,
+          "end": 37.6,
+          "probability": 0.9985
+        },
+        {
+          "word": " your",
+          "start": 37.6,
+          "end": 37.82,
+          "probability": 0.9892
+        },
+        {
+          "word": " pancreas,",
+          "start": 37.82,
+          "end": 38.54,
+          "probability": 0.9806
+        },
+        {
+          "word": " it",
+          "start": 38.86,
+          "end": 38.94,
+          "probability": 0.9965
+        },
+        {
+          "word": " detects",
+          "start": 38.94,
+          "end": 39.6,
+          "probability": 0.9865
+        },
+        {
+          "word": " the",
+          "start": 39.6,
+          "end": 39.74,
+          "probability": 0.9941
+        },
+        {
+          "word": " high",
+          "start": 39.74,
+          "end": 39.96,
+          "probability": 0.9912
+        },
+        {
+          "word": " amount",
+          "start": 39.96,
+          "end": 40.2,
+          "probability": 0.9934
+        },
+        {
+          "word": " of",
+          "start": 40.2,
+          "end": 40.46,
+          "probability": 0.9993
+        },
+        {
+          "word": " sugar",
+          "start": 40.46,
+          "end": 40.72,
+          "probability": 0.9982
+        },
+        {
+          "word": " in",
+          "start": 40.72,
+          "end": 41.02,
+          "probability": 0.9968
+        },
+        {
+          "word": " your",
+          "start": 41.02,
+          "end": 41.2,
+          "probability": 0.9939
+        },
+        {
+          "word": " blood.",
+          "start": 41.2,
+          "end": 41.54,
+          "probability": 0.9994
+        }
+      ]
+    },
+    {
+      "start": 42.04,
+      "end": 47.58,
+      "text": "Normally, this causes your pancreas to put a chemical called insulin into your bloodstream.",
+      "avg_log_prob": -0.0996,
+      "words": [
+        {
+          "word": " Normally,",
+          "start": 42.04,
+          "end": 42.44,
+          "probability": 0.9896
+        },
+        {
+          "word": " this",
+          "start": 42.74,
+          "end": 42.88,
+          "probability": 0.9959
+        },
+        {
+          "word": " causes",
+          "start": 42.88,
+          "end": 43.24,
+          "probability": 0.998
+        },
+        {
+          "word": " your",
+          "start": 43.24,
+          "end": 43.44,
+          "probability": 0.9867
+        },
+        {
+          "word": " pancreas",
+          "start": 43.44,
+          "end": 44.18,
+          "probability": 0.9956
+        },
+        {
+          "word": " to",
+          "start": 44.18,
+          "end": 44.42,
+          "probability": 0.9962
+        },
+        {
+          "word": " put",
+          "start": 44.42,
+          "end": 44.62,
+          "probability": 0.9929
+        },
+        {
+          "word": " a",
+          "start": 44.62,
+          "end": 44.72,
+          "probability": 0.9955
+        },
+        {
+          "word": " chemical",
+          "start": 44.72,
+          "end": 45.16,
+          "probability": 0.9874
+        },
+        {
+          "word": " called",
+          "start": 45.16,
+          "end": 45.68,
+          "probability": 0.9759
+        },
+        {
+          "word": " insulin",
+          "start": 45.68,
+          "end": 46.12,
+          "probability": 0.9773
+        },
+        {
+          "word": " into",
+          "start": 46.12,
+          "end": 46.66,
+          "probability": 0.9869
+        },
+        {
+          "word": " your",
+          "start": 46.66,
+          "end": 46.92,
+          "probability": 0.9888
+        },
+        {
+          "word": " bloodstream.",
+          "start": 46.92,
+          "end": 47.58,
+          "probability": 0.9933
+        }
+      ]
+    },
+    {
+      "start": 48.22,
+      "end": 52.66,
+      "text": "The insulin reduces the amount of sugar in your blood to a healthy level.",
+      "avg_log_prob": -0.0882,
+      "words": [
+        {
+          "word": " The",
+          "start": 48.13,
+          "end": 48.5,
+          "probability": 0.1616
+        },
+        {
+          "word": " insulin",
+          "start": 48.5,
+          "end": 48.92,
+          "probability": 0.9721
+        },
+        {
+          "word": " reduces",
+          "start": 48.92,
+          "end": 49.56,
+          "probability": 0.986
+        },
+        {
+          "word": " the",
+          "start": 49.56,
+          "end": 49.88,
+          "probability": 0.9977
+        },
+        {
+          "word": " amount",
+          "start": 49.88,
+          "end": 50.14,
+          "probability": 0.9968
+        },
+        {
+          "word": " of",
+          "start": 50.14,
+          "end": 50.46,
+          "probability": 0.9986
+        },
+        {
+          "word": " sugar",
+          "start": 50.46,
+          "end": 50.66,
+          "probability": 0.9967
+        },
+        {
+          "word": " in",
+          "start": 50.66,
+          "end": 50.86,
+          "probability": 0.9948
+        },
+        {
+          "word": " your",
+          "start": 50.86,
+          "end": 50.98,
+          "probability": 0.9924
+        },
+        {
+          "word": " blood",
+          "start": 50.98,
+          "end": 51.28,
+          "probability": 0.9992
+        },
+        {
+          "word": " to",
+          "start": 51.28,
+          "end": 51.7,
+          "probability": 0.9702
+        },
+        {
+          "word": " a",
+          "start": 51.7,
+          "end": 51.84,
+          "probability": 0.998
+        },
+        {
+          "word": " healthy",
+          "start": 51.84,
+          "end": 52.18,
+          "probability": 0.9954
+        },
+        {
+          "word": " level.",
+          "start": 52.18,
+          "end": 52.66,
+          "probability": 0.995
+        }
+      ]
+    },
+    {
+      "start": 53.98,
+      "end": 55.44,
+      "text": "How does insulin do this?",
+      "avg_log_prob": -0.0882,
+      "words": [
+        {
+          "word": " How",
+          "start": 53.98,
+          "end": 54.12,
+          "probability": 0.9509
+        },
+        {
+          "word": " does",
+          "start": 54.12,
+          "end": 54.3,
+          "probability": 0.9944
+        },
+        {
+          "word": " insulin",
+          "start": 54.3,
+          "end": 54.68,
+          "probability": 0.9934
+        },
+        {
+          "word": " do",
+          "start": 54.68,
+          "end": 54.98,
+          "probability": 0.9981
+        },
+        {
+          "word": " this?",
+          "start": 54.98,
+          "end": 55.44,
+          "probability": 0.9976
+        }
+      ]
+    },
+    {
+      "start": 56.8,
+      "end": 62.96,
+      "text": "As the blood moves through your body, the insulin and sugar exit the bloodstream into your tissues",
+      "avg_log_prob": -0.0882,
+      "words": [
+        {
+          "word": " As",
+          "start": 56.8,
+          "end": 56.92,
+          "probability": 0.6994
+        },
+        {
+          "word": " the",
+          "start": 56.92,
+          "end": 57.1,
+          "probability": 0.9945
+        },
+        {
+          "word": " blood",
+          "start": 57.1,
+          "end": 57.38,
+          "probability": 0.9986
+        },
+        {
+          "word": " moves",
+          "start": 57.38,
+          "end": 57.74,
+          "probability": 0.9929
+        },
+        {
+          "word": " through",
+          "start": 57.74,
+          "end": 58.04,
+          "probability": 0.9961
+        },
+        {
+          "word": " your",
+          "start": 58.04,
+          "end": 58.24,
+          "probability": 0.9972
+        },
+        {
+          "word": " body,",
+          "start": 58.24,
+          "end": 58.68,
+          "probability": 0.9987
+        },
+        {
+          "word": " the",
+          "start": 59.32,
+          "end": 59.48,
+          "probability": 0.9902
+        },
+        {
+          "word": " insulin",
+          "start": 59.48,
+          "end": 59.98,
+          "probability": 0.9925
+        },
+        {
+          "word": " and",
+          "start": 59.98,
+          "end": 60.3,
+          "probability": 0.9834
+        },
+        {
+          "word": " sugar",
+          "start": 60.3,
+          "end": 60.7,
+          "probability": 0.9939
+        },
+        {
+          "word": " exit",
+          "start": 60.7,
+          "end": 61.2,
+          "probability": 0.9419
+        },
+        {
+          "word": " the",
+          "start": 61.2,
+          "end": 61.4,
+          "probability": 0.9929
+        },
+        {
+          "word": " bloodstream",
+          "start": 61.4,
+          "end": 61.94,
+          "probability": 0.8823
+        },
+        {
+          "word": " into",
+          "start": 61.94,
+          "end": 62.34,
+          "probability": 0.992
+        },
+        {
+          "word": " your",
+          "start": 62.34,
+          "end": 62.56,
+          "probability": 0.9972
+        },
+        {
+          "word": " tissues",
+          "start": 62.56,
+          "end": 62.96,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 62.96,
+      "end": 69.88,
+      "text": "to reach your cells. Most cells have structures on their surfaces called insulin receptors.",
+      "avg_log_prob": -0.0882,
+      "words": [
+        {
+          "word": " to",
+          "start": 62.96,
+          "end": 63.54,
+          "probability": 0.9916
+        },
+        {
+          "word": " reach",
+          "start": 63.54,
+          "end": 63.72,
+          "probability": 0.9969
+        },
+        {
+          "word": " your",
+          "start": 63.72,
+          "end": 64.06,
+          "probability": 0.9779
+        },
+        {
+          "word": " cells.",
+          "start": 64.06,
+          "end": 64.58,
+          "probability": 0.9963
+        },
+        {
+          "word": " Most",
+          "start": 65.36,
+          "end": 65.76,
+          "probability": 0.9952
+        },
+        {
+          "word": " cells",
+          "start": 65.76,
+          "end": 66.3,
+          "probability": 0.9982
+        },
+        {
+          "word": " have",
+          "start": 66.3,
+          "end": 66.54,
+          "probability": 0.9993
+        },
+        {
+          "word": " structures",
+          "start": 66.54,
+          "end": 66.96,
+          "probability": 0.9961
+        },
+        {
+          "word": " on",
+          "start": 66.96,
+          "end": 67.3,
+          "probability": 0.9991
+        },
+        {
+          "word": " their",
+          "start": 67.3,
+          "end": 67.46,
+          "probability": 0.9989
+        },
+        {
+          "word": " surfaces",
+          "start": 67.46,
+          "end": 68.0,
+          "probability": 0.9939
+        },
+        {
+          "word": " called",
+          "start": 68.0,
+          "end": 68.6,
+          "probability": 0.9484
+        },
+        {
+          "word": " insulin",
+          "start": 68.6,
+          "end": 69.24,
+          "probability": 0.9482
+        },
+        {
+          "word": " receptors.",
+          "start": 69.24,
+          "end": 69.88,
+          "probability": 0.9846
+        }
+      ]
+    },
+    {
+      "start": 70.56,
+      "end": 73.92,
+      "text": "When insulin flows by, it attaches to the receptors.",
+      "avg_log_prob": -0.0882,
+      "words": [
+        {
+          "word": " When",
+          "start": 70.56,
+          "end": 70.8,
+          "probability": 0.9983
+        },
+        {
+          "word": " insulin",
+          "start": 70.8,
+          "end": 71.16,
+          "probability": 0.9982
+        },
+        {
+          "word": " flows",
+          "start": 71.16,
+          "end": 71.5,
+          "probability": 0.992
+        },
+        {
+          "word": " by,",
+          "start": 71.5,
+          "end": 71.98,
+          "probability": 0.9909
+        },
+        {
+          "word": " it",
+          "start": 72.38,
+          "end": 72.46,
+          "probability": 0.9969
+        },
+        {
+          "word": " attaches",
+          "start": 72.46,
+          "end": 72.9,
+          "probability": 0.9978
+        },
+        {
+          "word": " to",
+          "start": 72.9,
+          "end": 73.26,
+          "probability": 0.9982
+        },
+        {
+          "word": " the",
+          "start": 73.26,
+          "end": 73.38,
+          "probability": 0.9965
+        },
+        {
+          "word": " receptors.",
+          "start": 73.38,
+          "end": 73.92,
+          "probability": 0.9922
+        }
+      ]
+    },
+    {
+      "start": 74.88,
+      "end": 78.74,
+      "text": "The insulin acts like a key in a lock to open up the cell.",
+      "avg_log_prob": -0.0999,
+      "words": [
+        {
+          "word": " The",
+          "start": 74.82,
+          "end": 75.14,
+          "probability": 0.6158
+        },
+        {
+          "word": " insulin",
+          "start": 75.14,
+          "end": 75.64,
+          "probability": 0.9392
+        },
+        {
+          "word": " acts",
+          "start": 75.64,
+          "end": 76.02,
+          "probability": 0.9922
+        },
+        {
+          "word": " like",
+          "start": 76.02,
+          "end": 76.26,
+          "probability": 0.9935
+        },
+        {
+          "word": " a",
+          "start": 76.26,
+          "end": 76.42,
+          "probability": 0.9934
+        },
+        {
+          "word": " key",
+          "start": 76.42,
+          "end": 76.68,
+          "probability": 0.9955
+        },
+        {
+          "word": " in",
+          "start": 76.68,
+          "end": 76.9,
+          "probability": 0.8821
+        },
+        {
+          "word": " a",
+          "start": 76.9,
+          "end": 77.02,
+          "probability": 0.9906
+        },
+        {
+          "word": " lock",
+          "start": 77.02,
+          "end": 77.24,
+          "probability": 0.9896
+        },
+        {
+          "word": " to",
+          "start": 77.24,
+          "end": 77.68,
+          "probability": 0.9238
+        },
+        {
+          "word": " open",
+          "start": 77.68,
+          "end": 78.04,
+          "probability": 0.9988
+        },
+        {
+          "word": " up",
+          "start": 78.04,
+          "end": 78.2,
+          "probability": 0.9767
+        },
+        {
+          "word": " the",
+          "start": 78.2,
+          "end": 78.38,
+          "probability": 0.9982
+        },
+        {
+          "word": " cell.",
+          "start": 78.38,
+          "end": 78.74,
+          "probability": 0.9877
+        }
+      ]
+    },
+    {
+      "start": 81.28,
+      "end": 83.48,
+      "text": "So the sugar can get inside.",
+      "avg_log_prob": -0.0999,
+      "words": [
+        {
+          "word": " So",
+          "start": 81.28,
+          "end": 81.92,
+          "probability": 0.9749
+        },
+        {
+          "word": " the",
+          "start": 81.92,
+          "end": 82.06,
+          "probability": 0.9362
+        },
+        {
+          "word": " sugar",
+          "start": 82.06,
+          "end": 82.4,
+          "probability": 0.9945
+        },
+        {
+          "word": " can",
+          "start": 82.4,
+          "end": 82.74,
+          "probability": 0.9988
+        },
+        {
+          "word": " get",
+          "start": 82.74,
+          "end": 82.92,
+          "probability": 0.9981
+        },
+        {
+          "word": " inside.",
+          "start": 82.92,
+          "end": 83.48,
+          "probability": 0.9989
+        }
+      ]
+    },
+    {
+      "start": 84.64,
+      "end": 89.2,
+      "text": "Now your cell can use the sugar to make the energy it needs to work properly.",
+      "avg_log_prob": -0.0999,
+      "words": [
+        {
+          "word": " Now",
+          "start": 84.64,
+          "end": 84.9,
+          "probability": 0.9962
+        },
+        {
+          "word": " your",
+          "start": 84.9,
+          "end": 85.14,
+          "probability": 0.8577
+        },
+        {
+          "word": " cell",
+          "start": 85.14,
+          "end": 85.4,
+          "probability": 0.9956
+        },
+        {
+          "word": " can",
+          "start": 85.4,
+          "end": 85.66,
+          "probability": 0.999
+        },
+        {
+          "word": " use",
+          "start": 85.66,
+          "end": 85.92,
+          "probability": 0.9969
+        },
+        {
+          "word": " the",
+          "start": 85.92,
+          "end": 86.16,
+          "probability": 0.9973
+        },
+        {
+          "word": " sugar",
+          "start": 86.16,
+          "end": 86.5,
+          "probability": 0.9969
+        },
+        {
+          "word": " to",
+          "start": 86.5,
+          "end": 86.88,
+          "probability": 0.9976
+        },
+        {
+          "word": " make",
+          "start": 86.88,
+          "end": 87.06,
+          "probability": 0.9983
+        },
+        {
+          "word": " the",
+          "start": 87.06,
+          "end": 87.24,
+          "probability": 0.9947
+        },
+        {
+          "word": " energy",
+          "start": 87.24,
+          "end": 87.62,
+          "probability": 0.9994
+        },
+        {
+          "word": " it",
+          "start": 87.62,
+          "end": 87.8,
+          "probability": 0.9903
+        },
+        {
+          "word": " needs",
+          "start": 87.8,
+          "end": 88.08,
+          "probability": 0.9987
+        },
+        {
+          "word": " to",
+          "start": 88.08,
+          "end": 88.4,
+          "probability": 0.9968
+        },
+        {
+          "word": " work",
+          "start": 88.4,
+          "end": 88.6,
+          "probability": 0.9991
+        },
+        {
+          "word": " properly.",
+          "start": 88.6,
+          "end": 89.2,
+          "probability": 0.9989
+        }
+      ]
+    },
+    {
+      "start": 90.06,
+      "end": 93.46,
+      "text": "And your blood sugar level drops back to its normal range.",
+      "avg_log_prob": -0.0999,
+      "words": [
+        {
+          "word": " And",
+          "start": 90.06,
+          "end": 90.26,
+          "probability": 0.9569
+        },
+        {
+          "word": " your",
+          "start": 90.26,
+          "end": 90.48,
+          "probability": 0.9626
+        },
+        {
+          "word": " blood",
+          "start": 90.48,
+          "end": 90.7,
+          "probability": 0.9954
+        },
+        {
+          "word": " sugar",
+          "start": 90.7,
+          "end": 91.04,
+          "probability": 0.9968
+        },
+        {
+          "word": " level",
+          "start": 91.04,
+          "end": 91.42,
+          "probability": 0.9766
+        },
+        {
+          "word": " drops",
+          "start": 91.42,
+          "end": 91.8,
+          "probability": 0.995
+        },
+        {
+          "word": " back",
+          "start": 91.8,
+          "end": 92.14,
+          "probability": 0.9976
+        },
+        {
+          "word": " to",
+          "start": 92.14,
+          "end": 92.4,
+          "probability": 0.9984
+        },
+        {
+          "word": " its",
+          "start": 92.4,
+          "end": 92.6,
+          "probability": 0.9336
+        },
+        {
+          "word": " normal",
+          "start": 92.6,
+          "end": 92.94,
+          "probability": 0.9976
+        },
+        {
+          "word": " range.",
+          "start": 92.94,
+          "end": 93.46,
+          "probability": 0.9992
+        }
+      ]
+    },
+    {
+      "start": 95.52,
+      "end": 100.94,
+      "text": "If you have type 2 diabetes, your cells don't respond to insulin as they should.",
+      "avg_log_prob": -0.0999,
+      "words": [
+        {
+          "word": " If",
+          "start": 95.52,
+          "end": 96.16,
+          "probability": 0.9932
+        },
+        {
+          "word": " you",
+          "start": 96.16,
+          "end": 96.3,
+          "probability": 0.9987
+        },
+        {
+          "word": " have",
+          "start": 96.3,
+          "end": 96.54,
+          "probability": 0.9888
+        },
+        {
+          "word": " type",
+          "start": 96.54,
+          "end": 96.74,
+          "probability": 0.8693
+        },
+        {
+          "word": " 2",
+          "start": 96.74,
+          "end": 97.06,
+          "probability": 0.7133
+        },
+        {
+          "word": " diabetes,",
+          "start": 97.06,
+          "end": 97.6,
+          "probability": 0.9913
+        },
+        {
+          "word": " your",
+          "start": 98.14,
+          "end": 98.24,
+          "probability": 0.9816
+        },
+        {
+          "word": " cells",
+          "start": 98.24,
+          "end": 98.56,
+          "probability": 0.9962
+        },
+        {
+          "word": " don't",
+          "start": 98.56,
+          "end": 98.86,
+          "probability": 0.9928
+        },
+        {
+          "word": " respond",
+          "start": 98.86,
+          "end": 99.22,
+          "probability": 0.985
+        },
+        {
+          "word": " to",
+          "start": 99.22,
+          "end": 99.58,
+          "probability": 0.9988
+        },
+        {
+          "word": " insulin",
+          "start": 99.58,
+          "end": 100.02,
+          "probability": 0.9946
+        },
+        {
+          "word": " as",
+          "start": 100.02,
+          "end": 100.36,
+          "probability": 0.9797
+        },
+        {
+          "word": " they",
+          "start": 100.36,
+          "end": 100.56,
+          "probability": 0.9977
+        },
+        {
+          "word": " should.",
+          "start": 100.56,
+          "end": 100.94,
+          "probability": 0.996
+        }
+      ]
+    },
+    {
+      "start": 100.94,
+      "end": 103.3,
+      "text": "This is called insulin resistance.",
+      "avg_log_prob": -0.0948,
+      "words": [
+        {
+          "word": " This",
+          "start": 100.94,
+          "end": 101.5,
+          "probability": 0.5862
+        },
+        {
+          "word": " is",
+          "start": 101.5,
+          "end": 101.68,
+          "probability": 0.9947
+        },
+        {
+          "word": " called",
+          "start": 101.68,
+          "end": 102.0,
+          "probability": 0.9971
+        },
+        {
+          "word": " insulin",
+          "start": 102.0,
+          "end": 102.64,
+          "probability": 0.9164
+        },
+        {
+          "word": " resistance.",
+          "start": 102.64,
+          "end": 103.3,
+          "probability": 0.983
+        }
+      ]
+    },
+    {
+      "start": 104.44,
+      "end": 109.86,
+      "text": "When this happens, your insulin cannot unlock the cells to let sugar in,",
+      "avg_log_prob": -0.0948,
+      "words": [
+        {
+          "word": " When",
+          "start": 104.44,
+          "end": 105.2,
+          "probability": 0.991
+        },
+        {
+          "word": " this",
+          "start": 105.2,
+          "end": 105.36,
+          "probability": 0.999
+        },
+        {
+          "word": " happens,",
+          "start": 105.36,
+          "end": 105.86,
+          "probability": 0.9991
+        },
+        {
+          "word": " your",
+          "start": 106.26,
+          "end": 106.4,
+          "probability": 0.9932
+        },
+        {
+          "word": " insulin",
+          "start": 106.4,
+          "end": 106.78,
+          "probability": 0.9969
+        },
+        {
+          "word": " cannot",
+          "start": 106.78,
+          "end": 107.26,
+          "probability": 0.9789
+        },
+        {
+          "word": " unlock",
+          "start": 107.26,
+          "end": 107.84,
+          "probability": 0.9856
+        },
+        {
+          "word": " the",
+          "start": 107.84,
+          "end": 108.18,
+          "probability": 0.9973
+        },
+        {
+          "word": " cells",
+          "start": 108.18,
+          "end": 108.58,
+          "probability": 0.9973
+        },
+        {
+          "word": " to",
+          "start": 108.58,
+          "end": 108.9,
+          "probability": 0.9788
+        },
+        {
+          "word": " let",
+          "start": 108.9,
+          "end": 109.06,
+          "probability": 0.9976
+        },
+        {
+          "word": " sugar",
+          "start": 109.06,
+          "end": 109.36,
+          "probability": 0.9909
+        },
+        {
+          "word": " in,",
+          "start": 109.36,
+          "end": 109.86,
+          "probability": 0.9987
+        }
+      ]
+    },
+    {
+      "start": 109.96,
+      "end": 114.5,
+      "text": "because the locks or insulin receptors are missing or aren't working.",
+      "avg_log_prob": -0.0948,
+      "words": [
+        {
+          "word": " because",
+          "start": 109.96,
+          "end": 110.26,
+          "probability": 0.9933
+        },
+        {
+          "word": " the",
+          "start": 110.26,
+          "end": 110.5,
+          "probability": 0.9993
+        },
+        {
+          "word": " locks",
+          "start": 110.5,
+          "end": 110.84,
+          "probability": 0.9095
+        },
+        {
+          "word": " or",
+          "start": 110.84,
+          "end": 111.36,
+          "probability": 0.3686
+        },
+        {
+          "word": " insulin",
+          "start": 111.36,
+          "end": 111.82,
+          "probability": 0.9989
+        },
+        {
+          "word": " receptors",
+          "start": 111.82,
+          "end": 112.38,
+          "probability": 0.9932
+        },
+        {
+          "word": " are",
+          "start": 112.38,
+          "end": 112.96,
+          "probability": 0.9832
+        },
+        {
+          "word": " missing",
+          "start": 112.96,
+          "end": 113.36,
+          "probability": 0.9985
+        },
+        {
+          "word": " or",
+          "start": 113.36,
+          "end": 113.76,
+          "probability": 0.9719
+        },
+        {
+          "word": " aren't",
+          "start": 113.76,
+          "end": 114.06,
+          "probability": 0.9927
+        },
+        {
+          "word": " working.",
+          "start": 114.06,
+          "end": 114.5,
+          "probability": 0.9995
+        }
+      ]
+    },
+    {
+      "start": 117.64,
+      "end": 121.7,
+      "text": "As a result, sugar is locked out of your cells.",
+      "avg_log_prob": -0.0948,
+      "words": [
+        {
+          "word": " As",
+          "start": 117.64,
+          "end": 118.4,
+          "probability": 0.9819
+        },
+        {
+          "word": " a",
+          "start": 118.4,
+          "end": 118.5,
+          "probability": 0.9988
+        },
+        {
+          "word": " result,",
+          "start": 118.5,
+          "end": 118.98,
+          "probability": 0.9998
+        },
+        {
+          "word": " sugar",
+          "start": 119.34,
+          "end": 119.54,
+          "probability": 0.9984
+        },
+        {
+          "word": " is",
+          "start": 119.54,
+          "end": 119.92,
+          "probability": 0.9992
+        },
+        {
+          "word": " locked",
+          "start": 119.92,
+          "end": 120.26,
+          "probability": 0.9816
+        },
+        {
+          "word": " out",
+          "start": 120.26,
+          "end": 120.72,
+          "probability": 0.9991
+        },
+        {
+          "word": " of",
+          "start": 120.72,
+          "end": 121.02,
+          "probability": 0.9991
+        },
+        {
+          "word": " your",
+          "start": 121.02,
+          "end": 121.14,
+          "probability": 0.9918
+        },
+        {
+          "word": " cells.",
+          "start": 121.14,
+          "end": 121.7,
+          "probability": 0.9984
+        }
+      ]
+    },
+    {
+      "start": 125.66,
+      "end": 130.32,
+      "text": "When sugar can't get into your cells, it builds up in your bloodstream.",
+      "avg_log_prob": -0.0948,
+      "words": [
+        {
+          "word": " When",
+          "start": 125.66,
+          "end": 126.42,
+          "probability": 0.9908
+        },
+        {
+          "word": " sugar",
+          "start": 126.42,
+          "end": 126.8,
+          "probability": 0.9994
+        },
+        {
+          "word": " can't",
+          "start": 126.8,
+          "end": 127.22,
+          "probability": 0.9959
+        },
+        {
+          "word": " get",
+          "start": 127.22,
+          "end": 127.3,
+          "probability": 0.9986
+        },
+        {
+          "word": " into",
+          "start": 127.3,
+          "end": 127.54,
+          "probability": 0.9893
+        },
+        {
+          "word": " your",
+          "start": 127.54,
+          "end": 127.72,
+          "probability": 0.9963
+        },
+        {
+          "word": " cells,",
+          "start": 127.72,
+          "end": 128.2,
+          "probability": 0.9979
+        },
+        {
+          "word": " it",
+          "start": 128.56,
+          "end": 128.64,
+          "probability": 0.9974
+        },
+        {
+          "word": " builds",
+          "start": 128.64,
+          "end": 128.96,
+          "probability": 0.9936
+        },
+        {
+          "word": " up",
+          "start": 128.96,
+          "end": 129.3,
+          "probability": 0.9974
+        },
+        {
+          "word": " in",
+          "start": 129.3,
+          "end": 129.5,
+          "probability": 0.9955
+        },
+        {
+          "word": " your",
+          "start": 129.5,
+          "end": 129.66,
+          "probability": 0.9965
+        },
+        {
+          "word": " bloodstream.",
+          "start": 129.66,
+          "end": 130.32,
+          "probability": 0.9458
+        }
+      ]
+    },
+    {
+      "start": 130.94,
+      "end": 134.04,
+      "text": "This is a condition called hyperglycemia.",
+      "avg_log_prob": -0.0741,
+      "words": [
+        {
+          "word": " This",
+          "start": 130.94,
+          "end": 131.52,
+          "probability": 0.7404
+        },
+        {
+          "word": " is",
+          "start": 131.52,
+          "end": 131.68,
+          "probability": 0.9808
+        },
+        {
+          "word": " a",
+          "start": 131.68,
+          "end": 131.8,
+          "probability": 0.9868
+        },
+        {
+          "word": " condition",
+          "start": 131.8,
+          "end": 132.2,
+          "probability": 0.9919
+        },
+        {
+          "word": " called",
+          "start": 132.2,
+          "end": 132.72,
+          "probability": 0.9954
+        },
+        {
+          "word": " hyperglycemia.",
+          "start": 132.72,
+          "end": 134.04,
+          "probability": 0.8834
+        }
+      ]
+    },
+    {
+      "start": 136.22,
+      "end": 141.74,
+      "text": "In response to the high blood sugar levels, your pancreas makes more and more insulin.",
+      "avg_log_prob": -0.0741,
+      "words": [
+        {
+          "word": " In",
+          "start": 136.22,
+          "end": 136.9,
+          "probability": 0.9795
+        },
+        {
+          "word": " response",
+          "start": 136.9,
+          "end": 137.28,
+          "probability": 0.9973
+        },
+        {
+          "word": " to",
+          "start": 137.28,
+          "end": 137.64,
+          "probability": 0.9995
+        },
+        {
+          "word": " the",
+          "start": 137.64,
+          "end": 137.78,
+          "probability": 0.976
+        },
+        {
+          "word": " high",
+          "start": 137.78,
+          "end": 137.98,
+          "probability": 0.9627
+        },
+        {
+          "word": " blood",
+          "start": 137.98,
+          "end": 138.18,
+          "probability": 0.9514
+        },
+        {
+          "word": " sugar",
+          "start": 138.18,
+          "end": 138.58,
+          "probability": 0.9959
+        },
+        {
+          "word": " levels,",
+          "start": 138.58,
+          "end": 138.96,
+          "probability": 0.9887
+        },
+        {
+          "word": " your",
+          "start": 139.4,
+          "end": 139.46,
+          "probability": 0.9615
+        },
+        {
+          "word": " pancreas",
+          "start": 139.46,
+          "end": 140.06,
+          "probability": 0.9829
+        },
+        {
+          "word": " makes",
+          "start": 140.06,
+          "end": 140.32,
+          "probability": 0.9038
+        },
+        {
+          "word": " more",
+          "start": 140.32,
+          "end": 140.72,
+          "probability": 0.996
+        },
+        {
+          "word": " and",
+          "start": 140.72,
+          "end": 140.98,
+          "probability": 0.9866
+        },
+        {
+          "word": " more",
+          "start": 140.98,
+          "end": 141.22,
+          "probability": 0.9987
+        },
+        {
+          "word": " insulin.",
+          "start": 141.22,
+          "end": 141.74,
+          "probability": 0.9881
+        }
+      ]
+    },
+    {
+      "start": 142.42,
+      "end": 145.66,
+      "text": "The overworked cells in your pancreas try to keep up.",
+      "avg_log_prob": -0.0741,
+      "words": [
+        {
+          "word": " The",
+          "start": 142.42,
+          "end": 142.52,
+          "probability": 0.9938
+        },
+        {
+          "word": " overworked",
+          "start": 142.52,
+          "end": 143.24,
+          "probability": 0.9691
+        },
+        {
+          "word": " cells",
+          "start": 143.24,
+          "end": 143.46,
+          "probability": 0.9981
+        },
+        {
+          "word": " in",
+          "start": 143.46,
+          "end": 143.68,
+          "probability": 0.9937
+        },
+        {
+          "word": " your",
+          "start": 143.68,
+          "end": 143.78,
+          "probability": 0.9936
+        },
+        {
+          "word": " pancreas",
+          "start": 143.78,
+          "end": 144.58,
+          "probability": 0.999
+        },
+        {
+          "word": " try",
+          "start": 144.58,
+          "end": 144.86,
+          "probability": 0.9677
+        },
+        {
+          "word": " to",
+          "start": 144.86,
+          "end": 145.06,
+          "probability": 0.9988
+        },
+        {
+          "word": " keep",
+          "start": 145.06,
+          "end": 145.28,
+          "probability": 0.9985
+        },
+        {
+          "word": " up.",
+          "start": 145.28,
+          "end": 145.66,
+          "probability": 0.9994
+        }
+      ]
+    },
+    {
+      "start": 147.1,
+      "end": 150.34,
+      "text": "But they slowly lose their ability to make enough insulin.",
+      "avg_log_prob": -0.0741,
+      "words": [
+        {
+          "word": " But",
+          "start": 147.1,
+          "end": 147.44,
+          "probability": 0.992
+        },
+        {
+          "word": " they",
+          "start": 147.44,
+          "end": 147.62,
+          "probability": 0.9734
+        },
+        {
+          "word": " slowly",
+          "start": 147.62,
+          "end": 148.0,
+          "probability": 0.9959
+        },
+        {
+          "word": " lose",
+          "start": 148.0,
+          "end": 148.38,
+          "probability": 0.9961
+        },
+        {
+          "word": " their",
+          "start": 148.38,
+          "end": 148.6,
+          "probability": 0.9986
+        },
+        {
+          "word": " ability",
+          "start": 148.6,
+          "end": 149.04,
+          "probability": 0.9981
+        },
+        {
+          "word": " to",
+          "start": 149.04,
+          "end": 149.36,
+          "probability": 0.9991
+        },
+        {
+          "word": " make",
+          "start": 149.36,
+          "end": 149.54,
+          "probability": 0.9984
+        },
+        {
+          "word": " enough",
+          "start": 149.54,
+          "end": 149.8,
+          "probability": 0.9965
+        },
+        {
+          "word": " insulin.",
+          "start": 149.8,
+          "end": 150.34,
+          "probability": 0.9993
+        }
+      ]
+    },
+    {
+      "start": 150.94,
+      "end": 154.56,
+      "text": "These problems may lead to the symptoms of type 2 diabetes.",
+      "avg_log_prob": -0.0741,
+      "words": [
+        {
+          "word": " These",
+          "start": 150.94,
+          "end": 151.1,
+          "probability": 0.9948
+        },
+        {
+          "word": " problems",
+          "start": 151.1,
+          "end": 151.62,
+          "probability": 0.9978
+        },
+        {
+          "word": " may",
+          "start": 151.62,
+          "end": 151.96,
+          "probability": 0.9968
+        },
+        {
+          "word": " lead",
+          "start": 151.96,
+          "end": 152.2,
+          "probability": 0.999
+        },
+        {
+          "word": " to",
+          "start": 152.2,
+          "end": 152.4,
+          "probability": 0.9987
+        },
+        {
+          "word": " the",
+          "start": 152.4,
+          "end": 152.52,
+          "probability": 0.9367
+        },
+        {
+          "word": " symptoms",
+          "start": 152.52,
+          "end": 153.08,
+          "probability": 0.9994
+        },
+        {
+          "word": " of",
+          "start": 153.08,
+          "end": 153.42,
+          "probability": 0.9966
+        },
+        {
+          "word": " type",
+          "start": 153.42,
+          "end": 153.68,
+          "probability": 0.597
+        },
+        {
+          "word": " 2",
+          "start": 153.68,
+          "end": 153.98,
+          "probability": 0.6743
+        },
+        {
+          "word": " diabetes.",
+          "start": 153.98,
+          "end": 154.56,
+          "probability": 0.9882
+        }
+      ]
+    },
+    {
+      "start": 156.98,
+      "end": 162.74,
+      "text": "If you have questions about type 2 diabetes or any medications you have been prescribed,",
+      "avg_log_prob": -0.1501,
+      "words": [
+        {
+          "word": " If",
+          "start": 156.98,
+          "end": 157.62,
+          "probability": 0.2077
+        },
+        {
+          "word": " you",
+          "start": 157.62,
+          "end": 157.78,
+          "probability": 0.9937
+        },
+        {
+          "word": " have",
+          "start": 157.78,
+          "end": 157.94,
+          "probability": 0.9944
+        },
+        {
+          "word": " questions",
+          "start": 157.94,
+          "end": 158.44,
+          "probability": 0.9661
+        },
+        {
+          "word": " about",
+          "start": 158.44,
+          "end": 158.82,
+          "probability": 0.9979
+        },
+        {
+          "word": " type",
+          "start": 158.82,
+          "end": 159.2,
+          "probability": 0.5856
+        },
+        {
+          "word": " 2",
+          "start": 159.2,
+          "end": 159.46,
+          "probability": 0.697
+        },
+        {
+          "word": " diabetes",
+          "start": 159.46,
+          "end": 160.04,
+          "probability": 0.9872
+        },
+        {
+          "word": " or",
+          "start": 160.04,
+          "end": 160.64,
+          "probability": 0.4472
+        },
+        {
+          "word": " any",
+          "start": 160.64,
+          "end": 160.92,
+          "probability": 0.9965
+        },
+        {
+          "word": " medications",
+          "start": 160.92,
+          "end": 161.5,
+          "probability": 0.9875
+        },
+        {
+          "word": " you",
+          "start": 161.5,
+          "end": 161.86,
+          "probability": 0.9741
+        },
+        {
+          "word": " have",
+          "start": 161.86,
+          "end": 162.0,
+          "probability": 0.9859
+        },
+        {
+          "word": " been",
+          "start": 162.0,
+          "end": 162.14,
+          "probability": 0.9971
+        },
+        {
+          "word": " prescribed,",
+          "start": 162.14,
+          "end": 162.74,
+          "probability": 0.9943
+        }
+      ]
+    },
+    {
+      "start": 163.08,
+      "end": 164.14,
+      "text": "speak with your doctor.",
+      "avg_log_prob": -0.1501,
+      "words": [
+        {
+          "word": " speak",
+          "start": 163.08,
+          "end": 163.3,
+          "probability": 0.962
+        },
+        {
+          "word": " with",
+          "start": 163.3,
+          "end": 163.6,
+          "probability": 0.9985
+        },
+        {
+          "word": " your",
+          "start": 163.6,
+          "end": 163.72,
+          "probability": 0.9963
+        },
+        {
+          "word": " doctor.",
+          "start": 163.72,
+          "end": 164.14,
+          "probability": 0.9913
+        }
+      ]
+    },
+    {
+      "start": 164.58,
+      "end": 168.4,
+      "text": "It is important to take your medications as directed by your doctor,",
+      "avg_log_prob": -0.1501,
+      "words": [
+        {
+          "word": " It",
+          "start": 164.58,
+          "end": 164.84,
+          "probability": 0.9866
+        },
+        {
+          "word": " is",
+          "start": 164.84,
+          "end": 164.94,
+          "probability": 0.9901
+        },
+        {
+          "word": " important",
+          "start": 164.94,
+          "end": 165.4,
+          "probability": 0.998
+        },
+        {
+          "word": " to",
+          "start": 165.4,
+          "end": 165.62,
+          "probability": 0.9988
+        },
+        {
+          "word": " take",
+          "start": 165.62,
+          "end": 165.82,
+          "probability": 0.9976
+        },
+        {
+          "word": " your",
+          "start": 165.82,
+          "end": 166.0,
+          "probability": 0.9956
+        },
+        {
+          "word": " medications",
+          "start": 166.0,
+          "end": 166.62,
+          "probability": 0.9941
+        },
+        {
+          "word": " as",
+          "start": 166.62,
+          "end": 167.06,
+          "probability": 0.9757
+        },
+        {
+          "word": " directed",
+          "start": 167.06,
+          "end": 167.52,
+          "probability": 0.9908
+        },
+        {
+          "word": " by",
+          "start": 167.52,
+          "end": 167.78,
+          "probability": 0.9983
+        },
+        {
+          "word": " your",
+          "start": 167.78,
+          "end": 167.94,
+          "probability": 0.9964
+        },
+        {
+          "word": " doctor,",
+          "start": 167.94,
+          "end": 168.4,
+          "probability": 0.9968
+        }
+      ]
+    },
+    {
+      "start": 168.84,
+      "end": 172.12,
+      "text": "tell him or her about any side effects you have.",
+      "avg_log_prob": -0.1501,
+      "words": [
+        {
+          "word": " tell",
+          "start": 168.84,
+          "end": 168.98,
+          "probability": 0.9916
+        },
+        {
+          "word": " him",
+          "start": 168.98,
+          "end": 169.28,
+          "probability": 0.9889
+        },
+        {
+          "word": " or",
+          "start": 169.28,
+          "end": 169.48,
+          "probability": 0.9783
+        },
+        {
+          "word": " her",
+          "start": 169.48,
+          "end": 169.74,
+          "probability": 0.9962
+        },
+        {
+          "word": " about",
+          "start": 169.74,
+          "end": 170.16,
+          "probability": 0.996
+        },
+        {
+          "word": " any",
+          "start": 170.16,
+          "end": 170.54,
+          "probability": 0.998
+        },
+        {
+          "word": " side",
+          "start": 170.54,
+          "end": 170.86,
+          "probability": 0.9937
+        },
+        {
+          "word": " effects",
+          "start": 170.86,
+          "end": 171.2,
+          "probability": 0.9694
+        },
+        {
+          "word": " you",
+          "start": 171.2,
+          "end": 171.54,
+          "probability": 0.9955
+        },
+        {
+          "word": " have.",
+          "start": 171.54,
+          "end": 172.12,
+          "probability": 0.9989
+        }
+      ]
+    },
+    {
+      "start": 174.3,
+      "end": 178.02,
+      "text": "This animation is brought to you by the Nucleus Medical Art Library,",
+      "avg_log_prob": -0.1501,
+      "words": [
+        {
+          "word": " This",
+          "start": 174.3,
+          "end": 174.94,
+          "probability": 0.797
+        },
+        {
+          "word": " animation",
+          "start": 174.94,
+          "end": 175.48,
+          "probability": 0.991
+        },
+        {
+          "word": " is",
+          "start": 175.48,
+          "end": 175.7,
+          "probability": 0.9974
+        },
+        {
+          "word": " brought",
+          "start": 175.7,
+          "end": 175.9,
+          "probability": 0.9966
+        },
+        {
+          "word": " to",
+          "start": 175.9,
+          "end": 176.06,
+          "probability": 0.9972
+        },
+        {
+          "word": " you",
+          "start": 176.06,
+          "end": 176.16,
+          "probability": 0.9673
+        },
+        {
+          "word": " by",
+          "start": 176.16,
+          "end": 176.24,
+          "probability": 0.9985
+        },
+        {
+          "word": " the",
+          "start": 176.24,
+          "end": 176.42,
+          "probability": 0.9729
+        },
+        {
+          "word": " Nucleus",
+          "start": 176.42,
+          "end": 176.92,
+          "probability": 0.8364
+        },
+        {
+          "word": " Medical",
+          "start": 176.92,
+          "end": 177.22,
+          "probability": 0.9634
+        },
+        {
+          "word": " Art",
+          "start": 177.22,
+          "end": 177.48,
+          "probability": 0.9568
+        },
+        {
+          "word": " Library,",
+          "start": 177.48,
+          "end": 178.02,
+          "probability": 0.9662
+        }
+      ]
+    },
+    {
+      "start": 178.34,
+      "end": 183.32,
+      "text": "or Enmal, where you can download this animation and thousands of medical images and videos",
+      "avg_log_prob": -0.1501,
+      "words": [
+        {
+          "word": " or",
+          "start": 178.34,
+          "end": 178.46,
+          "probability": 0.9929
+        },
+        {
+          "word": " Enmal,",
+          "start": 178.46,
+          "end": 178.96,
+          "probability": 0.3502
+        },
+        {
+          "word": " where",
+          "start": 179.18,
+          "end": 179.38,
+          "probability": 0.994
+        },
+        {
+          "word": " you",
+          "start": 179.38,
+          "end": 179.52,
+          "probability": 0.9985
+        },
+        {
+          "word": " can",
+          "start": 179.52,
+          "end": 179.68,
+          "probability": 0.998
+        },
+        {
+          "word": " download",
+          "start": 179.68,
+          "end": 180.08,
+          "probability": 0.999
+        },
+        {
+          "word": " this",
+          "start": 180.08,
+          "end": 180.42,
+          "probability": 0.9969
+        },
+        {
+          "word": " animation",
+          "start": 180.42,
+          "end": 181.0,
+          "probability": 0.9965
+        },
+        {
+          "word": " and",
+          "start": 181.0,
+          "end": 181.28,
+          "probability": 0.9451
+        },
+        {
+          "word": " thousands",
+          "start": 181.28,
+          "end": 181.76,
+          "probability": 0.9935
+        },
+        {
+          "word": " of",
+          "start": 181.76,
+          "end": 182.0,
+          "probability": 0.9984
+        },
+        {
+          "word": " medical",
+          "start": 182.0,
+          "end": 182.34,
+          "probability": 0.9959
+        },
+        {
+          "word": " images",
+          "start": 182.34,
+          "end": 182.68,
+          "probability": 0.9965
+        },
+        {
+          "word": " and",
+          "start": 182.68,
+          "end": 182.96,
+          "probability": 0.9979
+        },
+        {
+          "word": " videos",
+          "start": 182.96,
+          "end": 183.32,
+          "probability": 0.9919
+        }
+      ]
+    },
+    {
+      "start": 183.32,
+      "end": 188.06,
+      "text": "created by Nucleus Medical Media. To apply for a free 30-day trial,",
+      "avg_log_prob": -0.1411,
+      "words": [
+        {
+          "word": " created",
+          "start": 183.32,
+          "end": 183.9,
+          "probability": 0.2699
+        },
+        {
+          "word": " by",
+          "start": 183.9,
+          "end": 184.12,
+          "probability": 0.9988
+        },
+        {
+          "word": " Nucleus",
+          "start": 184.12,
+          "end": 184.7,
+          "probability": 0.8059
+        },
+        {
+          "word": " Medical",
+          "start": 184.7,
+          "end": 185.02,
+          "probability": 0.9491
+        },
+        {
+          "word": " Media.",
+          "start": 185.02,
+          "end": 185.44,
+          "probability": 0.9285
+        },
+        {
+          "word": " To",
+          "start": 185.9,
+          "end": 186.22,
+          "probability": 0.9919
+        },
+        {
+          "word": " apply",
+          "start": 186.22,
+          "end": 186.56,
+          "probability": 0.9964
+        },
+        {
+          "word": " for",
+          "start": 186.56,
+          "end": 186.78,
+          "probability": 0.9986
+        },
+        {
+          "word": " a",
+          "start": 186.78,
+          "end": 186.88,
+          "probability": 0.9951
+        },
+        {
+          "word": " free",
+          "start": 186.88,
+          "end": 187.12,
+          "probability": 0.9135
+        },
+        {
+          "word": " 30",
+          "start": 187.12,
+          "end": 187.48,
+          "probability": 0.9769
+        },
+        {
+          "word": "-day",
+          "start": 187.48,
+          "end": 187.7,
+          "probability": 0.8663
+        },
+        {
+          "word": " trial,",
+          "start": 187.7,
+          "end": 188.06,
+          "probability": 0.9974
+        }
+      ]
+    },
+    {
+      "start": 188.42,
+      "end": 189.78,
+      "text": "click on the link in the description.",
+      "avg_log_prob": -0.1411,
+      "words": [
+        {
+          "word": " click",
+          "start": 188.42,
+          "end": 188.56,
+          "probability": 0.9932
+        },
+        {
+          "word": " on",
+          "start": 188.56,
+          "end": 188.72,
+          "probability": 0.9922
+        },
+        {
+          "word": " the",
+          "start": 188.72,
+          "end": 188.84,
+          "probability": 0.9975
+        },
+        {
+          "word": " link",
+          "start": 188.84,
+          "end": 189.08,
+          "probability": 0.9954
+        },
+        {
+          "word": " in",
+          "start": 189.08,
+          "end": 189.24,
+          "probability": 0.9976
+        },
+        {
+          "word": " the",
+          "start": 189.24,
+          "end": 189.32,
+          "probability": 0.9993
+        },
+        {
+          "word": " description.",
+          "start": 189.32,
+          "end": 189.78,
+          "probability": 0.9918
+        }
+      ]
+    }
+  ],
+  "full_text": "Type 2 Diabetes is a condition in which your blood sugar level is too high. Carbohydrates are substances your body uses to make energy. After you eat food that contains carbohydrates, it eventually goes to your small intestine. In your small intestine, the food is broken down into single sugar molecules called glucose. The cells in your small intestine soak up the sugars, which pass into your bloodstream. When the blood reaches your pancreas, it detects the high amount of sugar in your blood. Normally, this causes your pancreas to put a chemical called insulin into your bloodstream. The insulin reduces the amount of sugar in your blood to a healthy level. How does insulin do this? As the blood moves through your body, the insulin and sugar exit the bloodstream into your tissues to reach your cells. Most cells have structures on their surfaces called insulin receptors. When insulin flows by, it attaches to the receptors. The insulin acts like a key in a lock to open up the cell. So the sugar can get inside. Now your cell can use the sugar to make the energy it needs to work properly. And your blood sugar level drops back to its normal range. If you have type 2 diabetes, your cells don't respond to insulin as they should. This is called insulin resistance. When this happens, your insulin cannot unlock the cells to let sugar in, because the locks or insulin receptors are missing or aren't working. As a result, sugar is locked out of your cells. When sugar can't get into your cells, it builds up in your bloodstream. This is a condition called hyperglycemia. In response to the high blood sugar levels, your pancreas makes more and more insulin. The overworked cells in your pancreas try to keep up. But they slowly lose their ability to make enough insulin. These problems may lead to the symptoms of type 2 diabetes. If you have questions about type 2 diabetes or any medications you have been prescribed, speak with your doctor. It is important to take your medications as directed by your doctor, tell him or her about any side effects you have. This animation is brought to you by the Nucleus Medical Art Library, or Enmal, where you can download this animation and thousands of medical images and videos created by Nucleus Medical Media. To apply for a free 30-day trial, click on the link in the description."
+}
