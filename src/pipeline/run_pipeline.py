@@ -3,6 +3,10 @@ import os
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+from analytics.quality_report import full_quality_report, outlier_report, save_missing_heatmap
+
+from analytics.data_loader import chunked_stats, load_from_mongodb, memory_comparison, save_to_csv, optimise_dtypes
+from analytics.numpy_ops import demonstrate_array_creation, vectorized_operations
 from scraping.scraper import scrape_multiple_pages
 
 from ocr.ocr_utils import compare_ocr, ocr_scanned_pdf
@@ -28,6 +32,108 @@ from video_processing.frame_extractor import extract_keyframes
 
 from pathlib import Path
 
+import logging
+import numpy as np
+from analytics.explorer import (
+    extract_publish_year, inspect_shape, plot_distributions,
+    value_counts_report, print_info, describe_numeric
+)
+from analytics.selector import boolean_filter, isin_filter, loc_filter
+from analytics.regex_ops import health_keyword_count, top_health_keywords, normalize_author
+
+logger = logging.getLogger(__name__)
+
+    
+def run_analytics():
+
+    PROCESSED_DIR = Path("../../data/processed/analytics")
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+
+    CSV_PATH     = str(PROCESSED_DIR / "articles.csv")
+    OPT_CSV_PATH = str(PROCESSED_DIR / "articles_optimised.csv")
+
+    # ── Part A: NumPy ─────────────────────────
+    arrays = demonstrate_array_creation()
+    logger.info("NumPy arrays created: %s", list(arrays.keys()))
+
+    content_lengths = np.array([320, 850, 1200, 95, 640, 480, 2100, 760])
+    word_counts     = np.array([58, 143, 210, 17, 112, 84, 380, 134])
+
+    results = vectorized_operations(content_lengths, word_counts)
+    logger.info(
+        "Vectorized ops: mean_length=%.2f long_articles=%d",
+        results["stats"]["mean"],
+        results["high_rated"].sum()
+    )
+
+    # ── Part B: Data Loader ───────────────────
+    df_articles = load_from_mongodb()
+
+    if df_articles is None or df_articles.empty:
+        logging.warning("MongoDB returned empty dataset — skipping analytics")
+        return
+
+    if 'data' in df_articles.columns:
+        import pandas as pd
+        df_articles = pd.json_normalize(df_articles['data'])
+    save_to_csv(df_articles, CSV_PATH)
+
+    if not os.path.exists(CSV_PATH) or os.path.getsize(CSV_PATH) == 0:
+        raise ValueError(f"CSV file is empty or missing: {CSV_PATH}")
+
+    chunk_results = chunked_stats(CSV_PATH)
+    logger.info(
+        "Chunked stats: mean_content_length=%.1f over %d rows",
+        chunk_results["mean_content_length"],
+        chunk_results["total_rows"]
+    )
+    logger.info("Top sources:\n%s", chunk_results["source_df"].head())
+    logger.info("Top authors:\n%s", chunk_results["author_df"].head())
+
+    df_opt = optimise_dtypes(df_articles)
+    mem = memory_comparison(df_articles, df_opt)
+    logger.info("Memory reduction: %.1f%%", mem["reduction_pct"])
+
+    save_to_csv(df_opt, OPT_CSV_PATH)
+
+    # ── Part C: Explore ───────────────────────
+    shape_info = inspect_shape(df_articles)
+    logger.info("Dataset shape: %dx%d", shape_info["rows"], shape_info["columns"])
+
+    print_info(df_articles)
+
+    numeric_summary = describe_numeric(df_articles)
+    logger.info("Numeric summary:\n%s", numeric_summary.to_string())
+
+    vc = value_counts_report(df_articles)
+    for col, data in vc.items():
+        logger.info("%s: %d unique values", col, data["nunique"])
+
+    df_articles = extract_publish_year(df_articles)
+    plot_distributions(df_articles, str(PROCESSED_DIR / "distributions.png"))
+
+    substantial = loc_filter(df_articles, min_content_len=200)
+    logger.info("Articles with substantial content: %d", len(substantial))
+
+    quality_articles = boolean_filter(df_articles)
+    logger.info("Articles with content + author + title: %d", len(quality_articles))
+
+    # ── Part D: Regex & Quality ───────────────
+    if 'author' in df_articles.columns:
+        df_articles['author'] = normalize_author(df_articles['author'])
+
+    logger.info("Health keyword matches: %d articles", health_keyword_count(df_articles))
+    logger.info("Top health keywords: %s", top_health_keywords(df_articles, n=10))
+
+    quality_df = full_quality_report(df_articles)
+    quality_df.to_csv(str(PROCESSED_DIR / "data_quality_report.csv"), index=False)
+
+    save_missing_heatmap(df_articles, str(PROCESSED_DIR / "missing_heatmap.png"))
+
+    outliers = outlier_report(df_articles)
+    logger.info("Outlier report columns: %d", len(outliers))
+
+    logger.info("COMPLETED")
 
 
 def run_audio_video_stage():
@@ -212,7 +318,8 @@ def run_pipeline():
     # except Exception as e:
     #     logging.error(f"Multi-page scraping error: {e}")
     
-    run_audio_video_stage()
+    # run_audio_video_stage()
+    run_analytics()
     logging.info("Pipeline finished successfully")
 
 if __name__ == "__main__":

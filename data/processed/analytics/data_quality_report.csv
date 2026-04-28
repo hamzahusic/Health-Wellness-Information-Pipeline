@@ -1,0 +1,25 @@
+column,issue,count,pct,severity
+processed_text,Missing values,972,99.9,HIGH
+raw_text,Missing values,972,99.9,HIGH
+Mental Health,Missing values,971,99.79,HIGH
+Pharmacology,Missing values,971,99.79,HIGH
+Nutrition,Missing values,971,99.79,HIGH
+Total,Missing values,971,99.79,HIGH
+Source,Missing values,958,98.46,HIGH
+Category,Missing values,958,98.46,HIGH
+Author,Missing values,958,98.46,HIGH
+Title,Missing values,958,98.46,HIGH
+ID,Missing values,958,98.46,HIGH
+Word Count,Missing values,955,98.15,HIGH
+Published Date,Missing values,955,98.15,HIGH
+text,Missing values,952,97.84,HIGH
+published_date,Missing values,925,95.07,HIGH
+image_url,Missing values,925,95.07,HIGH
+source_name,Missing values,90,9.25,LOW
+content,Missing values,90,9.25,LOW
+publishedAt,Missing values,90,9.25,LOW
+publish_year,Missing values,90,9.25,LOW
+description,Missing values,60,6.17,LOW
+title,Missing values,42,4.32,LOW
+author,Missing values,177,18.19,MEDIUM
+description,Blank string (whitespace only),1,0.1,MEDIUM
