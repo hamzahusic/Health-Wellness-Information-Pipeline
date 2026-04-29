@@ -1,4 +1,5 @@
 import re
+import collections
 import pandas as pd
 import logging
 
@@ -10,6 +11,7 @@ _HEALTH_TERMS   = re.compile(
     r'obesity|vaccine|cancer|therapy|fitness|sleep|stress|anxiety|depression)\b',
     re.IGNORECASE,
 )
+_EXTRA_SPACE    = re.compile(r'\s+')
 _SOURCE_ID      = re.compile(r'^[a-z0-9]+(?:-[a-z0-9]+)*$')
 RE_PUBLISHED_AT = re.compile(r'^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z?$')
 
@@ -73,3 +75,26 @@ def validate_source_id(id_str: str) -> bool:
 
 def extract_number_from_string(series: pd.Series) -> pd.Series:
     return series.str.extract(r'(\d+\.?\d*)', expand=False).astype(float)
+
+
+def top_health_keywords(df: pd.DataFrame, n: int = 15) -> list:
+    if 'content' not in df.columns:
+        return []
+    all_matches: list = []
+    df['content'].dropna().apply(
+        lambda text: all_matches.extend(
+            m.lower() for m in _HEALTH_TERMS.findall(text)
+        )
+    )
+    return collections.Counter(all_matches).most_common(n)
+
+
+def normalize_author(authors: pd.Series) -> pd.Series:
+    result = (
+        authors
+        .str.strip()
+        .str.replace(_EXTRA_SPACE.pattern, ' ', regex=True)
+    )
+    changed = (result != authors).sum()
+    logger.info('Author names normalized: %d', changed)
+    return result

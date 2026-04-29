@@ -5,6 +5,7 @@ from pathlib import Path
 from cleaning.missing_handler import (
     drop_rows_missing_title,
     fill_missing_description,
+    drop_rows_missing_published_at,
 )
 from cleaning.string_cleaner import (
     clean_title,
@@ -23,7 +24,7 @@ from cleaning.type_converter import (
 from cleaning.validator import run_all_validations
 
 logger = logging.getLogger(__name__)
-OUTPUT_PATH = Path('data/processed/cleaned/articles_clean.csv')
+OUTPUT_PATH = Path('../../data/processed/cleaned/articles_clean.csv')
 
 
 def run_cleaning_pipeline(df_raw: pd.DataFrame, save: bool = True) -> pd.DataFrame:
@@ -51,6 +52,7 @@ def run_cleaning_pipeline(df_raw: pd.DataFrame, save: bool = True) -> pd.DataFra
 
     logger.info('Step 7: convert data types')
     df = convert_dates(df)
+    df = drop_rows_missing_published_at(df)
     df = convert_numeric_columns(df)
     df = convert_category_columns(df)
 

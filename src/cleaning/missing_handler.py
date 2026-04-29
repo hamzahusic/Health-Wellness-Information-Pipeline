@@ -26,6 +26,15 @@ def drop_rows_missing_title(df: pd.DataFrame) -> pd.DataFrame:
     logger.info('drop_rows_missing_title: dropped %d rows', dropped)
     return df.reset_index(drop=True)
 
+def drop_rows_missing_published_at(df: pd.DataFrame) -> pd.DataFrame:
+    if 'publishedAt' not in df.columns:
+        return df
+    before = len(df)
+    df = df.dropna(subset=['publishedAt'])
+    after = len(df)
+    logger.info('drop_rows_missing_published_at: dropped %d rows', before - after)
+    return df.reset_index(drop=True)
+
 def fill_missing_description(df: pd.DataFrame) -> pd.DataFrame:
     before = df['description'].isna().sum()
     df['description'] = df['description'].fillna('No description available.')

@@ -15,7 +15,7 @@ def drop_duplicate_ids(df: pd.DataFrame, id_col: str = 'url') -> pd.DataFrame:
     if actual_col is None and 'url' in df.columns:
         actual_col = 'url'
     if actual_col is None:
-        logger.warning('drop_duplicate_ids: no id column found, skipping')
+        logger.info('drop_duplicate_ids: no id column found, skipping')
         return df
 
     before = len(df)
