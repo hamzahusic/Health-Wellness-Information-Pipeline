@@ -1,0 +1,39 @@
+2026-04-29 11:35:58,723 | INFO | Missing value report generated for 22 columns
+2026-04-29 11:38:17,842 | INFO | Missing value report generated for 22 columns
+2026-04-29 11:52:40,069 | INFO | clean_title: 42 titles modified
+2026-04-29 11:52:40,080 | INFO | clean_description_text: description column cleaned
+2026-04-29 11:52:40,082 | INFO | extract_year_from_published_at: extracted 883 years
+2026-04-29 12:02:30,297 | INFO | find_invalid_published_at: 0 values have wrong format
+2026-04-29 12:02:39,045 | INFO | find_invalid_published_at: 0 values have wrong format
+2026-04-29 12:02:54,346 | INFO | flag_short_descriptions: 64 descriptions have fewer than 5 words
+2026-04-29 12:06:31,128 | INFO | drop_exact_duplicates: removed 606 rows
+2026-04-29 12:06:34,169 | WARNING | drop_duplicate_ids: no id column found, skipping
+2026-04-29 12:10:26,055 | INFO | convert_dates: 70 rows could not be parsed (NaT)
+2026-04-29 12:10:26,056 | INFO | convert_numeric_columns: published_year -> Int64
+2026-04-29 12:10:26,058 | INFO | convert_category_columns: source_name -> category
+2026-04-29 12:10:29,754 | INFO | Memory before: 0.57 MB
+2026-04-29 12:10:29,755 | INFO | Memory after:  0.53 MB
+2026-04-29 12:10:29,755 | INFO | Saved:         0.04 MB  (6.3%)
+2026-04-29 12:12:41,625 | INFO | drop_rows_missing_title: dropped 22 rows
+2026-04-29 12:12:44,050 | INFO | validate_no_null_titles: PASSED
+2026-04-29 12:12:44,052 | INFO | validate_published_year_range: PASSED
+2026-04-29 12:12:44,052 | ERROR | FAILED: validate_no_null_published_at -> Found 48 null values in publishedAt
+2026-04-29 12:12:44,052 | INFO | Validation complete: 4 passed, 1 failed
+2026-04-29 12:15:29,636 | INFO | Missing value report generated for 22 columns
+2026-04-29 12:15:35,758 | INFO | clean_title: 42 titles modified
+2026-04-29 12:15:35,769 | INFO | clean_description_text: description column cleaned
+2026-04-29 12:15:35,770 | INFO | extract_year_from_published_at: extracted 883 years
+2026-04-29 12:15:51,117 | INFO | flag_short_descriptions: 64 descriptions have fewer than 5 words
+2026-04-29 12:16:00,020 | INFO | drop_exact_duplicates: removed 606 rows
+2026-04-29 12:16:02,366 | WARNING | drop_duplicate_ids: no id column found, skipping
+2026-04-29 12:16:08,801 | INFO | convert_dates: 70 rows could not be parsed (NaT)
+2026-04-29 12:16:08,802 | INFO | convert_numeric_columns: published_year -> Int64
+2026-04-29 12:16:08,803 | INFO | convert_category_columns: source_name -> category
+2026-04-29 12:16:11,504 | INFO | Memory before: 0.57 MB
+2026-04-29 12:16:11,505 | INFO | Memory after:  0.53 MB
+2026-04-29 12:16:11,505 | INFO | Saved:         0.04 MB  (6.3%)
+2026-04-29 12:16:14,786 | INFO | drop_rows_missing_title: dropped 22 rows
+2026-04-29 12:16:16,398 | INFO | validate_no_null_titles: PASSED
+2026-04-29 12:16:16,399 | INFO | validate_published_year_range: PASSED
+2026-04-29 12:16:16,400 | ERROR | FAILED: validate_no_null_published_at -> Found 48 null values in publishedAt
+2026-04-29 12:16:16,400 | INFO | Validation complete: 4 passed, 1 failed

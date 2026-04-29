@@ -114,7 +114,7 @@ lxml==6.0.2
 pdf2image==1.17.0
 playwright==1.58.0
 pytesseract==0.3.13
-selenium==4.36.0
+selenium==4.9.1
 Pillow>=10.0.0
 tqdm>=4.65.0 
 minio>=7.1.0
@@ -124,3 +124,5 @@ faster-whisper>=1.0.0
 numpy>=1.26.0
 pandas>=2.1.0
 matplotlib>=3.8.0
+pytest>=7.4.0
+pytest-cov>=4.1.0

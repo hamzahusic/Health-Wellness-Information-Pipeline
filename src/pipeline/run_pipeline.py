@@ -1,5 +1,6 @@
 import sys
 import os
+import pandas as pd
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -43,6 +44,23 @@ from analytics.regex_ops import health_keyword_count, top_health_keywords, norma
 
 logger = logging.getLogger(__name__)
 
+from cleaning.clean_pipeline import run_cleaning_pipeline
+
+def run_cleaning():
+
+    logging.info('=== Lab 9: Data Cleaning ===')
+
+    raw_csv = Path('data/processed/analytics/articles.csv')
+    if not raw_csv.exists():
+        logging.warning('articles.csv not found at %s', raw_csv)
+        return None
+
+    df_raw = pd.read_csv(raw_csv, low_memory=False)
+    logging.info('Loaded %d rows from %s', len(df_raw), raw_csv)
+
+    df_clean = run_cleaning_pipeline(df_raw, save=True)
+    logging.info('Cleaning complete: %d rows saved to data/processed/cleaned/', len(df_clean))
+    return df_clean
     
 def run_analytics():
 
@@ -319,7 +337,9 @@ def run_pipeline():
     #     logging.error(f"Multi-page scraping error: {e}")
     
     # run_audio_video_stage()
-    run_analytics()
+    # run_analytics()
+    
+    run_cleaning()
     logging.info("Pipeline finished successfully")
 
 if __name__ == "__main__":
