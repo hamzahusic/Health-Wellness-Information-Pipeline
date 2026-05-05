@@ -461,3 +461,93 @@ max     5.00000        3.0           1.0            1.0    5.0      272.000000
 2026-04-25 00:41:23,917 - INFO - Outlier report columns: 1
 2026-04-25 00:41:23,917 - INFO - COMPLETED
 2026-04-25 00:41:23,917 - INFO - Pipeline finished successfully
+2026-04-29 12:27:09,951 - INFO - Loaded audio: Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].mp3 (MP3)
+2026-04-29 12:27:10,109 - INFO - Loaded audio: Type 2 Diabetes [OImJMiFJ8Qo].mp3 (MP3)
+2026-04-29 12:27:10,218 - INFO - Loaded audio: What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].mp3 (MP3)
+2026-04-29 12:27:10,383 - INFO - Loaded audio: Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].mp3 (MP3)
+2026-04-29 12:27:10,383 - INFO - Trimmed audio: 5000ms -> 15000ms (was 280660ms, now 10000ms)
+2026-04-29 12:27:10,383 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-29 12:27:10,394 - INFO - Volume adjusted by +6.0 dB
+2026-04-29 12:27:10,410 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-29 12:27:10,413 - INFO - Exported audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg]_trimmed.wav (861.4 KB)
+2026-04-29 12:27:10,476 - INFO - Exported audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg]_trimmed.mp3 (235.8 KB)
+2026-04-29 12:27:10,638 - INFO - Loaded audio: Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].mp3 (MP3)
+2026-04-29 12:27:10,856 - INFO - Exported audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].flac (11200.0 KB)
+2026-04-29 12:27:11,010 - INFO - Loaded audio: Type 2 Diabetes [OImJMiFJ8Qo].mp3 (MP3)
+2026-04-29 12:27:11,011 - INFO - Trimmed audio: 5000ms -> 15000ms (was 206170ms, now 10000ms)
+2026-04-29 12:27:11,011 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-29 12:27:11,027 - INFO - Volume adjusted by +6.0 dB
+2026-04-29 12:27:11,056 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-29 12:27:11,058 - INFO - Exported audio -> ../../data/processed/audio/Type 2 Diabetes [OImJMiFJ8Qo]_trimmed.wav (1722.7 KB)
+2026-04-29 12:27:11,134 - INFO - Exported audio -> ../../data/processed/audio/Type 2 Diabetes [OImJMiFJ8Qo]_trimmed.mp3 (235.8 KB)
+2026-04-29 12:27:11,290 - INFO - Loaded audio: Type 2 Diabetes [OImJMiFJ8Qo].mp3 (MP3)
+2026-04-29 12:27:11,485 - INFO - Exported audio -> ../../data/processed/audio/Type 2 Diabetes [OImJMiFJ8Qo].flac (6054.3 KB)
+2026-04-29 12:27:11,597 - INFO - Loaded audio: What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].mp3 (MP3)
+2026-04-29 12:27:11,597 - INFO - Trimmed audio: 5000ms -> 15000ms (was 106487ms, now 10000ms)
+2026-04-29 12:27:11,597 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-29 12:27:11,605 - INFO - Volume adjusted by +6.0 dB
+2026-04-29 12:27:11,620 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-29 12:27:11,622 - INFO - Exported audio -> ../../data/processed/audio/What is diabetes_ [Spoken in English] [ZLOjD5IfUyU]_trimmed.wav (1722.7 KB)
+2026-04-29 12:27:11,724 - INFO - Exported audio -> ../../data/processed/audio/What is diabetes_ [Spoken in English] [ZLOjD5IfUyU]_trimmed.mp3 (235.8 KB)
+2026-04-29 12:27:11,833 - INFO - Loaded audio: What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].mp3 (MP3)
+2026-04-29 12:27:11,998 - INFO - Exported audio -> ../../data/processed/audio/What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].flac (5896.5 KB)
+2026-04-29 12:27:13,236 - INFO - Loaded video: Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp4
+2026-04-29 12:27:13,387 - INFO - Saved frame at t=5.0s -> ../../data/processed/frames/Diabetes Explained in 5 Minutes. What Doctors Won't Tell You_thumb.png
+2026-04-29 12:27:14,343 - INFO - Extracted 29 keyframes from Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp4 (every 10.0s)
+2026-04-29 12:27:14,402 - INFO - Loaded video: Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp4
+2026-04-29 12:27:15,420 - INFO - Extracted audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp3 (4386.4 KB)
+2026-04-29 12:27:15,477 - INFO - Loaded video: Type 2 Diabetes.mp4
+2026-04-29 12:27:15,561 - INFO - Saved frame at t=5.0s -> ../../data/processed/frames/Type 2 Diabetes_thumb.png
+2026-04-29 12:27:16,351 - INFO - Extracted 21 keyframes from Type 2 Diabetes.mp4 (every 10.0s)
+2026-04-29 12:27:16,407 - INFO - Loaded video: Type 2 Diabetes.mp4
+2026-04-29 12:27:17,105 - INFO - Extracted audio -> ../../data/processed/audio/Type 2 Diabetes.mp3 (3222.3 KB)
+2026-04-29 12:27:17,172 - INFO - Loaded video: What is diabetes.mp4
+2026-04-29 12:27:17,277 - INFO - Saved frame at t=5.0s -> ../../data/processed/frames/What is diabetes_thumb.png
+2026-04-29 12:27:17,682 - INFO - Extracted 11 keyframes from What is diabetes.mp4 (every 10.0s)
+2026-04-29 12:27:17,747 - INFO - Loaded video: What is diabetes.mp4
+2026-04-29 12:27:18,456 - INFO - Extracted audio -> ../../data/processed/audio/What is diabetes.mp3 (1664.7 KB)
+2026-04-29 12:30:55,500 - INFO - Loaded audio: Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].mp3 (MP3)
+2026-04-29 12:30:55,655 - INFO - Loaded audio: Type 2 Diabetes [OImJMiFJ8Qo].mp3 (MP3)
+2026-04-29 12:30:55,766 - INFO - Loaded audio: What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].mp3 (MP3)
+2026-04-29 12:30:55,932 - INFO - Loaded audio: Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].mp3 (MP3)
+2026-04-29 12:30:55,932 - INFO - Trimmed audio: 5000ms -> 15000ms (was 280660ms, now 10000ms)
+2026-04-29 12:30:55,932 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-29 12:30:55,943 - INFO - Volume adjusted by +6.0 dB
+2026-04-29 12:30:55,959 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-29 12:30:55,959 - INFO - Exported audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg]_trimmed.wav (861.4 KB)
+2026-04-29 12:30:56,019 - INFO - Exported audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg]_trimmed.mp3 (235.8 KB)
+2026-04-29 12:30:56,178 - INFO - Loaded audio: Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].mp3 (MP3)
+2026-04-29 12:30:56,394 - INFO - Exported audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Wont Tell You_ [Clx0oaCNErg].flac (11200.0 KB)
+2026-04-29 12:30:56,549 - INFO - Loaded audio: Type 2 Diabetes [OImJMiFJ8Qo].mp3 (MP3)
+2026-04-29 12:30:56,550 - INFO - Trimmed audio: 5000ms -> 15000ms (was 206170ms, now 10000ms)
+2026-04-29 12:30:56,550 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-29 12:30:56,566 - INFO - Volume adjusted by +6.0 dB
+2026-04-29 12:30:56,586 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-29 12:30:56,587 - INFO - Exported audio -> ../../data/processed/audio/Type 2 Diabetes [OImJMiFJ8Qo]_trimmed.wav (1722.7 KB)
+2026-04-29 12:30:56,663 - INFO - Exported audio -> ../../data/processed/audio/Type 2 Diabetes [OImJMiFJ8Qo]_trimmed.mp3 (235.8 KB)
+2026-04-29 12:30:56,816 - INFO - Loaded audio: Type 2 Diabetes [OImJMiFJ8Qo].mp3 (MP3)
+2026-04-29 12:30:57,003 - INFO - Exported audio -> ../../data/processed/audio/Type 2 Diabetes [OImJMiFJ8Qo].flac (6054.3 KB)
+2026-04-29 12:30:57,112 - INFO - Loaded audio: What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].mp3 (MP3)
+2026-04-29 12:30:57,112 - INFO - Trimmed audio: 5000ms -> 15000ms (was 106487ms, now 10000ms)
+2026-04-29 12:30:57,113 - INFO - Concatenated 2 clips, total: 20000ms
+2026-04-29 12:30:57,121 - INFO - Volume adjusted by +6.0 dB
+2026-04-29 12:30:57,135 - INFO - Applied fade-in 2000ms / fade-out 3000ms
+2026-04-29 12:30:57,136 - INFO - Exported audio -> ../../data/processed/audio/What is diabetes_ [Spoken in English] [ZLOjD5IfUyU]_trimmed.wav (1722.7 KB)
+2026-04-29 12:30:57,236 - INFO - Exported audio -> ../../data/processed/audio/What is diabetes_ [Spoken in English] [ZLOjD5IfUyU]_trimmed.mp3 (235.8 KB)
+2026-04-29 12:30:57,344 - INFO - Loaded audio: What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].mp3 (MP3)
+2026-04-29 12:30:57,508 - INFO - Exported audio -> ../../data/processed/audio/What is diabetes_ [Spoken in English] [ZLOjD5IfUyU].flac (5896.5 KB)
+2026-04-29 12:30:57,897 - INFO - Loaded video: Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp4
+2026-04-29 12:30:58,007 - INFO - Saved frame at t=5.0s -> ../../data/processed/frames/Diabetes Explained in 5 Minutes. What Doctors Won't Tell You_thumb.png
+2026-04-29 12:30:58,942 - INFO - Extracted 29 keyframes from Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp4 (every 10.0s)
+2026-04-29 12:30:58,999 - INFO - Loaded video: Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp4
+2026-04-29 12:31:00,020 - INFO - Extracted audio -> ../../data/processed/audio/Diabetes Explained in 5 Minutes. What Doctors Won't Tell You.mp3 (4386.4 KB)
+2026-04-29 12:31:00,076 - INFO - Loaded video: Type 2 Diabetes.mp4
+2026-04-29 12:31:00,204 - INFO - Saved frame at t=5.0s -> ../../data/processed/frames/Type 2 Diabetes_thumb.png
+2026-04-29 12:31:01,007 - INFO - Extracted 21 keyframes from Type 2 Diabetes.mp4 (every 10.0s)
+2026-04-29 12:31:01,060 - INFO - Loaded video: Type 2 Diabetes.mp4
+2026-04-29 12:31:01,755 - INFO - Extracted audio -> ../../data/processed/audio/Type 2 Diabetes.mp3 (3222.3 KB)
+2026-04-29 12:31:01,820 - INFO - Loaded video: What is diabetes.mp4
+2026-04-29 12:31:01,922 - INFO - Saved frame at t=5.0s -> ../../data/processed/frames/What is diabetes_thumb.png
+2026-04-29 12:31:02,334 - INFO - Extracted 11 keyframes from What is diabetes.mp4 (every 10.0s)
+2026-04-29 12:31:02,398 - INFO - Loaded video: What is diabetes.mp4
+2026-04-29 12:31:03,115 - INFO - Extracted audio -> ../../data/processed/audio/What is diabetes.mp3 (1664.7 KB)

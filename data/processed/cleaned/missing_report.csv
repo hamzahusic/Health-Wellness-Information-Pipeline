@@ -1,0 +1,23 @@
+,missing_count,missing_pct,dtype
+processed_text,972,99.9,object
+raw_text,972,99.9,object
+Pharmacology,971,99.79,float64
+Total,971,99.79,float64
+Mental Health,971,99.79,float64
+Nutrition,971,99.79,float64
+ID,958,98.46,float64
+Title,958,98.46,object
+Source,958,98.46,object
+Author,958,98.46,object
+Category,958,98.46,object
+Published Date,955,98.15,object
+Word Count,955,98.15,object
+text,952,97.84,object
+published_date,925,95.07,object
+image_url,925,95.07,object
+author,177,18.19,object
+content,90,9.25,object
+publishedAt,90,9.25,object
+source_name,90,9.25,object
+description,61,6.27,object
+title,42,4.32,object
