@@ -10,6 +10,208 @@ from cleaning.clean_pipeline import run_cleaning_pipeline
 
 logger = logging.getLogger(__name__)
 
+def run_analytics_pipeline(cleaned_path, mysql_password=""):
+    """Run the full analytics step."""
+    from analytics.db_connector import get_connection, populate_articles, query_articles
+    from analytics.data_combiner import merge_mysql_mongodb
+    from analytics.aggregator import source_summary, yearly_trends
+    from analytics.time_series import parse_published_dates, build_monthly_series, resample_series
+    from analytics.pivot_builder import articles_per_source_year
+    from analytics.mongo_pipeline import build_source_pipeline, run_pipeline as run_mongo_pipeline
+    from analytics.insight_reporter import run_all_questions
+    from pymongo import MongoClient
+
+    logger.info("--- Lab 10 Analytics Pipeline Starting ---")
+    os.makedirs("../../data/processed/analytics", exist_ok=True)
+
+    df = pd.read_csv(cleaned_path)
+    logger.info("Loaded cleaned data: %d rows", len(df))
+
+    if "content" in df.columns:
+        df["content_length"] = df["content"].str.len().fillna(0).astype(int)
+
+    # MySQL: create table, populate and query
+    try:
+        conn = get_connection(password=mysql_password, database="health_pipeline")
+        cursor = conn.cursor()
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS health_articles (
+                id          INT AUTO_INCREMENT PRIMARY KEY,
+                source_id   VARCHAR(255),
+                title       VARCHAR(500) NOT NULL,
+                source_name VARCHAR(255),
+                author      VARCHAR(255),
+                publishedAt DATETIME,
+                description TEXT,
+                content     MEDIUMTEXT,
+                url         VARCHAR(2083),
+                publish_year SMALLINT,
+                UNIQUE KEY  idx_url (url(500)),
+                INDEX idx_source_name (source_name),
+                INDEX idx_publish_year (publish_year)
+            ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+        """)
+        conn.commit()
+        cursor.execute("DELETE FROM health_articles")
+        conn.commit()
+        cursor.close()
+        populate_articles(conn, df)
+        mysql_df = query_articles(conn)
+        logger.info("MySQL step complete: %d rows", len(mysql_df))
+    except Exception as e:
+        logger.warning("MySQL step skipped: %s", e)
+        cols = [c for c in ["title", "source_name", "author", "publish_year"] if c in df.columns]
+        mysql_df = df[cols].copy() if cols else pd.DataFrame()
+
+    # Parse dates
+    if "publishedAt" in df.columns:
+        df = parse_published_dates(df, date_col="publishedAt")
+
+    # Merge with MySQL if available
+    merge_key = None
+    mongo_cols = ["url", "title", "source_name", "author", "publishedAt", "content", "description"]
+    mongo_df = df[[c for c in mongo_cols if c in df.columns]].copy()
+    for candidate in ["url", "title", "source_id"]:
+        if candidate in mysql_df.columns and candidate in mongo_df.columns:
+            merge_key = candidate
+            break
+    if merge_key and not mysql_df.empty:
+        df = merge_mysql_mongodb(mysql_df, mongo_df, on=merge_key, how="inner")
+        for col in ["title", "source_name", "author", "publishedAt"]:
+            if f"{col}_mysql" in df.columns:
+                df[col] = df[f"{col}_mysql"].fillna(df.get(f"{col}_mongo", ""))
+
+    # Source summary
+    src_df = source_summary(df)
+    src_df.to_csv("../../data/processed/analytics/source_analysis.csv", index=False)
+    logger.info("Source summary: %d sources", len(src_df))
+
+    # Yearly trends
+    yearly_df = yearly_trends(df)
+    yearly_df.to_csv("../../data/processed/analytics/yearly_trends.csv", index=False)
+    logger.info("Yearly trends saved")
+
+    # Pivot table
+    try:
+        pt = articles_per_source_year(df)
+        pt.to_csv("../../data/processed/analytics/pivot_source_year.csv")
+        logger.info("Pivot table saved")
+    except Exception as e:
+        logger.warning("Pivot table skipped: %s", e)
+
+    # Time series
+    monthly = build_monthly_series(df, date_col="publishedAt")
+    yearly_ts = resample_series(monthly, freq="YE", agg="sum")
+    logger.info("Monthly series: %d periods", len(monthly))
+    logger.info("Yearly totals:\n%s", yearly_ts.tail(5))
+
+    # MongoDB aggregation pipeline
+    try:
+        client = MongoClient("mongodb://localhost:27017/")
+        collection = client["articles_pipeline"]["raw_articles"]
+        pipeline = build_source_pipeline(min_article_count=5, top_n=10)
+        mongo_result = run_mongo_pipeline(collection, pipeline)
+        logger.info("MongoDB pipeline: %d sources", len(mongo_result))
+    except Exception as e:
+        logger.warning("MongoDB pipeline skipped: %s", e)
+
+    # Analytical questions
+    df_analysis = df.copy()
+    if "content" in df_analysis.columns and "content_length" not in df_analysis.columns:
+        df_analysis["content_length"] = df_analysis["content"].str.len().fillna(0).astype(int)
+    run_all_questions(df_analysis)
+
+    logger.info("--- Lab 10 Analytics Pipeline Complete ---")
+    return df
+ 
+
+
+def run_analytics():
+    import numpy as np
+    from analytics.quality_report import full_quality_report, outlier_report, save_missing_heatmap
+    from analytics.data_loader import chunked_stats, load_from_mongodb, memory_comparison, save_to_csv, optimise_dtypes
+    from analytics.numpy_ops import demonstrate_array_creation, vectorized_operations
+    from analytics.explorer import inspect_shape, plot_distributions, extract_release_year
+    from analytics.selector import loc_filter, boolean_filter
+    from analytics.regex_ops import extract_genres, top_genres, crime_overview_count
+
+    PROCESSED_DIR = Path("data/processed/analytics")
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+
+    CSV_PATH = str(PROCESSED_DIR / "tmdb_movies.csv")
+    OPT_CSV_PATH = str(PROCESSED_DIR / "tmdb_movies_optimised.csv")
+
+    # ── Part A: NumPy ─────────────────────────
+    arrays = demonstrate_array_creation()
+    logger.info("NumPy arrays created: %s", list(arrays.keys()))
+
+    vote_avg = np.array([7.8, 6.4, 8.1, 5.9, 7.2, 6.0, 8.5, 7.1])
+    vote_count = np.array([2100, 890, 4500, 320, 1750, 540, 6200, 980])
+
+    results = vectorized_operations(vote_avg, vote_count)
+    logger.info(
+        "Vectorized ops: mean=%.2f high_rated=%d",
+        results["stats"]["mean"],
+        results["high_rated"].sum()
+    )
+    df_movies = load_from_mongodb()
+
+    if df_movies is None or df_movies.empty:
+        logging.warning("MongoDB returned empty dataset — skipping Lab 8 analytics")
+        return
+
+    if 'data' in df_movies.columns:
+        import pandas as pd
+        df_movies = pd.json_normalize(df_movies['data'])
+    save_to_csv(df_movies, CSV_PATH)
+
+    # safety check BEFORE chunked read
+    if not os.path.exists(CSV_PATH) or os.path.getsize(CSV_PATH) == 0:
+        raise ValueError(f"CSV file is empty or missing: {CSV_PATH}")
+
+    chunk_results = chunked_stats(CSV_PATH)
+   
+    logger.info(
+        "Chunked mean vote_avg: %.4f over %d rows",
+        chunk_results["global_mean"],
+        chunk_results["total_rows"]
+    )
+
+    df_opt = optimise_dtypes(df_movies)
+    mem = memory_comparison(df_movies, df_opt)
+    logger.info("Memory reduction: %.1f%%", mem["reduction_pct"])
+
+    save_to_csv(df_opt, OPT_CSV_PATH)
+
+    # ── Part C: Explore ───────────────────────
+    shape_info = inspect_shape(df_movies)
+    logger.info("Dataset shape: %dx%d", shape_info["rows"], shape_info["columns"])
+
+    df_movies = extract_release_year(df_movies)
+    plot_distributions(df_movies, str(PROCESSED_DIR / "distributions.png"))
+
+    acclaimed = loc_filter(df_movies, min_vote_avg=8.0)
+    logger.info("Acclaimed movies: %d", len(acclaimed))
+
+    quality_popular = boolean_filter(df_movies)
+    logger.info("Quality+popular: %d movies", len(quality_popular))
+
+    # ── Part D: Regex & Quality ───────────────
+    df_genres = extract_genres(df_movies)
+
+    logger.info("Top genres: %s", top_genres(df_genres, n=10))
+    logger.info("Crime overviews: %d", crime_overview_count(df_movies))
+
+    quality_df = full_quality_report(df_movies)
+    quality_df.to_csv(str(PROCESSED_DIR / "data_quality_report.csv"), index=False)
+
+    save_missing_heatmap(df_movies, str(PROCESSED_DIR / "missing_heatmap.png"))
+
+    outliers = outlier_report(df_movies)
+    logger.info("Outlier report columns: %d", len(outliers))
+
+    logger.info("COMPLETED")
+    
 
 def run_cleaning():
 
@@ -256,7 +458,13 @@ def run_pipeline():
     # run_audio_video_stage()
     # run_analytics()
 
-    run_cleaning()
+    # run_cleaning()
+
+    BASE_DIR = Path(__file__).resolve().parents[2]
+    cleaned_path = BASE_DIR / "data" / "processed" / "cleaned" / "articles_clean.csv"
+    # run_pipeline()
+    run_analytics_pipeline(cleaned_path, mysql_password="root")
+
     logging.info("Pipeline finished successfully")
 
 
