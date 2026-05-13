@@ -393,6 +393,26 @@ def run_audio_video_stage():
 
     logging.info('=== Audio/Video Processing Stage Complete ===')
 
+def run_embeddings_pipeline(df):
+    """
+    Generate embeddings for all health articles and store them in ChromaDB.
+    This step runs after the analytics pipeline.
+    """
+    from embeddings.chroma_store import get_chroma_client, get_collection, add_articles_to_collection
+    logging.info("Starting embeddings pipeline")
+
+    try:
+        # Set up ChromaDB
+        client = get_chroma_client()
+        collection = get_collection(client)
+
+        # Add articles (skips any already in the collection)
+        total = add_articles_to_collection(df, collection, batch_size=100)
+        logging.info(f"Embeddings pipeline complete. {total} articles in ChromaDB.")
+
+    except Exception as e:
+        logging.error(f"Embeddings pipeline failed: {e}")
+        raise
 
 def run_pipeline():
     # from storage.mongo import save_to_mongo, build_scraped_record, build_ocr_record
@@ -463,7 +483,11 @@ def run_pipeline():
     BASE_DIR = Path(__file__).resolve().parents[2]
     cleaned_path = BASE_DIR / "data" / "processed" / "cleaned" / "articles_clean.csv"
     # run_pipeline()
-    run_analytics_pipeline(cleaned_path, mysql_password="root")
+    # run_analytics_pipeline(cleaned_path, mysql_password="root")
+
+    logging.info("Step 3: Embeddings pipeline")
+    df = pd.read_csv(cleaned_path)
+    run_embeddings_pipeline(df)
 
     logging.info("Pipeline finished successfully")
 
