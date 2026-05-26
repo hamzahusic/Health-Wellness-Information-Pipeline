@@ -10,6 +10,32 @@ from cleaning.clean_pipeline import run_cleaning_pipeline
 
 logger = logging.getLogger(__name__)
 
+def run_visualizations_pipeline(cleaned_path=None):
+    """Lab 12 – generate all static and interactive visualizations."""
+    logging.info("--- Lab 12 Visualization Pipeline Starting ---")
+    if cleaned_path is None:
+        BASE_DIR = Path(__file__).resolve().parents[2]
+        cleaned_path = BASE_DIR / "data" / "processed" / "cleaned" / "articles_clean.csv"
+
+    try:
+        import sys
+        BASE_DIR = Path(__file__).resolve().parents[2]
+        if str(BASE_DIR / "src") not in sys.path:
+            sys.path.insert(0, str(BASE_DIR / "src"))
+        import os
+        os.chdir(BASE_DIR)
+        from visualization.chart_generator import generate_all
+        results = generate_all(data_path=Path(cleaned_path))
+        logging.info(
+            "Visualization pipeline complete: %d static, %d interactive",
+            len(results.get("static", {})),
+            len(results.get("interactive", {})),
+        )
+        return results
+    except Exception as e:
+        logging.error("Visualization pipeline failed: %s", e)
+        raise
+
 def run_analytics_pipeline(cleaned_path, mysql_password=""):
     """Run the full analytics step."""
     from analytics.db_connector import get_connection, populate_articles, query_articles
@@ -125,93 +151,6 @@ def run_analytics_pipeline(cleaned_path, mysql_password=""):
     return df
  
 
-
-def run_analytics():
-    import numpy as np
-    from analytics.quality_report import full_quality_report, outlier_report, save_missing_heatmap
-    from analytics.data_loader import chunked_stats, load_from_mongodb, memory_comparison, save_to_csv, optimise_dtypes
-    from analytics.numpy_ops import demonstrate_array_creation, vectorized_operations
-    from analytics.explorer import inspect_shape, plot_distributions, extract_release_year
-    from analytics.selector import loc_filter, boolean_filter
-    from analytics.regex_ops import extract_genres, top_genres, crime_overview_count
-
-    PROCESSED_DIR = Path("data/processed/analytics")
-    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
-
-    CSV_PATH = str(PROCESSED_DIR / "tmdb_movies.csv")
-    OPT_CSV_PATH = str(PROCESSED_DIR / "tmdb_movies_optimised.csv")
-
-    # ── Part A: NumPy ─────────────────────────
-    arrays = demonstrate_array_creation()
-    logger.info("NumPy arrays created: %s", list(arrays.keys()))
-
-    vote_avg = np.array([7.8, 6.4, 8.1, 5.9, 7.2, 6.0, 8.5, 7.1])
-    vote_count = np.array([2100, 890, 4500, 320, 1750, 540, 6200, 980])
-
-    results = vectorized_operations(vote_avg, vote_count)
-    logger.info(
-        "Vectorized ops: mean=%.2f high_rated=%d",
-        results["stats"]["mean"],
-        results["high_rated"].sum()
-    )
-    df_movies = load_from_mongodb()
-
-    if df_movies is None or df_movies.empty:
-        logging.warning("MongoDB returned empty dataset — skipping Lab 8 analytics")
-        return
-
-    if 'data' in df_movies.columns:
-        import pandas as pd
-        df_movies = pd.json_normalize(df_movies['data'])
-    save_to_csv(df_movies, CSV_PATH)
-
-    # safety check BEFORE chunked read
-    if not os.path.exists(CSV_PATH) or os.path.getsize(CSV_PATH) == 0:
-        raise ValueError(f"CSV file is empty or missing: {CSV_PATH}")
-
-    chunk_results = chunked_stats(CSV_PATH)
-   
-    logger.info(
-        "Chunked mean vote_avg: %.4f over %d rows",
-        chunk_results["global_mean"],
-        chunk_results["total_rows"]
-    )
-
-    df_opt = optimise_dtypes(df_movies)
-    mem = memory_comparison(df_movies, df_opt)
-    logger.info("Memory reduction: %.1f%%", mem["reduction_pct"])
-
-    save_to_csv(df_opt, OPT_CSV_PATH)
-
-    # ── Part C: Explore ───────────────────────
-    shape_info = inspect_shape(df_movies)
-    logger.info("Dataset shape: %dx%d", shape_info["rows"], shape_info["columns"])
-
-    df_movies = extract_release_year(df_movies)
-    plot_distributions(df_movies, str(PROCESSED_DIR / "distributions.png"))
-
-    acclaimed = loc_filter(df_movies, min_vote_avg=8.0)
-    logger.info("Acclaimed movies: %d", len(acclaimed))
-
-    quality_popular = boolean_filter(df_movies)
-    logger.info("Quality+popular: %d movies", len(quality_popular))
-
-    # ── Part D: Regex & Quality ───────────────
-    df_genres = extract_genres(df_movies)
-
-    logger.info("Top genres: %s", top_genres(df_genres, n=10))
-    logger.info("Crime overviews: %d", crime_overview_count(df_movies))
-
-    quality_df = full_quality_report(df_movies)
-    quality_df.to_csv(str(PROCESSED_DIR / "data_quality_report.csv"), index=False)
-
-    save_missing_heatmap(df_movies, str(PROCESSED_DIR / "missing_heatmap.png"))
-
-    outliers = outlier_report(df_movies)
-    logger.info("Outlier report columns: %d", len(outliers))
-
-    logger.info("COMPLETED")
-    
 
 def run_cleaning():
 
@@ -485,9 +424,13 @@ def run_pipeline():
     # run_pipeline()
     # run_analytics_pipeline(cleaned_path, mysql_password="root")
 
-    logging.info("Step 3: Embeddings pipeline")
-    df = pd.read_csv(cleaned_path)
-    run_embeddings_pipeline(df)
+    # logging.info("Step 3: Embeddings pipeline")
+    # df = pd.read_csv(cleaned_path)
+    # run_embeddings_pipeline(df)
+
+    logging.info("Visualizations pipeline")
+
+    run_visualizations_pipeline(cleaned_path)
 
     logging.info("Pipeline finished successfully")
 
