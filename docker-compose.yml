@@ -1,0 +1,53 @@
+# docker-compose.yml
+# ─────────────────────────────────────────────────────────────
+# Two services:
+#   web — the Dash app built from the local Dockerfile
+#   db  — MongoDB from Docker Hub
+#
+# Compose creates a private network; the web container reaches
+# MongoDB at hostname "db" (the service name).
+# ─────────────────────────────────────────────────────────────
+
+version: "3.9"
+
+services:
+
+  # ── Dash application ───────────────────────────────────────
+  web:
+    build: .
+    container_name: health-wellness-dash-app
+    ports:
+      - "8050:8050"
+    environment:
+      MONGO_URI: mongodb://db:27017
+      MONGO_DB: articles_pipeline
+      DASH_DEBUG: "false"
+    depends_on:
+      db:
+        condition: service_healthy
+    restart: unless-stopped
+    volumes:
+      # Mount data directory so the CSV fallback works inside the container
+      - ./data:/app/data:ro
+
+  # ── MongoDB ────────────────────────────────────────────────
+  db:
+    image: mongo:7
+    container_name: health-wellness-mongo
+    ports:
+      - "27017:27017"          # expose to host so seed script can reach it
+    environment:
+      MONGO_INITDB_DATABASE: articles_pipeline
+    volumes:
+      # Named volume keeps data across container restarts
+      - mongo-data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+# ── Named volumes ──────────────────────────────────────────
+volumes:
+  mongo-data:
