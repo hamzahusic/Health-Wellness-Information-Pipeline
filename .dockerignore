@@ -1,0 +1,22 @@
+# .dockerignore — keep the build context small and secrets out of the image
+__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.env
+*.env
+venv/
+.venv/
+env/
+node_modules/
+outputs/
+*.log
+.DS_Store
+Thumbs.db
+notebook/
+.pytest_cache/
+lecture-code/
+google_drive/
+token.json
+activate_venv.txt
